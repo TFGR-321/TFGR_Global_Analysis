@@ -1,5 +1,10 @@
 markdown: kramdown
 kramdown:
   math_engine: mathjax
-  syntax_highlighter_opts:
-    disable: true
+  math_engine_opts:
+    preview: false
+
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: pages-themes/cayman@v0.2.0

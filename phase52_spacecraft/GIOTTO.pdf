@@ -1,0 +1,1854 @@
+%PDF-1.2
+%‚„œ”
+1 0 obj
+<<
+/A <<
+/S /URI
+/URI (http://www.sanface.com/)
+>>
+/Type /Annot
+/Subtype /Link
+/Rect [203 500 344 510]
+/Border [0 0 0]
+/H /I
+>>
+endobj
+2 0 obj
+<<
+/A <<
+/S /URI
+/URI (http://www.sanface.com/txt2pdf.html)
+>>
+/Type /Annot
+/Subtype /Link
+/Rect [101 488 314 498]
+/Border [0 0 0]
+/H /I
+>>
+endobj
+3 0 obj
+<<
+/CreationDate (D:20040909112010+02'00')
+/Producer (txt2pdf PRO v7.5 \251 SANFACE Software 2004)
+/Title (GIOTTO.TXT)
+>>
+endobj
+4 0 obj
+<<
+/Type /Encoding
+/Differences [ 0 /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /space /exclam
+/quotedbl /numbersign /dollar /percent /ampersand
+/quoteright /parenleft /parenright /asterisk /plus /comma
+/hyphen /period /slash /zero /one /two /three /four /five
+/six /seven /eight /nine /colon /semicolon /less /equal
+/greater /question /at /A /B /C /D /E /F /G /H /I /J /K /L
+/M /N /O /P /Q /R /S /T /U /V /W /X /Y /Z /bracketleft
+/backslash /bracketright /asciicircum /underscore
+/quoteleft /a /b /c /d /e /f /g /h /i /j /k /l /m /n /o /p
+/q /r /s /t /u /v /w /x /y /z /braceleft /bar /braceright
+/asciitilde /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/dotlessi /grave /acute /circumflex /tilde /macron /breve
+/dotaccent /dieresis /.notdef /ring /cedilla /.notdef
+/hungarumlaut /ogonek /caron /space /exclamdown /cent
+/sterling /currency /yen /brokenbar /section /dieresis
+/copyright /ordfeminine /guillemotleft /logicalnot /hyphen
+/registered /macron /degree /plusminus /twosuperior
+/threesuperior /acute /mu /paragraph /periodcentered
+/cedilla /onesuperior /ordmasculine /guillemotright
+/onequarter /onehalf /threequarters /questiondown /Agrave
+/Aacute /Acircumflex /Atilde /Adieresis /Aring /AE
+/Ccedilla /Egrave /Eacute /Ecircumflex /Edieresis /Igrave
+/Iacute /Icircumflex /Idieresis /Eth /Ntilde /Ograve
+/Oacute /Ocircumflex /Otilde /Odieresis /multiply /Oslash
+/Ugrave /Uacute /Ucircumflex /Udieresis /Yacute /Thorn
+/germandbls /agrave /aacute /acircumflex /atilde /adieresis
+/aring /ae /ccedilla /egrave /eacute /ecircumflex
+/edieresis /igrave /iacute /icircumflex /idieresis /eth
+/ntilde /ograve /oacute /ocircumflex /otilde /odieresis
+/divide /oslash /ugrave /uacute /ucircumflex /udieresis
+/yacute /thorn /ydieresis ]
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F1
+/Encoding 4 0 R
+/BaseFont /Courier
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F2
+/Encoding 4 0 R
+/BaseFont /Courier-Oblique
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F3
+/Encoding 4 0 R
+/BaseFont /Courier-Bold
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F4
+/Encoding 4 0 R
+/BaseFont /Courier-BoldOblique
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F5
+/Encoding 4 0 R
+/BaseFont /Helvetica
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F6
+/Encoding 4 0 R
+/BaseFont /Helvetica-Oblique
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F7
+/Encoding 4 0 R
+/BaseFont /Helvetica-Bold
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F8
+/Encoding 4 0 R
+/BaseFont /Helvetica-BoldOblique
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F9
+/Encoding 4 0 R
+/BaseFont /Times-Roman
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F10
+/Encoding 4 0 R
+/BaseFont /Times-Italic
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F11
+/Encoding 4 0 R
+/BaseFont /Times-Bold
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F12
+/Encoding 4 0 R
+/BaseFont /Times-BoldItalic
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F13
+/BaseFont /Symbol
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F14
+/BaseFont /ZapfDingbats
+>>
+endobj
+21 0 obj
+<<
+/Font << /F1 5 0 R /F2 6 0 R /F3 7 0 R /F4 8 0 R /F5 9 0 R /F6 10 0 R /F7 11 0 R /F8 12 0 R /F9 13 0 R /F10 14 0 R /F11 15 0 R /F12 16 0 R /F13 17 0 R /F14 18 0 R >>
+/ProcSet [ /PDF /Text ]
+/XObject << >>
+>>
+endobj
+22 0 obj
+<<
+/Type /Page
+/Parent 20 0 R
+/Resources 21 0 R
+/Contents 23 0 R
+/Rotate 0
+>>
+endobj
+23 0 obj
+<<
+/Length 24 0 R >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 25 752 Tm
+12 TL
+T* (***** File GIOTTO.TXT                                                                                                             ) Tj
+T* (                                                                                                                                  ) Tj
+T* (NOTE: This file was created by scanning the original hardcopy article                                                             ) Tj
+T* (and only the Figure captions are included.                                                                                        ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (The Giotto Project                                                                                                                ) Tj
+T* (R.   Reinhard                                                                                                                     ) Tj
+T* (ESA Space Science Department, ESTEC, Noordwijk,                                                                                   ) Tj
+T* (The Netherlands                                                                                                                   ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Abstract                                                                                                                          ) Tj
+T* (  ESA's Giotto Mission to Halley's Comet is a fast flyby at 00 UT on 14 March 1986,                                               ) Tj
+T* (about four weeks after the comet's perihelion passage, when it will have been at its                                              ) Tj
+T* (most active. The scientific payload is made up of ten experiments with a total mass                                               ) Tj
+T* (of approximately 60 kg: a camera for imaging the comet nucleus, three mass spec-                                                  ) Tj
+T* (trometers for analyzing the elemental and isotopic composition of the cometary dust                                               ) Tj
+T* (and gas environment, various dust impact detectors, a photopolarimeter for measuring                                              ) Tj
+T* (the coma's brightness, and a set of plasma instruments for studying the solar-                                                    ) Tj
+T* (wind/comet interaction. In view of the high flyby velocity of 68 km/s, the active ex-                                             ) Tj
+T* (periment time will only be very short - of the order of 4 h - and all data are to be                                              ) Tj
+T* (transmitted back to Earth in real time, at a rate of 40 kbit/s.                                                                   ) Tj
+T* (  The Giotto spacecraft is spin-stabilized and has a despun, high-gain parabolic dish                                             ) Tj
+T* (antenna inclined at 44.3deg which will point towards Earth during the cometary en-                                                ) Tj
+T* (counter. A specially designed 'bumper shield' protects the front end of the spacecraft                                            ) Tj
+T* (from being destroyed by hyper-velocity dust impacts.                                                                              ) Tj
+T* (  The Giotto spacecraft will be targetted to pass the nucleus at a distance of 500 km                                             ) Tj
+T* (on the sunward side.                                                                                                              ) Tj
+T* (                                                                                                                                  ) Tj
+T* (1. Introduction                                                                                                                   ) Tj
+T* (  The Giotto project was approved in July 1980, allowing precisely five years between                                             ) Tj
+T* (approval and launch. During the Giotto mission study phase, a Scientific Working                                                  ) Tj
+T* (Group formulated the scientific objectives and defined a mission concept and a model                                              ) Tj
+T* (payload. The scientific objectives for the Giotto mission are:                                                                    ) Tj
+T* (-   to ascertain the elemental and isotopic composition of the volatile components in                                             ) Tj
+T* (    the cometary coma, in particular to identify the parent molecules                                                             ) Tj
+T* (-   to characterize the physical processes and chemical reactions that occur in the                                               ) Tj
+T* (    cometary atmosphere and ionosphere                                                                                            ) Tj
+T* (-   to determine the elemental and isotopic composition of the cometary dust particles                                            ) Tj
+T* (-   to measure the total gas production rate and the dust flux and size/mass distribu-                                            ) Tj
+T* (    tion and to derive the dust-to-gas ratio                                                                                      ) Tj
+T* (-   to investigate the macroscopic system of plasma flows resulting from the interac-                                             ) Tj
+T* (    tion between the cometary and the solar-wind plasma                                                                           ) Tj
+T* (-   to provide numerous images of the comet nucleus with a resolution down to                                                     ) Tj
+T* (    50 m, thereby allowing the nucleus' size and rotation to be deduced and its mass                                              ) Tj
+T* (    to be estimated.                                                                                                              ) Tj
+T* (                                                                                                                                  ) Tj
+T* (To accomplish these objectives, the Giotto spacecraft carries ten scientific                                                      ) Tj
+T* (experiments, selected in January 1981, some of which have more than one sensor.                                                   ) Tj
+T* (They are listed in Table 1 together with their mass, power and data-rate allocations.                                             ) Tj
+T* (  An intense Earth-based observation programme forms a natural and necessary com-                                                 ) Tj
+T* (plement to the Giotto mission.                                                                                                    ) Tj
+T* (                                                                                                                                  ) Tj
+T* (2. The scientific payload                                                                                                         ) Tj
+T* (2.1 The Halley Multicolour Camera \(HMC\)                                                                                           ) Tj
+T* (  The camera is designed to detect and image the nucleus of Comet Halley, to measure                                              ) Tj
+T* (the nucleus' size, shape and albedo, and to observe its active sublimation process. By                                            ) Tj
+T* (following the moving comet nucleus, the camera's microcomputers can determine the                                                 ) Tj
+T* (spacecraft's trajectory parameters relative to the nucleus in real time.                                                          ) Tj
+ET
+endstream
+endobj
+24 0 obj
+8382
+endobj
+25 0 obj
+<<
+/Type /Page
+/Parent 20 0 R
+/Resources 21 0 R
+/Contents 26 0 R
+/Rotate 0
+>>
+endobj
+26 0 obj
+<<
+/Length 27 0 R >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 25 752 Tm
+12 TL
+T* (  The optical system of the camera is a modified Ritchey-Chretien design with correc-                                             ) Tj
+T* (ting field lens \(Fig. 1\). The telescope is mounted behind the spacecraft bumper shield                                            ) Tj
+T* (and therefore protected from direct dust-particle impacts. A 45deg deflecting mirror is                                           ) Tj
+T* (used to look at the comet. A baffle ensures adequate reduction of diffuse sunlight and                                            ) Tj
+T* (spacecraft-reflected light.                                                                                                       ) Tj
+T* (  The telescope images onto a focal-plane arrangement of one reticon and two area                                                 ) Tj
+T* (CCDs \(Charge-Coupled Devices\). The reticon is used to detect the nucleus and later                                                ) Tj
+T* (to clock the two area CCDs. The area CCDs are used in a mode in which only a few                                                  ) Tj
+T* (active lines scan the image of the comet during its apparent motion across the rotating                                           ) Tj
+T* (\(because of the spacecraft spin\) field of view; the remaining lines are masked and used                                           ) Tj
+T* (as a low-power˘ highly efficient data buffer. The contents of the exposed lines are                                               ) Tj
+T* (shifted into the masked CCD lines at precisely the same rate as the nucleus image                                                 ) Tj
+T* (moves. Using CCDs as the intermediate storage for a line scanner allows exposure                                                  ) Tj
+T* (times as short as 10 micro s to be used. Smear due to the spinning motion of the camera                                           ) Tj
+T* (is then negligible, even for the detector's high resolution of 22 microrad per pixel. In the                                      ) Tj
+T* (nucleus-imaging mode, the camera works best if the nucleus is slightly \(>~ 1deg\) off spin                                         ) Tj
+T* (axis. The two area CCDs each have two segments, three of the four segments being                                                  ) Tj
+T* (tinted to provide colour pictures.                                                                                                ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Table 1. Giotto's scientific payload                                                                                              ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                            Mass    Power  Data Rate \(bit/s\)      Principal                    Main Collaborating Institutes      ) Tj
+T* (Experiment                  \(kg\)    \(W\)    Format 1/2/3*          Investigator                 \(hardware\)                         ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Camera                     13.51  11.5   20058            723     H.U. Keller,                 Laboratoire de Physique Stellaire  ) Tj
+T* (                                                                  MPI fur Aeronomie, Lindau    & Planetaire, Verrieres-le-Buisson.) Tj
+T* (                                                                  W. Germany                   Institut d'Astrophysique, Liege.   ) Tj
+T* (                                                                                               Istituto di Astronomia, Padova.    ) Tj
+T* (                                                                                               DFVLR, Oberpfaffenhofen.           ) Tj
+T* (                                                                                               Ball Aerospace. Boulder.           ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Neutral Mass  M-Analyser   12.70  11.3    4156            -       D. Krankowsky,.              Physikalisches Institut,           ) Tj
+T* (Spectrometer  E-Analyser                                          MPI fur Kernphysik,          University of Bern.                ) Tj
+T* (                                                                  Heidelberg, W. Germany       Laboratoire de Geophysique         ) Tj
+T* (                                                                                               Externe, CNRS, Saint-Maur.         ) Tj
+T* (                                                                                               The University of Texas at Dallas. ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Ion Mass      High Energy   9.00   6.3    3253           1084     H. Balsiger,                 MPI fur Aeronomie, Lindau.         ) Tj
+T* (Spectrometer  Range                                               Physikalisches Institut,     JPL, Pasadena.                     ) Tj
+T* (              Spectrometer,                                       University of Bern,          Lookheed Palo Alto Research        ) Tj
+T* (              High Intensity                                      Switzerland                  Laboratory.                        ) Tj
+T* (              Range Spectrom.                                                                                                     ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Dust Mass Spectrometer      9.89   9.1    2891  5782      -       J. Kissel, MPI fur Kernphysik,                                  ) Tj
+T* (                                                                  Heidelberg, W. Germany                                          ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Dust impact   Meteoroid     2.26   1.9     361   903      -       J.A.M. McDonnell,            Rutherford Appleton Laboratories,  ) Tj
+T* (Detector      Shield Momen-                                       Space Science Laboratory,    UK.                                ) Tj
+T* (System        tum Sensor,                                         University of Kent,          MPI fur Kernphysik, Heidelberg.    ) Tj
+T* (              Impact Plasma                                       Canterbury, UK               ONERA/CERTS/DERTS,                 ) Tj
+T* (              & Momentum                                                                       Toulouse.                          ) Tj
+T* (              Sensor,                                                                          ESA Space Science Department.      ) Tj
+T* (              Capacitor                                                                        Istituto di Fisica, Lecce.         ) Tj
+T* (              Impact Sensor                                                                    Istituto di Fisica, Bari.          ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Plasma        Fast Ion and  4.70   4.4    3975  1265     1355     A. Johnstone,                MPI fur Aeronomie, Lindau.         ) Tj
+T* (Analysis 1    Implanted Ion                                       Mullard Space Science Lab.,  Istituto Plasma Spaziale, Frascati.) Tj
+T* (              Sensors                                             Holmbury St. Mary, UK                                           ) Tj
+T* (                                                                                                                                  ) Tj
+ET
+endstream
+endobj
+27 0 obj
+8396
+endobj
+28 0 obj
+<<
+/Type /Page
+/Parent 20 0 R
+/Resources 21 0 R
+/Contents 29 0 R
+/Rotate 0
+>>
+endobj
+29 0 obj
+<<
+/Length 30 0 R >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 25 752 Tm
+12 TL
+T* (Plasma        Electron      3.21   3.4    2530  1807      904     H. Reme                      MPI fur Aeronomie, Lindau.         ) Tj
+T* (Analysis 2    Elecrostatic                                        Centre d'Etude Spatiale      Space Sciences Laboratory,         ) Tj
+T* (              Analyser,                                     ,     des Rayonnements, France     Berkeley.                          ) Tj
+T* (              Positive Ion                                        Toulouse,                                                       ) Tj
+T* (              Cluster Comp.                                                                                                       ) Tj
+T* (              Analyser                                                                                                            ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Energetic Particles         0.95   0.7           181              S.M.P. McKenna-Lawlor,       Dublin Institute for Advanced      ) Tj
+T* (                                                                  St. Patrick's College,       Studies, Ireland.                  ) Tj
+T* (                                                                  Maynooth, Ireland            MPI fur Aeronomie, Lindau.         ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Magnetometer                1.36   0.8    1265            407     F.M. Neubauer,               Institut fur Geophysik und         ) Tj
+T* (                                                                  Institut fur Geophysik und   Meteorologie, Braunschweig.        ) Tj
+T* (                                                                  Meteorologie, Koln,          Laboratory for Extraterrestrial    ) Tj
+T* (                                                                  W. Germany                   Physics NASA/GSFC.                 ) Tj
+T* (                                                                                               Istituto di Fisica, University of  ) Tj
+T* (                                                                                               Rome.                              ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Optical Probe Experiment    1.32    1.2    723             -       A.C. Levasseur-Regourd,      Laboratoire d'Astronomie Spatiale,) Tj
+T* (                                                                   Service d'Aeronomie du       Marseille.                        ) Tj
+T* (                                                                  CNRS, Verrieres-le-Buisson,  Space Astronomy Laboratory,        ) Tj
+T* (                                                                  France                       University of Florida, Gainesville.) Tj
+T* (                                                                                                                                  ) Tj
+T* (Radio Science               -       -      -              -       P. Edenhofer                 Radioastronomische Institut.       ) Tj
+T* (Experiment                                                        Institut fur Hoch- und       Universitat Bonn.                  ) Tj
+T* (                                                                  Hochstfrequenztechnik,       DFVLR, Oberpfaffenhofen            ) Tj
+T* (                                                                  W. Germany                                                      ) Tj
+T* (                                                                                                                                  ) Tj
+T* (TOTAL                       58.90  50.6   39393          4654                                                                     ) Tj
+T* (* Format 1: From t\(0\)-4 h until t\(0\)-1 h    Format 2: from t\(0\)-1 h until mission end    Format 3: During cruise and pre-encounter) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (  The camera can be rotated through 180deg, allowing the nucleus to be followed and                                               ) Tj
+T* (imaged during approach and even after the flyby. Even when 1400 km from the                                                       ) Tj
+T* (nucleus, the camera will be able to resolve its surface structure down to 30 m.                                                   ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Table 2. Halley Multicolour Camera \(HMC\) characteristics                                                                          ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Telescope   Ritchey Chretien with corrector lens                  Filters                                                         ) Tj
+T* (                                                                                                                                  ) Tj
+T* (            focal length: 1000 mm, effective F/7.68               1st area CCD:lines    5-10:red*           Filter wheel \(0 56 mm\)) Tj
+T* (                                                                                                                                  ) Tj
+T* (            aperture: 160 mm                                                   lines  11-292:masked         Shutter               ) Tj
+T* (                                                                                                                                  ) Tj
+T* (            field of view: 1.5deg                                              lines 297-302:filter wheel*  clear     300-1100 nm ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                                                               lines 303-584:masked         red       700-1100    ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Detectors   1 multidiode array: Reticon, 2 lines with 936 diodes  2nd area CCD:lines  5-8   :clear*         orange    590- 690    ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                             each diode size 30 x 375 micro m                  lines  9-292 :masked         blue      300- 480    ) Tj
+T* (                                                                                                                                  ) Tj
+T* (            2 area CCDs: TI, virtual phase                                     lines 297-304:blue*          P para    300-1100    ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                      each 2 x292 lines with 390 pixels per line               lines 305-584:masked         P perp    300-1100    ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                      pixel size 22.3 x22.3 micro m                                                         continuum 442- 454    ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                                                                                            continuum 718- 740    ) Tj
+T* (                                                                                                                                  ) Tj
+ET
+endstream
+endobj
+30 0 obj
+8390
+endobj
+31 0 obj
+<<
+/Type /Page
+/Parent 20 0 R
+/Resources 21 0 R
+/Contents 32 0 R
+/Rotate 0
+>>
+endobj
+32 0 obj
+<<
+/Length 33 0 R >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 25 752 Tm
+12 TL
+T* (Resolution  22 m/pixel at 1000 km slant range                                                               OH        306- 316    ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                                                                                            C3        402- 412    ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Field of view  linear CCD: 1.61 deg \(1 .5deg unvignetted\)                                                      C2        504- 516 ) Tj
+T* (                                                                                                                                  ) Tj
+T* (            area CCD: 0.65deg                                                                                                     ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (* More than one line because of TDI                                                                                               ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Figure 1. The Halley Multicolour Camera \(HMC\).                                                                                    ) Tj
+T* (The baffle with its 10 elements is shown in the                                                                                   ) Tj
+T* (upper right, the deflecting mirror in the lower                                                                                   ) Tj
+T* (right, the primary and secondary mirrors in the                                                                                   ) Tj
+T* (lower left and centre, respectively, and the focal-                                                                               ) Tj
+T* (plane layout \(reticon, CCDs and filter wheel\) to                                                                                  ) Tj
+T* (the left of the primary mirror                                                                                                    ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Figure 2a.  The Neutral Mass Spectrometer                                                                                         ) Tj
+T* (\(NMS\) M-Analyser                                                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Figure 2b.  The Neutral Mass Spectrometer                                                                                         ) Tj
+T* (\(NMS\) E-Analyser                                                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Figure 2c.  The High-Energy Range Spectrometer                                                                                    ) Tj
+T* (\(HERS\) of the Ion Mass Spectrometer                                                                                               ) Tj
+T* (                                                                                                                                  ) Tj
+T* (2.2 The Neutral Mass Spectrometer \(NMS\)                                                                                           ) Tj
+T* (  As the spacecraft flies through the cometary coma, cometary neutrals will be en-                                                ) Tj
+T* (countered at the flyby velocity of 68 km/s. Since the gas outflow velocity is much                                                ) Tj
+T* (smaller \(<1 km/s\), one might think that the mass of the cometary neutrals could be                                                ) Tj
+T* (determined simply by measuring their energy \(since E= 1/2 mv**2\). However, the                                                    ) Tj
+T* (daughter molecules can derive significant kinetic energies from energetic interactions                                            ) Tj
+T* (such as photo-dissociation and ion-molecular reactions, which appear either as a                                                  ) Tj
+T* (change in the incident direction, or as an increase or decrease in energy, e.g. an oxygen                                         ) Tj
+T* (atom with a velocity of 5 km/s can appear anywhere between mass 14 and 18. Conse-                                                 ) Tj
+T* (quently, an energy spectrum will be smeared, predominantly in the lower mass ranges,                                              ) Tj
+T* (and individual peaks corresponding to particular masses cannot be resolved. In the                                                ) Tj
+T* (higher mass ranges, the cometary neutral velocity distribution will be 'cold' and the                                             ) Tj
+T* (energy spectrum will correspond to the mass spectrum.                                                                             ) Tj
+T* (  In the lower mass range \(1-36 amu\), therefore, a double-focusing \(angle and                                                     ) Tj
+T* (energy\) mass spectrometer is used consisting of a parallel-plate electrostatic energy                                             ) Tj
+T* (analyzer followed by a magnetic sector field momentum analyzer. The particle beam                                                 ) Tj
+T* (is imaged onto a microchannel plate with linear readout, where each position cor-                                                 ) Tj
+T* (responds to a particular mass. The energy information that is lost in the 'M-analyzer'                                            ) Tj
+T* (is provided by the ''E-analyzer', which is simply a parallel-plate electrostatic analyzer                                         ) Tj
+T* (with single focusing \(angle\) properties. Again, the particle beam is imaged onto a                                                ) Tj
+T* (microchannel plate with linear readout, where each position corresponds to a par-                                                 ) Tj
+T* (ticular energy. For analysis, the beam of cometary neutrals has first to be transformed                                           ) Tj
+T* (into a beam of ions; this is achieved by bombardment with an electron beam, with the                                              ) Tj
+T* (electrons being emitted from either of two redundant filaments.                                                                   ) Tj
+T* (  Both sensors \(Figs.2a,b\) have separate and nearly identical gas inlet systems with                                              ) Tj
+T* (an electron beam ion source of fly-through geometry. The ion source operates in two                                               ) Tj
+T* (modes. In the neutral mode, cometary ions are reflected by deflecting plates in front                                             ) Tj
+T* (of the entrance slit; in the ion mode, the deflecting plates are switched off and the elec-                                       ) Tj
+T* (tron emission is suppressed, allowing cometary ions to enter the analyzer. Further                                                ) Tj
+T* (away from the comet nucleus, the instrument will measure predominantly ions, close                                                ) Tj
+T* (to the nucleus predominantly neutrals.                                                                                            ) Tj
+ET
+endstream
+endobj
+33 0 obj
+8406
+endobj
+34 0 obj
+<<
+/Type /Page
+/Parent 20 0 R
+/Resources 21 0 R
+/Contents 35 0 R
+/Rotate 0
+>>
+endobj
+35 0 obj
+<<
+/Length 36 0 R >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 25 752 Tm
+12 TL
+T* (                                                                                                                                  ) Tj
+T* (Table 3. Neutral Mass Spectrometer \(NMS\) characteristics                                                                          ) Tj
+T* (                          M-analyzer                 E-analyzer                                                                   ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Energy range                                        10-1410 eV   210-2180 eV                                                      ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Mass range                1-36 amu                   1-  57 amu    9-  89 amu                                                     ) Tj
+T* (Resolution                0.15 amu                   8- 142 eV     6-  11 eV                                                      ) Tj
+T* (                          1 amu for particles                                                                                     ) Tj
+T* (                          4.5deg off axis and                                                                                     ) Tj
+T* (                          10 eV thermal energy                                                                                    ) Tj
+T* (Field of view             +/-4deg                    +/-4deg                                                                      ) Tj
+T* (Integration time                                                                                                                  ) Tj
+T* (- neutrals                0.9 s                      0.4 s                                                                        ) Tj
+T* (- ions                    1.0 s                      0.4 s                                                                        ) Tj
+T* (Sensitivity                                                                                                                       ) Tj
+T* (- neutrals                50 cm**-3                  100 cm**-3                                                                   ) Tj
+T* (- ions                    8x10**-5cm**-3             1.6x10**-4cm**-3                                                             ) Tj
+T* (Dynamic range             10**12                     10**2                                                                        ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (2.3 The Ion Mass Spectrometer \(IMS\)                                                                                               ) Tj
+T* (  The Ion Mass Spectrometer is made up of two sensors, a High-Energy Range Spec-                                                  ) Tj
+T* (trometer \(HERS\) optimized for measurements in the outer coma where a turbulent                                                    ) Tj
+T* (transition between solar wind and cometary ions is expected, and a High-Intensity                                                 ) Tj
+T* (Spectrometer \(HIS\) optimized for measurements in the inner coma where high fluxes                                                 ) Tj
+T* (of relatively cold cometary ions are anticipated.                                                                                 ) Tj
+T* (  The HERS sensor \(Fig. 3\) consists basically of an electrostatic mirror to deflect the                                           ) Tj
+T* (cometary ions into the instrument, a pair of grids with variable applied voltage, a sec-                                          ) Tj
+T* (tor magnet which serves as momentum-per-charge filter, and an electrostatic deflector                                             ) Tj
+T* (which spreads the momentum-analyzed ions according to their energy per charge. The                                                ) Tj
+T* (beam is then imaged onto a two-dimensional microchannel plate, with one dimension                                                 ) Tj
+T* (a measure of mass-per-charge, and the other a measure of the elevation angle of the                                               ) Tj
+T* (ion's velocity vector. Azimuth angle is scanned via the spacecraft's spin and the                                                 ) Tj
+T* (energy distribution is determined by variation of the voltages applied to the pair of                                             ) Tj
+T* (grids.                                                                                                                            ) Tj
+T* (                                                                                                                                  ) Tj
+T* ( The HIS sensor \(Fig. 4\) employs two quadrispherical electrostatic analyzers with                                                 ) Tj
+T* (magnetic deflection and an array of 4 X4 channeltrons as detectors. The energy-per-                                               ) Tj
+T* (charge of the particles to be analyzed is selected by the differential voltage applied to                                         ) Tj
+T* (the first electrostatic analyzer, while the momentum-per-charge \(and thus mass-per-                                               ) Tj
+T* (charge\) is determined by the acceleration potential applied between a pair of plane                                               ) Tj
+T* (parallel grids located behind the exit of that analyzer. The ion species expected at the                                          ) Tj
+T* (selected energy is imaged at the centre of the one-dimensional detector array of four                                             ) Tj
+T* (channeltrons. Hence, the mass spectrum and the temperatures of all individual species                                             ) Tj
+T* (can be measured by just scanning through the energy-per-charge range. The other                                                   ) Tj
+T* (direction of the channeltron array provides resolution in elevation, while azimuth                                                ) Tj
+T* (angle is scanned by the spacecraft spin.                                                                                          ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Table 4. Ion Mass Spectrometer \(IMS\) characteristics                                                                              ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                            HERS                          HIS                                                                     ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Energy range                20-8000 eV                    300-1400 eV                                                             ) Tj
+T* (Mass range                  1-35 amu/q                    12-57 amu/q                                                             ) Tj
+T* (m/Delta m                   >=20 at ~20 amu/q             >=20 at ~20 amu/q                                                       ) Tj
+T* (Elevation range/resolution  \(i\) + 15deg to +75deg/7.5deg  - 3deg to +22.5deg/5deg                                                 ) Tj
+T* (Azimuth range/resolution    Spin scanned/5.6deg           Spin scanned/22.5deg                                                    ) Tj
+T* (Time resolution             16 s                          4 s                                                                     ) Tj
+T* (Dynamic range               10**-3 - 10**2 cm**-3         10**-2 - 10**4 cm**-3                                                   ) Tj
+ET
+endstream
+endobj
+36 0 obj
+8398
+endobj
+37 0 obj
+<<
+/Type /Page
+/Parent 20 0 R
+/Resources 21 0 R
+/Contents 38 0 R
+/Rotate 0
+>>
+endobj
+38 0 obj
+<<
+/Length 39 0 R >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 25 752 Tm
+12 TL
+T* (                                                                                                                                  ) Tj
+T* (                                                                                                  J Comet                         ) Tj
+T* (Figure 4. The High Intensity Spectrometer \(HIS\)                                                                                   ) Tj
+T* (of the Ion Mass Spectrometer                                                                                                      ) Tj
+T* (                                                                                                                                  ) Tj
+T* (2.4 The Dust Mass Spectrometer \(PIA\)                                                                                              ) Tj
+T* (  This instrument measures the chemical and isotopic composition of individual dust                                               ) Tj
+T* (particles \(Fig. 5\). When a dust particle impacts on the instrument's target, a plasma                                             ) Tj
+T* (is generated, from which ions are extracted and accelerated via a 1.5 kV acceleration                                             ) Tj
+T* (grid. The accelerated ions pass through a time-of-flight tube approximately 1 m long,                                             ) Tj
+T* (where they are separated in time according to their mass. The spectrum of elements                                                ) Tj
+T* (of which the dust particle is composed is recorded by an electron multiplier at the end                                           ) Tj
+T* (of the drift path. Since the elemental abundances of typical minerals found in                                                    ) Tj
+T* (meteorites vary significantly, it is possible to identify the predominant mineral in the                                          ) Tj
+T* (impacting dust grain from the quantitative abundance in the spectrum.                                                             ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Figure 5. The Dust Mass Spectrometer                                                                                              ) Tj
+T* (\(Particulate Impact Analyser or PIA\)                                                                                              ) Tj
+T* (                                                                                                                                  ) Tj
+T* (  Impact-ionization mass spectrometry is ideally suited for a fast cometary flyby such                                            ) Tj
+T* (as Giotto will make, because the number of positive ions released upon impact in-                                                 ) Tj
+T* (creases significantly with the impact velocity. The time-of-flight tube actually consists                                         ) Tj
+T* (of two tubes at an angle of 8 deg, with an ion reflector in between, used for energy focus-                                       ) Tj
+T* (ing. This, together with the high ion yield, gives excellent mass resolution, so that                                             ) Tj
+T* (isotopic ratios such as 7Li/6Li, 11B/10B, and 13C/12C can be resolved. Because of its                                             ) Tj
+T* (small target area, which can be varied via a shutter mechanism, the instrument will                                               ) Tj
+T* (predominantly analyze the most common dust particles, which are expected to be in                                                 ) Tj
+T* (the mass range 3 x 10**-16 - 5 x 10**-10g.                                                                                        ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Table 5. Dust Mass Spectrometer \(PIA\) characteristics                                                                             ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Dust mass range           ~3x10**-16 -5x10**-10g                                                                                  ) Tj
+T* (Atomic mass range         1-110 amu                                                                                               ) Tj
+T* (Mass resolution           Separation of peaks possible if I\(m+1\) : I\(m\) >= 1:50                                                   ) Tj
+T* (Time resolution           ~ 10**-4 s time of flight in the tube                                                                   ) Tj
+T* (                          ~ 10**-2 s for impact counting                                                                          ) Tj
+T* (                          0.25 s for spectral analysis of individual dust particles                                               ) Tj
+T* (Target area/material      0.01-5 cm**2 \(shutter-controlled\)/Pt +5% Ag                                                             ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (2.5 The Dust Impact Detector System \(DID\)                                                                                         ) Tj
+T* (                                                                                                                                  ) Tj
+T* (  Although larger dust particles are more infrequent, the bulk of the mass released                                               ) Tj
+T* (from the nucleus in the form of solids is contained in them. Impacts of these large dust                                          ) Tj
+T* (particles on the front sheet of the spacecraft bumper shield \(Fig. 6\) are detected by                                             ) Tj
+T* (three piezo-electric elements \(microphones\) mounted 120deg apart at the outer edge of                                             ) Tj
+T* (the front sheet \(meteoroid shield momentum measurement, MSM\). They register the                                                   ) Tj
+T* (shock wave that is generated by each dust-particle impact and propagates through the                                              ) Tj
+T* (front sheet. In this way, the whole front-sheet area \(2 m**2\) can be used as a 'detec-                                            ) Tj
+T* (tor'. A similar element on the rear sheet \(rear-shield momentum measurement, RSM\)                                                 ) Tj
+T* (measures the mass of the even larger dust particles that are able to penetrate the front                                          ) Tj
+T* (sheet \(>10**-6 g\) and impact on this rear sheet.                                                                                  ) Tj
+T* (  A Capacitor Impact Sensor \(CIS\) 1000 cm**2 in area measures the flux of dust par-                                               ) Tj
+T* (ticles > 10**-10  g penetrating a thin \(70 micro m\) mylar dielectric material. Aluminium                                          ) Tj
+T* (deposits on both faces act as a capacitor. When impacted by a sufficiently large parti-                                           ) Tj
+T* (cle, the dielectric of the capacitor will be perforated and the device discharged through                                         ) Tj
+T* (the impact-generated plasma. The counting rate is limited by the capacitor recharging                                             ) Tj
+T* (process to ~ 1000 impacts/s.                                                                                                      ) Tj
+T* (  Very small dust particles are to be detected by an Impact Plasma Detector \(IPM\),                                                ) Tj
+T* (which has very high count-rate capability. This sensor is also located on the front sheet                                         ) Tj
+ET
+endstream
+endobj
+39 0 obj
+8416
+endobj
+40 0 obj
+<<
+/Type /Page
+/Parent 20 0 R
+/Resources 21 0 R
+/Contents 41 0 R
+/Rotate 0
+>>
+endobj
+41 0 obj
+<<
+/Length 42 0 R >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 25 752 Tm
+12 TL
+T* (of the spacecraft bumper shield. The impact-generated plasma electrons and ions are                                               ) Tj
+T* (separated by an electric field, the total charge being proportional to the particle mass.                                         ) Tj
+T* (The impact plasma detector has two arrays, one without a foil, the other covered by                                               ) Tj
+T* (a metalized penetration film 1 micron thick, which observes a somewhat reduced                                                    ) Tj
+T* (number of impacts depending on the penetrating power or bulk density of the dust par-                                             ) Tj
+T* (ticles. A piezo-electric microphone sensor \(as in MSM\) forms part of the IPM and                                                  ) Tj
+T* (simultaneously detects the impact momentum, independent of the ambient plasma. The                                                ) Tj
+T* (impact momentum differs depending on whether the dust particle impacts on the                                                     ) Tj
+T* (covered \(momentum of the debris cloud\) or uncovered \(momentum of dust particle on-                                                ) Tj
+T* (ly\) part of the IPM. Furthermore, a thin metallic probe with a - 20 V potential, in-                                              ) Tj
+T* (sulated from the spacecraft structure, forms part of the impact plasma detector and                                               ) Tj
+T* (monitors the saturation current of the secondary electrons emitted by impacts of com-                                             ) Tj
+T* (etary gas and dust particles. The response of this sensor will be used to assess the den-                                         ) Tj
+T* (sity of the plasma cloud that forms around the spacecraft during its critical passage                                             ) Tj
+T* (through the inner coma.                                                                                                           ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Figure 6. The Dust Impact Detector System                                                                                         ) Tj
+T* (\(DID\), mounted on the front sheet of the                                                                                          ) Tj
+T* (spacecraft's bumper shield. Details of the                                                                                        ) Tj
+T* (Meteoroid Shield Momentum Sensor \(MSM\)                                                                                            ) Tj
+T* (and the Impact Plasma and Momentum Sensor                                                                                         ) Tj
+T* (\(IPM\) are shown on the right                                                                                                      ) Tj
+T* (                                                                                                                                  ) Tj
+T* ( The main objective of this system of dust-impact detectors is to provide the dust-                                               ) Tj
+T* (particle mass spectrum between 10**-17 and 10**-3 g.                                                                              ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Table 6. Dust Impact Detector \(DID\) System characteristics                                                                        ) Tj
+T* (IPM                                                                                                                               ) Tj
+T* (\(a\)  Sensor area              100 cm**2 \(Au target\), half of sensor covered by a metallized film \(1 micro m                       ) Tj
+T* (                              thick\)                                                                                              ) Tj
+T* (     Impact charge range      10**-14 - 10**-8degC                                                                                ) Tj
+T* (     Maximum count rate       1000/s                                                                                              ) Tj
+T* (     Density resolution       1 g/cm**-3 at 10**-13-10**-15 g                                                                     ) Tj
+T* (\(b\)Impact detector            One piezo-electric PZT-5H, longitudinally resonant element                                          ) Tj
+T* (     Momentum range           10**-11 - 10**-8 Ns                                                                                 ) Tj
+T* (     Maximum count rates      100/s                                                                                               ) Tj
+T* ( MSM/RSM                                                                                                                          ) Tj
+T* (     Impact detectors         Four piezo-electric PZT-5H, longitudinally resonant elements, 200 kHz                               ) Tj
+T* (                              \(three mounted on front sheet, 120deg apart, 1 mounted on rear side of                              ) Tj
+T* (                              rear sheet\)                                                                                         ) Tj
+T* (     Sensor area              2 m**2 \(front sheet of bumper shield\)                                                               ) Tj
+T* (     Momentum range           10**-11-10**-8 Ns                                                                                   ) Tj
+T* (     Maximum count range      10/s at 10**- 10 g                                                                                  ) Tj
+T* (                               1/s at 10**-6 g                                                                                    ) Tj
+T* ( CIS                                                                                                                              ) Tj
+T* (     Sensor area              1000 cm**2                                                                                          ) Tj
+T* (     Capacitor configuration  10 micro m electrode \(Al foil\)                                                                      ) Tj
+T* (                              70 micro m dielectric \(Teflon\)                                                                      ) Tj
+T* (                              0.1 micro m electrode \(Al foil\)                                                                     ) Tj
+T* (                              10 micro m insulation \(Teflon\)                                                                      ) Tj
+T* (     Threshold sensitivity    10**-9 g                                                                                            ) Tj
+T* (     Maximum count rate     1000/s                                                                                                ) Tj
+T* (                                                                                                                                  ) Tj
+T* (2.6 The Fast Ion Sensor \(FIS\)                                                                                                     ) Tj
+T* (  This sensor \(Fig. 7\) measures the three-dimensional velocity distributions of solar-                                            ) Tj
+T* (wind ions, giving their flow speed and direction, temperature and density, and follows                                            ) Tj
+T* (the development of the solar wind as it is thermalized, slowed-down and deflected.                                                ) Tj
+T* (Ions streaming parallel to the relative-velocity vector will not be measured, as these                                            ) Tj
+T* (are expected to have very high fluxes near the comet.                                                                             ) Tj
+T* (  The sensor consists of a hemispherical plate electrostatic energy analyzer, with a                                              ) Tj
+ET
+endstream
+endobj
+42 0 obj
+8418
+endobj
+43 0 obj
+<<
+/Type /Page
+/Parent 20 0 R
+/Resources 21 0 R
+/Contents 44 0 R
+/Rotate 0
+>>
+endobj
+44 0 obj
+<<
+/Length 45 0 R >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 25 752 Tm
+12 TL
+T* (subsequent quadrispherical sector \(80deg\) to disperse the trajectories according to the                                           ) Tj
+T* (polar angle of incidence before they are registered by a microchannel plate with a                                                ) Tj
+T* (series of eight metal anodes behind it. The energy band can be varied by changing the                                             ) Tj
+T* (voltages on the plates of the energy analyzer.                                                                                    ) Tj
+T* ( The experiment can be operated in different modes, depending on the angular width                                                ) Tj
+T* (and the energy spread of the ion distribution.                                                                                    ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (2.7 The Implanted Ion Sensor \(IIS\)                                                                                                ) Tj
+T* (  Some cometary neutrals may reach large distances from the nucleus before they are                                               ) Tj
+T* (ionized and become 'implanted' in the solar wind. The task of the Implanted Ion Sen-                                              ) Tj
+T* (sor \(Fig. 8\) is to search for these cometary ions. It combines an elecrostatic analyzer                                           ) Tj
+T* (with a time-of-flight measurement. The quadrispherical electrostatic analyzer selects                                             ) Tj
+T* (positive ions of a given energy per charge \(E/Q\), which are then accelerated by a                                                 ) Tj
+T* (potential difference V before the time T to travel a path length D is determined. By                                              ) Tj
+T* (measuring these quantities, the mass-to-charge ratio can be determined from                                                       ) Tj
+T* (                                                                                                                                  ) Tj
+T* (  M/Q = 2\(V + \(E/Q\)\) T**2/D**2                                                                                                    ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Figure 7. The Fast Ion Sensor \(FIS\)                                                                                               ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Since cometary neutrals are ionized by charge exchange or photons, the charge state                                               ) Tj
+T* (is predominantly Q= 1, allowing the ion mass to be determined.                                                                    ) Tj
+T* (  The instrument has a total of five electrostatic analyzers, each followed by a time-of-                                         ) Tj
+T* (flight tube. The ions enter one of the electrostatic analyzers, depending on their inci-                                          ) Tj
+T* (dent elevation angle. As the ions leave the analyzer, they are accelerated before they                                            ) Tj
+T* (enter the time-of-flight tube, which is only 4 cm long. The 'start' signal is provided                                            ) Tj
+T* (by secondary electrons generated by the ion's passage through a thin carbon foil, the                                             ) Tj
+T* ('stop' signal by secondary electrons generated in the surface layer of a spherically-                                             ) Tj
+T* (shaped aluminium absorber. In both cases, the secondary electrons are accelerated by                                              ) Tj
+T* (0.7 kV and deflected towards a microchannel plate. In the '4D' mode, the ions are                                                 ) Tj
+T* (sorted into five different mass groups in the range 1-45 amu; in the 'TOF' mode,                                                  ) Tj
+T* (they are sorted into 256 groups, depending on their time-of-flight.                                                               ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Figure 8. The Implanted Ion Sensor \(IIS\) and                                                                                      ) Tj
+T* (electronics box. Three of the five electrostatic                                                                                  ) Tj
+T* (analyzers and one of the five time-of-flight                                                                                      ) Tj
+T* (tubes are shown in this illustration                                                                                              ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (2.8 The Electron Electrostatic Analyzer \(EESA\)                                                                                    ) Tj
+T* (  This sensor \(Fig. 9\) measures the pitch-angle distributions of suprathermal electrons                                           ) Tj
+T* (in the energy range 10 eV - 30 keV. These measurements, together with those of                                                    ) Tj
+T* (the FIS, will define the solar-wind plasma and its interaction with the comet. EESA                                               ) Tj
+T* (is an electrostatic analyzer which is hemispherical in shape, but has the characteristics                                         ) Tj
+T* (of a quadrispherical analyzer. The particles enter through a circular opening in the                                              ) Tj
+T* (centre of the hemisphere and are deflected through 90deg before they are detected by                                              ) Tj
+T* (one of the 17 sections of a ring-shaped microchannel plate, depending on their incident                                           ) Tj
+T* (polar angle.  Azimuthal resolution is provided by the spacecraft's spin.  The potential                                           ) Tj
+T* (between the analyzer plates is varied in 39 steps, providing a 10% energy resolution.                                             ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Table 7. Plasma Experiment characteristics                                                                                        ) Tj
+T* (                                                                                                                                  ) Tj
+T* (FIS \(ions\)                                                                                                                        ) Tj
+T* (  Energy range                10 eV-20 keV                                                                                        ) Tj
+T* (  Field of view               5deg, azimuthally                                                                                   ) Tj
+T* (  Geometric factor            4.7 x 10**-3 E \(eV\)                                                                                 ) Tj
+T* (  Max. count rate             10**6/s                                                                                             ) Tj
+T* (  Detector                    Microchannel plate with 8 metal anodes                                                              ) Tj
+ET
+endstream
+endobj
+45 0 obj
+8404
+endobj
+46 0 obj
+<<
+/Type /Page
+/Parent 20 0 R
+/Resources 21 0 R
+/Contents 47 0 R
+/Rotate 0
+>>
+endobj
+47 0 obj
+<<
+/Length 48 0 R >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 25 752 Tm
+12 TL
+T* (                                                                                                                                  ) Tj
+T* (                              Solar wind mode           HAR mode              FTR mode                                            ) Tj
+T* (                                                                                                                                  ) Tj
+T* (  Energy range                ?                                                                                                   ) Tj
+T* (  Energy resolution           delta E/E = 9.6%          30%                   60%                                                 ) Tj
+T* (  Time resolution             8 s                       12 s                  4s                                                  ) Tj
+T* (  Azimuthal range             -22.5 to +22.5 \(wrt Sun\)  0-360deg              0-360deg                                            ) Tj
+T* (  Azimuthal sectors           8         1               8          16         8                                                   ) Tj
+T* (  Elevation range             46-98deg  46-150deg       20-180deg  72-124deg  20-180deg                                           ) Tj
+T* (  Elevation sectors           1         5               4          2          3                                                   ) Tj
+T* (                                                                                                                                  ) Tj
+T* (IIS \(ions\)                                                                                                                        ) Tj
+T* (  Energy range                90 eV-90 keV                                                                                        ) Tj
+T* (  Energy resolution           E/E = 10%                                                                                           ) Tj
+T* (  Mass range                  1-45 amu in five groups                                                                             ) Tj
+T* (  Geometric factor            7.6 x 10**-2 E \(keV\) cm**2 ster keV                                                                 ) Tj
+T* (  Max. count rate             3x10**4/s                                                                                           ) Tj
+T* (  Background count rate       <1/d                                                                                                ) Tj
+T* (  Azimuthal range             0-360deg                                                                                            ) Tj
+T* (  Elevation range             15-l65deg                                                                                           ) Tj
+T* (  Time resolution             128 s                                                                                               ) Tj
+T* (  Field of view               l2deg, azimuthally                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                              4D mode    TOF mode                                                                                 ) Tj
+T* (                                                                                                                                  ) Tj
+T* (  Azimuthal sectors           16         1                                                                                        ) Tj
+T* (  Polar sectors                5         1                                                                                        ) Tj
+T* (  Mass groups                  5         256 \('time' groups\)                                                                      ) Tj
+T* (                                                                                                                                  ) Tj
+T* (EESA \(electrons\)                                                                                                                  ) Tj
+T* (  Energy range                10 eV-30 keV                                                                                        ) Tj
+T* (  Energy resolution           Delta E/E = 10%                                                                                     ) Tj
+T* (                              \(39 energy steps, one sweep takes 0.25 s\)                                                           ) Tj
+T* (  Field of view               360deg x 14deg \(from -5deg to +9deg from ram direction\)                                             ) Tj
+T* (  Elevation range/resolution  360deg/14 sectors with 22.5deg, two sectors with 19.5deg                                            ) Tj
+T* (                                     one sector with 6deg \(centred around ram direction\)                                          ) Tj
+T* (  Azimuth range/resolution    360deg/22.5deg                                                                                      ) Tj
+T* (  Time resolution             2 s                                                                                                 ) Tj
+T* (  Geometric factor            5.5 x 10**-3 E \(kV\) cm**2 ster keV                                                                  ) Tj
+T* (  Detector                    Circular ring microchannel plate with 17 sectors                                                    ) Tj
+T* (                                                                                                                                  ) Tj
+T* (PICCA \(ions\)                                                                                                                      ) Tj
+T* (  Mass range/resolution       10-50 amu/Delta E= 10 eV, Delta m=0.4 amu                                                           ) Tj
+T* (                              50-203 amu/Delta E=25 eV, Delta m= 1 amu                                                            ) Tj
+T* (  Field of view               6deg x6deg                                                                                          ) Tj
+T* (  Time resolution             3.2 s                                                                                               ) Tj
+T* (  Dynamic range               10**-3-10**3 cm**-3                                                                                 ) Tj
+T* (  Acceptance area             0.1 cm**2                                                                                           ) Tj
+T* (  Detector                    Two channeltrons \(one fast, up to 10**7 counts/s, one normal, up to 10**5                           ) Tj
+T* (                              counts/s\)                                                                                           ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (2.9  The Positive Ion Cluster Composition Analyser \(PICCA\)                                                                        ) Tj
+T* (  This sensor \(Fig. 10\) is intended for operation in the innermost part of the coma,                                              ) Tj
+T* (where the cometary ions are expected to be singly charged and to have negligible ther-                                            ) Tj
+T* (mal velocities.  In the spacecraft frame of reference, these particles will flow strictly                                         ) Tj
+T* (radially towards the spacecraft with a velocity of 68.4 km/s, and their kinetic energy                                            ) Tj
+T* (will range from 245 eV \(10 amu\) to 4.9 keV \(200 amu\).  As the energy E and the                                                    ) Tj
+T* (charge Q of the ions are assumed to be known, an E/Q measurement translates directly                                              ) Tj
+ET
+endstream
+endobj
+48 0 obj
+8410
+endobj
+49 0 obj
+<<
+/Type /Page
+/Parent 20 0 R
+/Resources 21 0 R
+/Contents 50 0 R
+/Rotate 0
+>>
+endobj
+50 0 obj
+<<
+/Length 51 0 R >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 25 752 Tm
+12 TL
+T* (into a mass measurement.  Of particular interest are the clathrate hydrates \(e.g.                                                 ) Tj
+T* (CO.6H2O\), which are formed when some of the more volatile species such as CO,                                                     ) Tj
+T* (CO2, NH3, are trapped in a cage of H2O molecules.  Once these clusters are ionized                                                ) Tj
+T* (\(I+.\(H2O\)m\), PICCA has the ability to detect them because of its high mass range.                                                 ) Tj
+T* (  PICCA is a hemispherical electrostatic analyzer with two channeltrons as detecting                                              ) Tj
+T* (devices.  By varying the potential between the top and bottom parts of the aperture,                                              ) Tj
+T* (the particles will be deflected from the general flow direction and will enter the                                                ) Tj
+T* (analyzer according to their mass.  To obtain a good and constant mass resolution, the                                             ) Tj
+T* (ions are decelerated before entering the electrostatic analyzer.  The hemispherical                                               ) Tj
+T* (analyzer itself is operated at two different fixed voltages,  corresponding to two mass                                           ) Tj
+T* (ranges.                                                                                                                           ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Figure 9.  The Electron Electrostatic Analyser                                                                                    ) Tj
+T* (\(EESA\).  Although the analyzer is                                                                                                 ) Tj
+T* (hemispherical in shape, the electrons only                                                                                        ) Tj
+T* (traverse a quadrisphere after entering through                                                                                    ) Tj
+T* (the top cap.                                                                                                                      ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Figure 10.  The Positive Ion Cluster                                                                                              ) Tj
+T* (Composition Analyser \(PICCA\)                                                                                                      ) Tj
+T* (                                                                                                                                  ) Tj
+T* (2.10 The Energetic Particles Experiment \(EPA\)                                                                                     ) Tj
+T* (  The prime purpose of the Energetic Particles Experiment \(Fig. 11\) is to extend the                                              ) Tj
+T* (range of the Giotto plasma analyzers to higher energies. It will detect particles which                                           ) Tj
+T* (are accelerated in the cometary environment from solar-wind energies \(~ 1 keV\), and                                               ) Tj
+T* (it will allow determination of the dust-column density as the low-energy solar particles                                          ) Tj
+T* (are absorbed by the dust. Monitoring of the energetic-solar-particle flux will also pro-                                          ) Tj
+T* (vide useful background information, in particular during a solar flare, to instruments                                            ) Tj
+T* (using devices which are sensitive to these particles, such as channeltrons, channel                                               ) Tj
+T* (plates and CCDs.                                                                                                                  ) Tj
+T* (  This experiment consists of three identical very small telescopes, each with two                                                ) Tj
+T* (solid-state detectors. Two telescopes are mounted side-by-side at 45deg, and a third one                                          ) Tj
+T* (at 135deg to the relative velocity vector. This allows observations of field-aligned parti-                                       ) Tj
+T* (cle streaming for all inclinations of the magnetic-field vector; in other words, together                                         ) Tj
+T* (with the spacecraft spin, it allows three-dimensional viewing of particle pitch-angle                                             ) Tj
+T* (distributions. One of the two adjacent telescopes is covered by a thin foil, the other                                            ) Tj
+T* (is open. Low-energy protons cannot penetrate the foil and therefore the covered                                                   ) Tj
+T* (telescope measures only electrons, while the open telescope measures both protons                                                 ) Tj
+T* (and electrons. Neglecting statistical fluctuations, the count-rate difference then applies                                        ) Tj
+T* (to protons only.                                                                                                                  ) Tj
+T* (  The energy of the incoming charged particle is determined by measuring its energy                                               ) Tj
+T* (loss in the solid-state detectors in various channels and logic combinations \(Table 8\)                                            ) Tj
+T* (Particles of different species and energy ranges are identified using the dE/dx versus                                            ) Tj
+T* (E technique. The low energy threshold of 20 keV is essentially determined by the                                                  ) Tj
+T* (detector noise. It coincides with the upper energy threshold of the Fast Ion Sensor                                               ) Tj
+T* (\(20 keV\).                                                                                                                         ) Tj
+T* (  During the encounter phase, spectral and angular information about particle fluxes                                              ) Tj
+T* (will be provided with high time resolution \(0.5 s\). During the cruise phase, approx-                                              ) Tj
+T* (imately 30 min average particle-flux measurements and angular information will                                                    ) Tj
+T* (generally be obtained in one energy channel. An experiment internal memory of 64                                                  ) Tj
+T* (kbit of RAM will be used, which allows up to 13 days of data storage.                                                             ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Table 8. Energetic Particles Experiment \(EPA\) characteristics                                                                     ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Detectors                   Totally depleted surface barrier detectors, circular in shape                                         ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                           A                 B                                                                    ) Tj
+T* (                            Area           0.384 cm**2       1.35 cm**2                                                           ) Tj
+T* (                            Thickness      100 micro m       200 micro m                                                          ) Tj
+T* (                                                                                                                                  ) Tj
+ET
+endstream
+endobj
+51 0 obj
+8404
+endobj
+52 0 obj
+<<
+/Type /Page
+/Parent 20 0 R
+/Resources 21 0 R
+/Contents 53 0 R
+/Rotate 0
+>>
+endobj
+53 0 obj
+<<
+/Length 54 0 R >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 25 752 Tm
+12 TL
+T* (Geometric factor            8.2 x 10**-2 cm**2 ster per telescope                                                                 ) Tj
+T* (Field of view               30deg \(full cone\)                                                                                     ) Tj
+T* (Azimuthal range/resolution  360deg/45deg \(eight sectors\)                                                                          ) Tj
+T* (Temporal resolution         0.5 s                                                                                                 ) Tj
+T* (Elevation range             30deg- 60deg \(Telescopes 2 and 3\)                                                                     ) Tj
+T* (                            120deg-150deg \(Telescope 1\)                                                                           ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Channel specification       Energy range   Species           Detector threshold logic                                             ) Tj
+T* (- Telescope 1 \(open\)           29-46 keV   p e               A1 . A2 . B1                                                         ) Tj
+T* (                              44- 77 keV   p e               A2 . A3 . B1                                                         ) Tj
+T* (                              78-215 keV   p e               A3 . B1 . A4                                                         ) Tj
+T* (                           0.217-3.5 MeV   p                 A4 . A5 . B1                                                         ) Tj
+T* (                              4.5-20 MeV   p                 A4 . A5 . B2                                                         ) Tj
+T* (                               20-50 MeV   p                 A4 . B1 . B2. A5                                                     ) Tj
+T* (                            3.5-12.5 MeV   alpha             A5 . B1                                                              ) Tj
+T* (                               > 180 keV   e                 A1 . A4 . B1. B2                                                     ) Tj
+T* (- Telescope 2 \(with foil\)     20- 30 keV   e                 A1 . A2 . B1                                                         ) Tj
+T* (                               30-60 keV   e                 A2 . A3 . B1                                                         ) Tj
+T* (                              60-150 keV   e                 A3 . B1 . A4                                                         ) Tj
+T* (                           0.35-3.5  MeV   p                 A4 . B1                                                              ) Tj
+T* (- Telescope 3 \(open\)        26-44    keV   p e               A1 . A2 . B1                                                         ) Tj
+T* (                            45-76    keV   p e               A2 . A3 . B1                                                         ) Tj
+T* (                            78-213   keV   p e               A3 . B1 . A4                                                         ) Tj
+T* (                           0.22-3.5  MeV   p alpha           A4 . A5 . B1                                                         ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Figure 11. The Energetic Particles Experiment                                                                                     ) Tj
+T* (\(EPA\)                                                                                                                             ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (2.11 The Magnetometer \(MAG\)                                                                                                       ) Tj
+T* (  The magnetic field is to be measured by a wide-range \(0.004-65536 nT\) triaxial                                                  ) Tj
+T* (ring-core fluxgate magnetometer mounted on the antenna tripod, where it is furthest                                               ) Tj
+T* (from the spacecraft and also protected from dust impacts \(Fig. 15\). The Giotto                                                    ) Tj
+T* (magnetometer is identical to the GSFC fluxgate magnetometers carried on Voyager                                                   ) Tj
+T* (and destined for flight on ESA's Ulysses \(formerly ISPM\) spacecraft. Noise                                                        ) Tj
+T* (characteristics have been improved by use of different sensor core alloys.                                                        ) Tj
+T* (  The principle of the fluxgate magnetometer is as follows \(Fig. 12\). Suppose that in                                             ) Tj
+T* (the simplest sensor arrangement a ferromagnetic core of soft magnetic material is                                                 ) Tj
+T* (periodically driven into saturation by a drive coil generating a periodic magnetic field                                          ) Tj
+T* (strength of suitable wave shape at the drive frequence f\(0\). An additional sense coil                                             ) Tj
+T* (around the core will then exhibit a distorted signal composed of frequency components                                             ) Tj
+T* (at f\(0\) and odd harmonics. Addition of an ambient magnetic-field component along the                                              ) Tj
+T* (core axis will lead to the appearance of even harmonics. Generally, in fluxgate                                                   ) Tj
+T* (magnetometers the second harmonic is detected because its amplitude turns out to be                                               ) Tj
+T* (proportional to the ambient field component parallel to the core or the sense-coil axis.                                          ) Tj
+T* (To obtain good linearity, a feedback coil is generally added to compensate the ambient                                            ) Tj
+T* (magnetic field in response to the output from the sense coil. In this case, the sense                                             ) Tj
+T* (coil is essentially used for zero detection only.                                                                                 ) Tj
+T* (  The measurement of the ambient magnetic field is disturbed by the spacecraft field,                                             ) Tj
+T* (which generally has two sources: perm fields and induced fields due to magnetic                                                   ) Tj
+T* (materials, and stray fields due to varying electric currents. Because of their potential                                          ) Tj
+T* (lack of stability, magnetically soft materials are particularly disturbing for magnetic                                           ) Tj
+T* (measurements. The same is true for stray fields. Major sources of contamination are:                                              ) Tj
+T* (the antenna despin motor, the NMS and IMS experiment magnets, the three HMC                                                       ) Tj
+T* (motors and the PIA motor, the HMC invar, the antenna feed, the TWTs and the lat-                                                  ) Tj
+T* (ching relays. Present estimates indicate a combined experiment/spacecraft field                                                   ) Tj
+T* (strength of ~ 30 nT, with ~ 10% variability at the location of the outer sensor.                                                  ) Tj
+T* (  The magnetometer has two sensors, an outboard sensor located about 1.1 m above                                                  ) Tj
+T* (the upper face of the spacecraft body, and an inboard sensor located about 0.5 m above                                            ) Tj
+ET
+endstream
+endobj
+54 0 obj
+8410
+endobj
+55 0 obj
+<<
+/Type /Page
+/Parent 20 0 R
+/Resources 21 0 R
+/Contents 56 0 R
+/Rotate 0
+>>
+endobj
+56 0 obj
+<<
+/Length 57 0 R >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 25 752 Tm
+12 TL
+T* (it. From the difference in the readings of the two sensors, the spacecraft field can be                                           ) Tj
+T* (estimated and its contaminating effect on the ambient field can be eliminated to some                                             ) Tj
+T* (extent. The outboard sensor is triaxial \(three orthogonal sensors for the measurement                                             ) Tj
+T* (of the three components of the ambient magnetic field vector\), while the inboard sen-                                             ) Tj
+T* (sor is biaxial \(one ring core with two pick-up coils for the measurement of two                                                   ) Tj
+T* (magnetic field components only\). The available data rate allows transmission of 25.4                                              ) Tj
+T* (vectors/s in Formats 1 and 2, 8.8 vectors/s in Format 3, and 1.2 vectors/min in                                                   ) Tj
+T* (memory mode \(assuming that the experiment's 16 kbyte memory is read out after 24                                                  ) Tj
+T* (h\).                                                                                                                               ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Figure 12. The principle of the fluxgate                                                                                          ) Tj
+T* (magnetometer sensor \(MAG\)                                                                                                         ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (2.12 The Optical Probe Experiment \(OPE\)                                                                                           ) Tj
+T* (  Observations of cosmic dust have traditionally been classified as either 'remote'                                               ) Tj
+T* (\(essentially optical\) or 'in-situ' \(mass spectrometers or impact detectors\). Optical                                              ) Tj
+T* (remote sensing results in a column brightness \(integration over the line of sight\), inter-                                        ) Tj
+T* (pretation of which is impossible without assumptions about both the spatial distribution                                          ) Tj
+T* (of the dust grains and their scattering properties. In a cometary flyby, a third type of                                          ) Tj
+T* (observation, in-situ photopolarimeter observation - referred to as 'optical probing'                                              ) Tj
+T* (- is possible. For a photopolarimeter aimed tangentially to the spacecraft orbit, in-                                             ) Tj
+T* (version of the brightness integral is rigorous and provides \(without any assumptions\),                                            ) Tj
+T* (in-situ observation of the local spatial density of dust and gas and of the scattering pro-                                       ) Tj
+T* (perties of dust grains.                                                                                                           ) Tj
+T* (  The requirement to observe tangentially offers two possibilities: forward or rear-                                              ) Tj
+T* (ward, corresponding to phase angles of 72.8deg and 107.2deg. Because of the less critical                                         ) Tj
+T* (engineering demands \(smaller baffle, no dust-particle impacts\), a rearward-looking in-                                            ) Tj
+T* (strument was chosen \(Fig. 13\).                                                                                                    ) Tj
+T* (  The photopolarimeter utilizes a small refracting photometer with an objective lens                                              ) Tj
+T* (of 24 mm diameter \(18 mm effective\), eight interference filters, two spectrally mat-                                              ) Tj
+T* (ching polaroid foils, and a microchannel plate for spectral analysis. The rotation of                                             ) Tj
+T* (the analyzers needed to determine the polarization is provided by the spin of the                                                 ) Tj
+T* (spacecraft. One complete polarization measurement is performed during half a                                                      ) Tj
+T* (spacecraft spin. The difference between successive line-of-sight measurements refers                                              ) Tj
+T* (to the brightness and polarization of a small volume of space only \(a 'cylinder' about                                            ) Tj
+T* (140 km in length and 7 km, corresponding to the instrument's 3deg field of view, in                                               ) Tj
+T* (diameter\).                                                                                                                        ) Tj
+T* (  The dust will be observed in four spectral bands which are free or almost free of                                               ) Tj
+T* (gaseous emissions. Simultaneously, the discrete gaseous emissions of OH, CN, CO+                                                  ) Tj
+T* (and C2 will be monitored.                                                                                                         ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Table 9. Optical Probe Experiment characteristics                                                                                 ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Optics                      Objective lens phi 24 mm \(18 mm effective\)                                                            ) Tj
+T* (                            Field lens phi 8 mm                                                                                   ) Tj
+T* (Field of view               3deg \(full cone\)                                                                                      ) Tj
+T* (Viewing direction           -180deg \(rearward, i.e. phase angle 107.2deg at encounter\)                                            ) Tj
+T* (Filters                     Continuum \(dust\)    Discrete \(gaseous emissions\)                                                      ) Tj
+T* (                            361-375 nm          OH  307.5 +/-40 nm                                                                ) Tj
+T* (                            439-448             CN   387  +/-20                                                                   ) Tj
+T* (                            565-585             CO+  426  +/-20                                                                   ) Tj
+T* (                            714-721             C2   514  +/-30                                                                   ) Tj
+T* (                            Two polaroid foils \(UV, visible\)                                                                      ) Tj
+T* (Time resolution             0.5 s \(2 s for polarisation measurements\)                                                             ) Tj
+T* (Sensitivity                 S/N > 20 at <2 x 10**5 km from the nucleus                                                            ) Tj
+T* (Detector                    Microchannel tube                                                                                     ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+ET
+endstream
+endobj
+57 0 obj
+8420
+endobj
+58 0 obj
+<<
+/Type /Page
+/Parent 20 0 R
+/Resources 21 0 R
+/Contents 59 0 R
+/Rotate 0
+>>
+endobj
+59 0 obj
+<<
+/Length 60 0 R >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 25 752 Tm
+12 TL
+T* (2.13 Radio Science \(GRS\)                                                                                                          ) Tj
+T* (  It is possible to determine the total electron content in Halley's ionosphere if two                                            ) Tj
+T* (phase-locked \(coherent\) RF signals with different frequencies are transmitted and their                                           ) Tj
+T* (phase difference                                                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (   delta phi = phi\(1\) - \(f\(s\)/f\(x\)\)*phi\(x\) = A * f\(s\)[\(1/f\(s\)**2\) - \(1/f\(x\)**2\)]                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (is measured at the receiver. f\(s\) = 2.3 GHz \(S-band\), f\(x\) = 8.4 GHz \(X-band\), A is a                                             ) Tj
+T* (constant of proportionality and I= \(integral\) N\(e\)ds is the total electron content between the                                    ) Tj
+T* (spacecraft and the receiving ground station.                                                                                      ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Figure 13. The Optical Probe Experiment                                                                                           ) Tj
+T* (\(OPE\). On the left is the experiment housing,                                                                                     ) Tj
+T* (on the right details of the optical system                                                                                        ) Tj
+T* (                                                                                                                                  ) Tj
+T* (  It is estimated that the cometary electron content is ~ 3 X 10**16 m**-2, while the in-                                         ) Tj
+T* (terplanetary electron content is ~ 10**18  m**-2 , and the electron content in the Earth's                                        ) Tj
+T* (ionosphere is ~ 10**17 m**-2 . Evidently, the electron content of the comet is only a frac-                                       ) Tj
+T* (tion of the total electron content. Therefore, the cometary electron content as                                                   ) Tj
+T* (measured during the encounter will appear as a small time variation of 10-15 min                                                  ) Tj
+T* (duration superimposed on the total background content, which is relatively constant                                               ) Tj
+T* (over this time period, apart from variations in the Earth's ionosphere \(diurnal varia-                                            ) Tj
+T* (tions, wave-like fluctuations, solar-flare effects\). It is therefore necessary to monitor                                         ) Tj
+T* (the ionospheric electron content during the comet encounter.                                                                      ) Tj
+T* (                                                                                                                                  ) Tj
+T* (3. The spacecraft                                                                                                                 ) Tj
+T* ( Figure 14 shows a cross-section of the Giotto spacecraft which is spin-stabilized,                                               ) Tj
+T* (nominally at 15 rpm. During the comet encounter the spin axis will be aligned with                                                ) Tj
+T* (the relative-velocity vector \('relative' means in the comet frame of reference\), i.e.                                             ) Tj
+T* (cometary particle streaming is from below in Figure 14.                                                                           ) Tj
+T* ( At launch, the spacecraft weighed 960 kg reducing to 550 kg when the solid-                                                      ) Tj
+T* (propellant kick motor had burnt out and part of the hydrazine has been used up for                                                ) Tj
+T* (the various mid-course attitude and orbit-correction manoeuvres.                                                                  ) Tj
+T* ( The particular comet environment, in combination with the high flyby velocity,                                                   ) Tj
+T* (leads to problems never before encountered on space flights. Dust particles with                                                  ) Tj
+T* (masses ~ 10**-6 g impacting at 68 km/s could easily penetrate the spacecraft structure.                                           ) Tj
+T* (Each time, a cloud of debris would be formed inside the spacecraft and impact with                                                ) Tj
+T* (high velocity on experiments and spacecraft components, leading to their destruction.                                             ) Tj
+T* (To provide protection against dust particles of up to 0.1 g, a single sheet of aluminium                                          ) Tj
+T* (would have to be more than 8 cm thick and would then weigh more than 600 kg, which                                                ) Tj
+T* (is prohibitive. An ideal and in fact the only solution to the problem is a 'dual-sheet                                            ) Tj
+T* (bumper shield', consisting ofa thin front sheet and a thick rear sheet with a large space                                         ) Tj
+T* (between. Upon impact on the thin front sheet, dust particle will be completely vaporiz-                                           ) Tj
+T* (ed. The vapour cloud then expands into the empty space between the two sheets and                                                 ) Tj
+T* (impacts on the rear sheet, where its energy is dissipated by distributing it over large                                           ) Tj
+T* (area.                                                                                                                             ) Tj
+T* ( The thin front sheet and thick rear sheet are in fact 23 cm apart \(Table 10\). Two                                                ) Tj
+T* (quadrispherical shell sectors were closed over the kick-motor nozzle after firing to                                              ) Tj
+T* (complete the bumper shield's front sheet \(Fig. 16\).                                                                               ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Table 10. Dust shield                                                                                                             ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Front sheet  0.1 mm white aluminium oxide                                                                                         ) Tj
+T* (             1 mm aluminium                                                                                                       ) Tj
+T* (             230 mm spacing                                                                                                       ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Rear sheet    7.5 mm epoxy kevlar                                                                                                 ) Tj
+T* (              5  mm polyurethane foam                                                                                             ) Tj
+T* (              2  mm epoxy kevlar                                                                                                  ) Tj
+ET
+endstream
+endobj
+60 0 obj
+8426
+endobj
+61 0 obj
+<<
+/Type /Page
+/Parent 20 0 R
+/Resources 21 0 R
+/Contents 62 0 R
+/Rotate 0
+>>
+endobj
+62 0 obj
+<<
+/Length 63 0 R >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 25 752 Tm
+12 TL
+T* (             15  mm MLI \(mylar\)                                                                                                   ) Tj
+T* (             40  mm aluminium honeycomb                                                                                           ) Tj
+T* (                 structure \(exp. platform\)                                                                                        ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Figure 14.  Cross-section through the Giotto                                                                                      ) Tj
+T* (spacecraft                                                                                                                        ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Figure 15.  Positioning of Giotto's experiments                                                                                   ) Tj
+T* (on the spacecraft structure                                                                                                       ) Tj
+T* (                                                                                                                                  ) Tj
+T* (  The spacecraft has three equipment platforms, from top to bottom \(Fig. 14\): the 'up-                                            ) Tj
+T* (per' and the 'lower' platforms carrying Spacecraft equipment boxes, and the 'experi-                                              ) Tj
+T* (ment' platform mounted on top of the rear bumper shield \(with a small separation\)                                                 ) Tj
+T* (The sensors of the Dust-Impact Detector \(DID\) System are mounted on the front                                                     ) Tj
+T* (bumper shield, the Magnetometer Sensors \(MAG\) are mounted on the carbon-fibre                                                     ) Tj
+T* (tripod as far away from the Spacecaft's magnetic-field sources as possible, and the Op-                                           ) Tj
+T* (tical Probe Experiment \(OPE\) is mounted on the upper platform inside the spacecraft,                                              ) Tj
+T* (looking rearward. All other experiment Sensors and electronics' boxes are mounted on                                              ) Tj
+T* (the experiment platform \(camera shown as example\). The experiment Sensors protrude                                                ) Tj
+T* (up to 17 cm from the Spacecraft side wall to allow measurements in the undisturbed                                                ) Tj
+T* (flow of cometary particles \(Fig. 15\).                                                                                             ) Tj
+T* (  The solar-cell array will provide 190 W of power during the encounter, which is                                                 ) Tj
+T* (not quite sufficient when one of the two redundant X-band travelling-wave-tube                                                    ) Tj
+T* (amplifiers \(TWTs\) \(70 W\), all other spacecraft subsystems \(85 W\), and all ex-                                                     ) Tj
+T* (periments \(51 W\) are switched on. Batteries are required in addition to the solar cells                                           ) Tj
+T* (not only to bridge this gap, but also to provide full power during the last part of the                                           ) Tj
+T* (encounter, in case the solar array's power output deteriorates due to dust-particle                                               ) Tj
+T* (impacts.                                                                                                                          ) Tj
+T* (  The main spacecraft antenna is a High-Gain Antenna \(HGA\) dish with an effective                                                 ) Tj
+T* (reflector diameter of 1.47 m. The HGA can be operated in either S-band \(2.1 GHz                                                   ) Tj
+T* (uplink, 2.3 GHz downlink\) or X-band \(8.4 GHz downlink\). The HGA beam is inclin-                                                   ) Tj
+T* (ed 44.3deg with respect to the spacecraft's spin axis and the antenna itself is despun so                                         ) Tj
+T* (that it points permanently at the Earth during the encounter. The X-band link budget                                              ) Tj
+T* (shows that 40 kbit/s of scientific data can be acquired during the encounter, including                                           ) Tj
+T* (a 5 dB weather margin \(rain at the receiving station\). The pointing requirements in                                               ) Tj
+T* (X-band are rather stringent: if the spacecraft spin axis is not well aligned with the                                             ) Tj
+T* (spacecraft relative-velocity vector, or if the spacecraft attitude changes due to the im-                                         ) Tj
+T* (pact of a large dust particle, the telemetry link to the ground receiving station may                                             ) Tj
+T* (be lost \(antenna gain decreases by 3 dB for 0.8deg misalignment in X-band and 3deg in                                             ) Tj
+T* (S-band\). For operations in the geostationary transfer orbit and near Earth, two low-                                              ) Tj
+T* (gain antennas operating at S-band have been used. They are located at either end of                                               ) Tj
+T* (the spacecraft: a cardioid antenna at the upper end of the hollow carbon-fibre tripod                                             ) Tj
+T* (and a fill-in antenna \(microstrip patch\) flush-mounted on the front bumper shield.                                                ) Tj
+T* (  A MAGE-1 SB solid-propellant motor is mounted centrally. It carried 374 kg of                                                   ) Tj
+T* (propellant, giving the velocity increment delta V = 1400 m/s needed to inject the                                                 ) Tj
+T* (spacecraft from Geostationary Transfer Orbit \(GTO\) into heliocentric orbit.                                                       ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Figure 16. Giotto's dust-impact protection                                                                                        ) Tj
+T* (system, with thin front sheet, thick rear sheet,                                                                                  ) Tj
+T* (and nozzle-closure shells                                                                                                         ) Tj
+T* (                                                                                                                                  ) Tj
+T* (  For attitude and orbit correction manoeuvres, a monopropellant hydrazine propul-                                                ) Tj
+T* (sion system with four tanks, using He as pressurant, and two identical and independent                                            ) Tj
+T* (branches is used. Each branch is made up of four catalytic hydrazine thrusters. 69 kg                                             ) Tj
+T* (of hydrazine is available, providing a total delta V capability of the order of 170 m/s, of                                       ) Tj
+T* (which some 150 m/s still remained per 1 February 1986. Three types of sensors are                                                 ) Tj
+T* (used for attitude determination: an Earth Elevation Sensor consisting of two infrared                                             ) Tj
+T* (pencil-beam telescopes, a Sun Sensor consisting of two detector units, and a Star Map-                                            ) Tj
+T* (per with a 9deg x9deg field of view and a selectable threshold down to +2.4 silicon                                               ) Tj
+T* (magnitude.                                                                                                                        ) Tj
+ET
+endstream
+endobj
+63 0 obj
+8420
+endobj
+64 0 obj
+<<
+/Type /Page
+/Parent 20 0 R
+/Resources 21 0 R
+/Contents 65 0 R
+/Rotate 0
+>>
+endobj
+65 0 obj
+<<
+/Length 66 0 R >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 25 752 Tm
+12 TL
+T* (  The Giotto thermal design makes use of both active and passive techniques. The                                                  ) Tj
+T* (passive means are radiators under the high-gain antenna and between the main and the                                              ) Tj
+T* (experiment platform using Optical Surface Reflectors, and Multi-Layer Insulation                                                  ) Tj
+T* (blankets covering the space between the solar-cell array and the experiment platform.                                             ) Tj
+T* (The active means are heaters which can be activated by ground command or by                                                       ) Tj
+T* (dedicated onboard software, three identical shutters \(variable-area radiators\), which                                             ) Tj
+T* (can also be activated by ground command, 12 diode boards which use some of the                                                    ) Tj
+T* (solar array's power to heat the enclosure during some cold phases, and commutation                                                ) Tj
+T* (of the excess power generated by the solar-cell array in some External Power Dumper                                               ) Tj
+T* (phases to the Internal Power Dumper, which is a circuit heating the TWTAs and a                                                   ) Tj
+T* (portion of the upper platform during critical phases. Finally, Giotto makes extensive                                             ) Tj
+T* (use \(several m**2\) of a new thermal-control coating, the electrically conductive white                                            ) Tj
+T* (paint PCB-Z \(absorptivity alpha =0.25, emissivity epsilon =0.82\).                                                                 ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (4.  The mission                                                                                                                   ) Tj
+T* (  The Giotto mission is a fast flyby of Comet Halley around midnight UT on 13 March                                               ) Tj
+T* (1986, near the comet's post-perihelion crossing of the ecliptic plane, about 1 month                                              ) Tj
+T* (after its perihelion passage. At this time, the comet will be at its most active. A pre-                                          ) Tj
+T* (perihelion encounter was also considered at an early stage, but was not further pur-                                              ) Tj
+T* (sued, primarily because the launch energy needed would have been much higher,                                                     ) Tj
+T* (which for a given launcher would have imposed a severe limitation on the mass of the                                              ) Tj
+T* (scientific payload that could be launched.                                                                                        ) Tj
+T* ( After five years of development and testing, Giotto was launched on 2 July 1985                                                  ) Tj
+T* (by an Ariane-1 rocket from Kourou, French Guyana. The spacecraft was initially in-                                                ) Tj
+T* (jected into a Geostationary Transfer Orbit \(perigee: 198.5 km, apogee: 36000 km,                                                  ) Tj
+T* (inclination 7deg\). After three revolutions in this orbit, the onboard boost motor was fired                                       ) Tj
+T* (near perigee to inject Giotto into a heliocentric orbit. The high-gain antenna was                                                ) Tj
+T* (despun three days later.                                                                                                          ) Tj
+T* (  The camera was switched on in Format 3 on 10 August 1985 to monitor the declam-                                                 ) Tj
+T* (ping of its barrel, followed by the Magnetometer Experiment and Energetic Particles                                               ) Tj
+T* (Experiment switch-on on 22 August. These two experiments have remained on ever                                                    ) Tj
+T* (since, using their memories to bridge gaps in ground-station coverage. The complete                                               ) Tj
+T* (switch-on/pyro firing sequence is shown in Table 11. All experiment functional tests                                              ) Tj
+T* (have already been performed successfully.                                                                                         ) Tj
+T* (  During its cruise phase, the Giotto spacecraft is being controlled by a number of                                               ) Tj
+T* (ground stations distributed around the globe. Depending on their size and equipment,                                              ) Tj
+T* (these ground stations are used for different purposes and different mission phases                                                ) Tj
+T* (\(Table 12\). ESA's station at Carnarvon is the prime station for spacecraft commanding                                             ) Tj
+T* (throughout the entire mission. Format-3 data can be received by Carnavon until mid-                                               ) Tj
+T* (January, and by Weilheim until mid-February. The NASA 34 m Deep-Space Network                                                     ) Tj
+T* (\(Goldstone, Madrid & Canberra\) is being used in addition for spacecraft ranging dur-                                              ) Tj
+T* (ing the cruise phase.                                                                                                             ) Tj
+T* (  Throughout the mission, the spacecraft attitude defined by the Sun Aspect Angle                                                 ) Tj
+T* (\(SAA\) \(0deg = Sun above the tripod\) must be kept inside an allowed corridor \(Fig. 17\),                                            ) Tj
+T* (which is defined by two constraints: the high-gain antenna must point permanently at                                              ) Tj
+T* (the Earth to maintain the telecommunications link, and the spacecraft must generate                                               ) Tj
+T* (enough power without being heated up too much \(thermal/power constraint\). The                                                     ) Tj
+T* (hotest phase of the mission occurred at the end of December 1985, when Giotto was                                                 ) Tj
+T* (only 0.72 AU away from the Sun.                                                                                                   ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Figure 17. Sun Aspect Angle from launch until                                                                                     ) Tj
+T* (encounter. The solid line shows the strategy that                                                                                 ) Tj
+T* (is actually being followed; the dashed lines                                                                                      ) Tj
+T* (represent various constraints \(see text for details\)                                                                              ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Figure 18. Reference trajectory for Giotto                                                                                        ) Tj
+T* (from launch on 2 July 1985 to post-perihellon                                                                                     ) Tj
+T* (encounter with Halley on 14 March 1986.                                                                                           ) Tj
+ET
+endstream
+endobj
+66 0 obj
+8402
+endobj
+67 0 obj
+<<
+/Type /Page
+/Parent 20 0 R
+/Resources 21 0 R
+/Contents 68 0 R
+/Rotate 0
+>>
+endobj
+68 0 obj
+<<
+/Length 69 0 R >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 25 752 Tm
+12 TL
+T* (Halley's orbit is retrograde and inclined at 18deg                                                                                ) Tj
+T* (with respect to the ecliptic                                                                                                      ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (  In the event that the telecommunications link to the Earth is lost, the spacecraft will                                         ) Tj
+T* (drift slowly out of the allowed corridor. If, however, its attitude is kept within a cer-                                         ) Tj
+T* (tain narrow part of the allowed corridor, its boundaries given by the 'sheared con-                                               ) Tj
+T* (straint', Giotto could be up to 12 days without contact and still remain in the allowed                                           ) Tj
+T* (corridor. The nominal attitude strategy \(solid line\) is continuously in the narrow part                                           ) Tj
+T* (of the corridor. It is based on minimum hydrazine consumption, with the further con-                                              ) Tj
+T* (straints that the SAA should not be > 130deg and that 107deg should be maintained from                                            ) Tj
+T* (early February onwards. The large number of ripples on the line reflect daily attitude                                            ) Tj
+T* (manoeuvres.                                                                                                                       ) Tj
+T* (  Figure 18 shows the interplanetary trajectory for Giotto from launch until the en-                                              ) Tj
+T* (counter on 13/14 March 1986. Giotto's orbit lies in the ecliptic. Halley's retrograde                                             ) Tj
+T* (orbit is also shown, its plane being inclined by 18deg with respect to the ecliptic. After                                        ) Tj
+T* (a cruise phase of eight months, Giotto will encounter Halley's Comet at OO UT on                                                  ) Tj
+T* (14 March 1986. The phase angle to the Sun will be 107.2deg \(Fig. 19\), i.e. the                                                    ) Tj
+T* (spacecraft will approach the comet nucleus from 'behind', which is favourable for                                                 ) Tj
+T* (spacecraft survival, bearing in mind that most dust particles are injected into the sun-                                          ) Tj
+T* (ward hemisphere. The flyby velocity will be 68.4 km/s. The main experiment switch-                                                ) Tj
+T* (on will start, about two days before the encounter, and finish no later than 4 hours                                              ) Tj
+T* (before t\(0\), the time of closest approach.                                                                                        ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Table 11. Giotto switch-on/Pyro firing sequence                                                                                   ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Date                   Experiment       Format            Comments                                                                ) Tj
+T* (10  August             HMC              F3                Pyro firing                                                             ) Tj
+T* (22  August             MAG              F3                                                                                        ) Tj
+T* (                       EPA              F3                                                                                        ) Tj
+T* (6   September          HMC              F1                                                                                        ) Tj
+T* (7   September          MAG              F1                                                                                        ) Tj
+T* (                       EPA              F1                                                                                        ) Tj
+T* (                       IMS              F1                                                                                        ) Tj
+T* ( 8  September          JPA              F1                                                                                        ) Tj
+T* (                       RPA              F1                                                                                        ) Tj
+T* (12  September          NMS              F3                                                                                        ) Tj
+T* (13  September          NMS              F1                Memory check                                                            ) Tj
+T* (                       OPE              F1                                                                                        ) Tj
+T* (                       NMS              F1                Pyro firing                                                             ) Tj
+T* ( 7October              NMS              F1                                                                                        ) Tj
+T* ( 8  October            DID              F1                                                                                        ) Tj
+T* ( 9  October            OPE              F1                Pyro firing                                                             ) Tj
+T* (13October              PIA              F1                                                                                        ) Tj
+T* (* Bold entries: Main functional performance check \(implying priority over any other experimental                                  ) Tj
+T* (operation\).                                                                                                                       ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Figure 19.   Schematic of the encounter                                                                                           ) Tj
+T* (geometry. Giotto will be targetted to pass the                                                                                    ) Tj
+T* (nucleus a few hundred, nominally 500,                                                                                             ) Tj
+T* (kilometres on the sunward side. The spacecraft                                                                                    ) Tj
+T* (will enter the visual coma about an hour                                                                                          ) Tj
+T* (before the time of closest approach.                                                                                              ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Table 12. Giotto ground stations and their roles                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (          Phase         Station     Purpose                                                                                       ) Tj
+T* (                                                                                                                                  ) Tj
+T* (          GTO           Malindi     Housekeeping Telemetry         S-band                                                         ) Tj
+ET
+endstream
+endobj
+69 0 obj
+8388
+endobj
+70 0 obj
+<<
+/Type /Page
+/Parent 20 0 R
+/Resources 21 0 R
+/Contents 71 0 R
+/Rotate 0
+>>
+endobj
+71 0 obj
+<<
+/Length 72 0 R >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 25 752 Tm
+12 TL
+T* (                        Kourou      Telecommand                    Low Gain                                                       ) Tj
+T* (                        Carnarvon   Ranging                        Antenna \(LGA\)                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (          Near-         Carnarvon   Housekeeping Telemetry         S-band LGA                                                     ) Tj
+T* (          Earth                     Telecommand                                                                                   ) Tj
+T* (          Phase         Weilheim    Doppler and Range                                                                             ) Tj
+T* (                                                                                                                                  ) Tj
+T* (          Initial       Carnarvon   as Near-Earth Phase            S-band                                                         ) Tj
+T* (          Cruise                                                   High Gain                                                      ) Tj
+T* (                                                                   Antenna \(HGA\)                                                  ) Tj
+T* (                        Weilheim                                   up and downlink                                                ) Tj
+T* (                                                                                                                                  ) Tj
+T* (          Cruise        Carnarvon   as Near-Earth Phase            S-band HGA uplink                                              ) Tj
+T* (                                    Option: Science                                                                               ) Tj
+T* (                        Weilheim    Telemetry Format 3             X-band HGA downlink                                            ) Tj
+T* (                                                                                                                                  ) Tj
+T* (          Encounter     Carnarvon   Telecommand                    S-band HGA uplink                                              ) Tj
+T* (                        Parkes      Science Telemetry              X-band HGA downlink                                            ) Tj
+T* (                                    Format 1 and 2                                                                                ) Tj
+T* (                                                                                                                                  ) Tj
+T* (* The NASA 32 m Deep Space Network \(Goldstone, Madrid, Canberra\) is used in addition for                                          ) Tj
+T* (spacecraft ranging, and the NASA 64 m station at Canberra is used as backup for Parkes during the                                 ) Tj
+T* (encounter.                                                                                                                        ) Tj
+T* (                                                                                                                                  ) Tj
+T* (        Table 13. Giotto Parkes passes \(F1/F2\) \(60 in total\)                                                                      ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                         Days of the month                                                                                        ) Tj
+T* (                         1  2   3  4  5   6  7  8   9  10  11  12  13  14  15  16  17  18  19 20 21  22 23 24 25 26 27 28 29 30 31) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (      1985, September                     x  x  x   x   x   x       x                                       x                 x   ) Tj
+T* (            October      x                   x  x   x   x   x   x   x   x   x   x       x                x                        ) Tj
+T* (            November                                                                                                              ) Tj
+T* (            December                                                                                                       x  x   ) Tj
+T* (      1986, January         x  x          x  x      x           x           x                                                     ) Tj
+T* (            February        x  x  x  x          x   x   x  x        x   x   x  x                  x                    x          ) Tj
+T* (            March        x  x  x  x  x  x x  x  x   x   x  x    x   x   x                                                         ) Tj
+T* (                                                                                                                                  ) Tj
+T* (          * Note: Parkes pass starts on the day shown. Bold x = rehearsals                                                        ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* (  During the cruise phase and certain days before the encounter, the 64 m station at                                              ) Tj
+T* (Parkes in Australia will be used for transmission of science data at a high rate                                                  ) Tj
+T* (\(schedule given in Table 13\). In addition, Science data are transmitted at low rate [4.6                                          ) Tj
+T* (kbit/s \(Format 3\), about twice per week during the cruise phase. During the                                                       ) Tj
+T* (encounter, the NASA DSN 64 m Station at Canberra, Australia will be used as                                                       ) Tj
+T* (a hot back-up. Continuous data coverage will be provided in high-data-rate mode for                                               ) Tj
+T* (about 50 h before and 30 h after closest approach, by Parkes and the NASA 64 m sta-                                               ) Tj
+T* (tions at Goldstone, Madrid and Canberra. However, only the MAG and EPA ex-                                                        ) Tj
+T* (periments will be able to make full use of this continuous coverage, as all other                                                 ) Tj
+T* (experiments will be switched off during periods of thruster firing, which can last                                                ) Tj
+T* (several hours and are planned for 10, 11 and possibly also 12 March \(Table 14\).                                                   ) Tj
+T* (  Short manoeuvres \(several minutes\) are needed to correct the spacecraft's attitude                                              ) Tj
+T* (and long-duration manoeuvres are needed to correct its trajectory and target it to the                                            ) Tj
+T* (preselected point. Giotto's attitude will be such that the spacecraft spin axis will be                                           ) Tj
+T* (precisely aligned with the relative velocity vector so that no dust particles can impact                                          ) Tj
+T* (on the unprotected sides of the spacecraft. Giotto will be targeted to pass the nucleus                                           ) Tj
+T* (on the sunward side in order to obtain images of the nucleus day side. The desired                                                ) Tj
+T* (flyby distance of 500 km has been adopted as a compromise between the partially con-                                              ) Tj
+ET
+endstream
+endobj
+72 0 obj
+8398
+endobj
+73 0 obj
+<<
+/Type /Page
+/Parent 20 0 R
+/Resources 21 0 R
+/Contents 74 0 R
+/Rotate 0
+>>
+endobj
+74 0 obj
+<<
+/Length 75 0 R >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 25 752 Tm
+12 TL
+T* (flicting requirements of three groups of experiments. One experiment group \(HMC\)                                                  ) Tj
+T* (would like to fly by at 1000 km, but no closer than 500 km; a second group \(OPE\),                                                 ) Tj
+T* (MAG, NMS, IMS, GRE\) would like to fly by the nucleus as close as possible, even                                                   ) Tj
+T* (if the spacecraft would not survive; while a third group \(PIA, DID, EPA, JPA, RPA\)                                                ) Tj
+T* (would also like to fly by as close as possible whilst still maintaining a high survival                                           ) Tj
+T* (probability.                                                                                                                      ) Tj
+T* (  Targeting the spacecraft to this preselected point is a difficult task as the nucleus                                           ) Tj
+T* (is too small to be observed from the Earth even by the largest telescopes and moreover                                            ) Tj
+T* (is disguised by the coma dust and gas. Also, due to the asymmetric outgassing - the                                               ) Tj
+T* (dust and gas is mostly emitted into the sunward hemisphere - the nucleus is ac-                                                   ) Tj
+T* (celerated away from the Sun \(nongravitational forces\). Compared with the purely                                                   ) Tj
+T* (Keplerian orbit that it follows at large heliocentric distances, Halley 's orbit is extended                                      ) Tj
+T* (by four days. This outgassing effect is irregular and therefore difficult to model. Bet-                                          ) Tj
+T* (ween Halley's recovery on 16 October 1982 and mid-January 1986,4000 astrometric                                                   ) Tj
+T* (observations were made of Halley. They are being coordinated via the Astrometry Net                                               ) Tj
+T* (of the International Halley Watch. From these observations, in combination with a                                                 ) Tj
+T* (model which includes the effects of nongravitational perturbations, the nucleus' posi-                                            ) Tj
+T* (tion can be determined for the time of the Giotto encounter with an accuracy of 236                                               ) Tj
+T* (km in a radial direction from the Sun, 989 km in the direction of the comet's orbital                                             ) Tj
+T* (motion and 15 km perpendicular to the comet's orbital plane \(these are 1 sigma values\).                                           ) Tj
+T* (In calculating these values, an offset of 500 km between the centre of brightness                                                 ) Tj
+T* (\(presumed to be the nucleus position\) and the centre of mass \(actual nucleus position\)                                            ) Tj
+T* (has been assumed, which is probably too pessimistic. For targeting purposes, the 1 sigma                                          ) Tj
+T* (uncertainty ellipsoid reduces to an ellipse in the target plane, defined by the Giotto                                            ) Tj
+T* (arrival direction. With the same assumption on the offset, its two components are 231                                             ) Tj
+T* (and 131 km. To these values has to be added the Giotto spacecraft position uncertainty                                            ) Tj
+T* (of 80-100 km to give the overall targeting uncertainty. The resulting uncertainty of                                              ) Tj
+T* (200-300 km is still relatively large compared with the intended flyby distance of 500                                             ) Tj
+T* (km.                                                                                                                               ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Table 14. Overview of encounter operations                                                                                        ) Tj
+T* (\(Issue 5\). The upper part shows the availability of                                                                               ) Tj
+T* (the various ground stations, the lower part shows                                                                                 ) Tj
+T* (spacecraft and payload operations. 'A' denotes an                                                                                 ) Tj
+T* (attitude, 'O' an orbit correction maneouvre, the                                                                                  ) Tj
+T* (solid triangles indicate times of targeting                                                                                       ) Tj
+T* (decisions.                                                                                                                        ) Tj
+T* (                                                                                                                                  ) Tj
+T* (  Fortunately, Giotto will be the last of the spacecraft to encounter the comet, and the                                          ) Tj
+T* (earlier-arriving Vega-1 and -2 spacecraft, having located the nucleus, will pass this                                             ) Tj
+T* (information on to Giotto. This is the so-called 'Pathfinder Concept', the principle of                                            ) Tj
+T* (which is illustrated in Figure 21.                                                                                                ) Tj
+T* ( The uncertainty in spacecraft position \(~ 100 km\) is shown in Figure 21 as a small                                               ) Tj
+T* (circle around the spacecraft path, at the time when the last orbit-correction manoeuvre                                           ) Tj
+T* (will have to be made \(1-2 days before the encounter\). The large circle around the                                                 ) Tj
+T* (path of the comet reflects the relatively large 1 sigma uncertainty that can be achieved via                                      ) Tj
+T* (the Astrometry Net. Vega will locate the comet nucleus during its flyby on 6 March                                                ) Tj
+T* (1986 with an uncertainty that is given by the angular uncertainties in spacecraft at-                                             ) Tj
+T* (titude and pointing direction of the platform on which the Vega camera is mounted.                                                ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Figure 20.The Giotto spacecraft approaching                                                                                       ) Tj
+T* (Halley's Comet. The comet is a painting after                                                                                     ) Tj
+T* (the Mt. Wilson Observatory photograph taken                                                                                       ) Tj
+T* (of Halley's Comet on 8 May 1910                                                                                                   ) Tj
+T* (                                                                                                                                  ) Tj
+T* (After processing of the data, the position of the comet nucleus will be known with a                                              ) Tj
+T* (much better accuracy \(small circle around the Halley path\). Giotto will be targeted to                                            ) Tj
+T* (the centre of the small circle projected to the intersection of the comet and the                                                 ) Tj
+T* (spacecraft paths. Between the time of nucleus detection by Vega and the Giotto en-                                                ) Tj
+T* (counter, the uncertainty will grow slightly due to the nongravitational forces, which                                             ) Tj
+ET
+endstream
+endobj
+75 0 obj
+8403
+endobj
+76 0 obj
+<<
+/Type /Page
+/Parent 20 0 R
+/Resources 21 0 R
+/Contents 77 0 R
+/Rotate 0
+/Annots [ 1 0 R 2 0 R ]
+>>
+endobj
+77 0 obj
+<<
+/Length 78 0 R >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 25 752 Tm
+12 TL
+T* (cannot be modelled precisely. It has been estimated that the Pathfinder Concept will                                              ) Tj
+T* (reduce the targeting uncertainty to 130 km \(1 sigma\).                                                                             ) Tj
+T* ( Although Giotto will be targeted very close to the comet nucleus, where the dust                                                 ) Tj
+T* (fluxes are high, the spacecraft is expected to survive. The perhaps most serious of all                                           ) Tj
+T* (problems could be caused by spacecraft attitude changes following the impact of a                                                 ) Tj
+T* (large dust particle on the edge of the shield. Anything more than a 1 deg deviation from                                          ) Tj
+T* (the nominal attitude would result in loss of the X-band downlink. Calculation's show                                              ) Tj
+T* (that this could occur following impact of a dust particle of >~ 0.1 g mass. However,                                              ) Tj
+T* (according to current estimates of dust densities in the cometary coma, the probability                                            ) Tj
+T* (of an impact of a dust particle with mass >= 0.1 g on the spacecraft is only a few per-                                           ) Tj
+T* (cent. Giotto might well then survive the encounter, in which case it might be possible                                            ) Tj
+T* (to retarget it towards the end of March 1986 \(delta V = 110 m/s required\) to return to                                            ) Tj
+T* (Earth in 1990. With a series of Earth and/or lunar swingby manoeuvres, Giotto could                                               ) Tj
+T* (then be sent off to another comet or to an asteroid.                                                                              ) Tj
+T* (                                                                                                                                  ) Tj
+T* (Figure 21. The 'Pathfinder Concept'                                                                                               ) Tj
+T* (                                                                                                                                  ) Tj
+T* (                                                                                                                                  ) Tj
+T* () Tj
+T* (This is a demo version of txt2pdf PRO v.7.5) Tj
+T* (Developed by SANFACE Software http://www.sanface.com/) Tj
+T* (Available at http://www.sanface.com/txt2pdf.html) Tj
+T* () Tj
+ET
+endstream
+endobj
+78 0 obj
+2735
+endobj
+19 0 obj
+<<
+/Type /Catalog
+/Pages 20 0 R
+>>
+endobj
+20 0 obj
+<<
+/Type /Pages
+/Count 19
+/MediaBox [ 0 0 612 792 ]
+/Kids [ 22 0 R 25 0 R 28 0 R 31 0 R 34 0 R 37 0 R 40 0 R 43 0 R 46 0 R 49 0 R 52 0 R 55 0 R 58 0 R 61 0 R 64 0 R 67 0 R 70 0 R 73 0 R 76 0 R ]
+>>
+endobj
+xref
+0 79
+0000000000 65535 f 
+0000000015 00000 n 
+0000000158 00000 n 
+0000000313 00000 n 
+0000000450 00000 n 
+0000002551 00000 n 
+0000002645 00000 n 
+0000002747 00000 n 
+0000002846 00000 n 
+0000002952 00000 n 
+0000003048 00000 n 
+0000003153 00000 n 
+0000003255 00000 n 
+0000003364 00000 n 
+0000003463 00000 n 
+0000003564 00000 n 
+0000003663 00000 n 
+0000003768 00000 n 
+0000003847 00000 n 
+0000161420 00000 n 
+0000161471 00000 n 
+0000003932 00000 n 
+0000004159 00000 n 
+0000004253 00000 n 
+0000012689 00000 n 
+0000012710 00000 n 
+0000012804 00000 n 
+0000021254 00000 n 
+0000021275 00000 n 
+0000021369 00000 n 
+0000029813 00000 n 
+0000029834 00000 n 
+0000029928 00000 n 
+0000038388 00000 n 
+0000038409 00000 n 
+0000038503 00000 n 
+0000046955 00000 n 
+0000046976 00000 n 
+0000047070 00000 n 
+0000055540 00000 n 
+0000055561 00000 n 
+0000055655 00000 n 
+0000064127 00000 n 
+0000064148 00000 n 
+0000064242 00000 n 
+0000072700 00000 n 
+0000072721 00000 n 
+0000072815 00000 n 
+0000081279 00000 n 
+0000081300 00000 n 
+0000081394 00000 n 
+0000089852 00000 n 
+0000089873 00000 n 
+0000089967 00000 n 
+0000098431 00000 n 
+0000098452 00000 n 
+0000098546 00000 n 
+0000107020 00000 n 
+0000107041 00000 n 
+0000107135 00000 n 
+0000115615 00000 n 
+0000115636 00000 n 
+0000115730 00000 n 
+0000124204 00000 n 
+0000124225 00000 n 
+0000124319 00000 n 
+0000132775 00000 n 
+0000132796 00000 n 
+0000132890 00000 n 
+0000141332 00000 n 
+0000141353 00000 n 
+0000141447 00000 n 
+0000149899 00000 n 
+0000149920 00000 n 
+0000150014 00000 n 
+0000158471 00000 n 
+0000158492 00000 n 
+0000158610 00000 n 
+0000161399 00000 n 
+trailer
+<<
+/Size 79
+/Root 19 0 R
+/Info 3 0 R
+>>
+startxref
+161685
+%%EOF

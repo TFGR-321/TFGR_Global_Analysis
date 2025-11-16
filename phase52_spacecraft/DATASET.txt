@@ -1,0 +1,169 @@
+PDS_VERSION_ID                    = PDS3                                      
+LABEL_REVISION_NOTE               = "2004-03-18; J. Diaz del Rio (ESA). v1.1" 
+RECORD_TYPE                       = STREAM                                    
+                                                                              
+OBJECT                            = DATA_SET                                  
+ DATA_SET_ID                      = "GIO-C-HMC-3-RDR-HALLEY-V1.0"             
+                                                                              
+ OBJECT                                 = DATA_SET_HOST                       
+  INSTRUMENT_HOST_ID              = "GIO"                                     
+  INSTRUMENT_ID                   = "HMC"                                     
+ END_OBJECT                       = DATA_SET_HOST                             
+                                                                              
+ OBJECT                           = DATA_SET_INFORMATION                      
+  DATA_SET_NAME               = "GIOTTO HALLEY MULTICOLOR CAMERA IMAGES V1.0" 
+  DATA_SET_COLLECTION_MEMBER_FLG  = "N"                                       
+  DATA_OBJECT_TYPE                = "IMAGE"                                   
+  START_TIME                      = 1986-03-13T20:54:34.000                   
+  STOP_TIME                       = 1986-03-14T00:02:35.000                   
+  DATA_SET_RELEASE_DATE           = 2004-03-26                                
+  PRODUCER_FULL_NAME              = "INTERNATIONAL HALLEY WATCH"              
+  DETAILED_CATALOG_FLAG           = "Y"                                       
+                                                                              
+  CITATION_DESC                   = "Keller, U., Thomas, N., GIOTTO HALLEY    
+  MULTICOLOR CAMERA IMAGES V1.0, Max-Planck-Insitut for Aeronomie, 1986,      
+  ESA Planetary Science Archive, 2004"                                        
+                                                                              
+  ABSTRACT_DESC                   = "The GIO-C-HMC-3-RDR-HALLEY-V1.0 data     
+  set contains the calibrated images of the Halley Multi-Color (HMC) camera   
+  on board of the GIOTTO spacecraft of the European Space Agency. The         
+  data were obtained during the GIOTTO flyby on comet Halley in               
+  March 1986"                                                                 
+  DATA_SET_TERSE_DESC             = "GIOTTO Halley Multi-Color Camera (HMC)   
+ observations  of 1P/Halley"                                                  
+  ARCHIVE_STATUS                  = "ARCHIVED"                                
+  CONFIDENCE_LEVEL_NOTE           = "N/A"                                     
+  DATA_SET_DESC                   = "                                         
+                                                                              
+                                                                              
+    Data Set Overview                                                         
+    =================                                                         
+                                                                              
+        In total 2304 images were returned on encounter night                 
+        between 20:54 and 00:03 UT.  Of these images, a total                 
+        of 2017 are present in the data set submitted to IHW.                 
+                                                                              
+         Images taken in 'photometer' mode have not been                      
+        submitted.  These data were obtained by using the                     
+        spin of the spacecraft to scan the sky while the CCD                  
+        remained unclocked.  They therefore have one                          
+        dimensional spatial information but each pixel                        
+        contains the integrated intensity from some portion                   
+        (depending upon the exposure time) of an annulus on                   
+        the sky.  These data would be useful for this purpose                 
+        (particularly when taken through the narrow-band                      
+        filters because of the significantly higher exposure                  
+        time) were it not for the stray light entering the                    
+        optics of the camera when HMC was on the sunward side                 
+        of the spacecraft.  No effort has been made to reduce                 
+        this data and its scientific usefulness is assumed to                 
+        be negligible.                                                        
+                                                                              
+         The last three image sets returned in multi-detector                 
+        mode (MDM) immediately prior to the power disturbance                 
+        which terminated operations before closest approach                   
+        are also excluded.  Image set 3504 does contain                       
+        useful data but is corrupted and requires manual                      
+        reduction.  This task has not been completed at this                  
+        time.  Image sets 3505 and 3506 are also corrupted                    
+        and probably do not contain useful image data.                        
+                                                                              
+         Seven images taken at the beginning of the encounter                 
+        sequence (image ids 674 to 680) were not correctly                    
+        converted by the telemetry conversion routine.  These                 
+        images are not currently in the HMC database system                   
+        and are therefore not included in the IHW data set.                   
+         The similarity between these data and the subsequent                 
+        data probably ensures that, for scientific evaluation                 
+        of HMC data, their omission is of little or no                        
+        importance.                                                           
+                                                                              
+         One image (3142) has been omitted because it does                    
+        not have an associated header.                                        
+                                                                              
+                                                                              
+        Available data                                                        
+                                                                              
+         The total numbers of images taken in each superpixel                 
+        format (SPF) in the IHW data set are shown in Table I                 
+        together with the size of each superpixel and the                     
+        size of the output image in superpixels.  For the                     
+        encounter night data set, images taken in SPFs 2, 3,                  
+        4, and 5 showed the complete CCD at all times.  SPF 1                 
+        images were only used in MDM and provided a 37 x 37                   
+        superpixel image.  In SPF 0, the image format varied                  
+        as shown in Table II.                                                 
+                                                                              
+         Red, blue and clear fixed filters covered detectors                  
+        B, D, and E respectively.  Detector C was exposed                     
+        through a filter wheel with 11 filters and                            
+        polarizers.  The total numbers of images taken                        
+        through each filter are shown in Table III together                   
+        with the effective wavelengths and bandwidths of the                  
+        configurations for single detector mode (from Thomas                  
+        and Keller, 1989).                                                    
+                                                                              
+                                                                              
+        Table I                                                               
+    ========================================================================= 
+    | Superpixel | Superpixel size in | Number of available | Image size in | 
+    |   format   |  original pixels   |       images        |  superpixels  | 
+    ------------------------------------------------------------------------- 
+    |     0      |       1 x  1       |         882         |  see Table II | 
+    |     1      |       2 x  2       |         204         |    37 x 37    | 
+    |     2      |       4 x  4       |          38         |    98 x 73    | 
+    |     3      |       8 x  8       |         171         |    49 x 36    | 
+    |     4      |      16 x 16       |         394         |    25 x 18    | 
+    |     5      |       4 x  3       |         328         |    98 x 97    | 
+    ========================================================================= 
+                                                                              
+    Table II                                                                  
+    ============================================                              
+    | Image format in SPF 0 | Number of images |                              
+    --------------------------------------------                              
+    |        74 x  74       |        68        |                              
+    |       392 x 292       |       131        |                              
+    |       368 x  26       |       210        |                              
+    |        34 x 276       |       209        |                              
+    |        36 x  36       |       132        |                              
+    |        98 x  98       |        93        |                              
+    |       196 x 196       |        39        |                              
+    ============================================                              
+                                                                              
+    Table III                                                                 
+    =================================================================         
+    | Filter | Number of | Effective  | Effective | Multiplication  |         
+    |        |  images   | wavelength | bandwidth | factor for FITS |         
+    |        |           |    [nm]    |    [nm]   |   conversion    |         
+    -----------------------------------------------------------------         
+    |  clear |    893    |   652.9    |   372.6   |        10       |         
+    |   red  |    177    |   813.0    |   165.0   |        10       |         
+    | orange |    109    |   645.4    |    94.0   |        10       |         
+    |  blue  |    175    |   440.0    |   101.1   |        10       |         
+    | cont.1 |    172    |   457.4    |    20.30  |       100       |         
+    | cont.2 |    174    |   738.1    |    37.42  |       100       |         
+    |   p-   |     42    |     -      |     -     |        10       |         
+    |  pII   |     43    |     -      |     -     |        10       |         
+    |   oh   |     83    |   314.8    |    12.25  |       100       |         
+    |  c-2   |     74    |   408.4    |    16.63  |       100       |         
+    |  c-3   |     75    |   509.5    |    20.90  |       100       |         
+    =================================================================         
+                                                                              
+"                                                                             
+ END_OBJECT                       = DATA_SET_INFORMATION                      
+                                                                              
+ OBJECT                           = DATA_SET_REFERENCE_INFORMATION            
+  REFERENCE_KEY_ID                = "ESA-SP1077"                              
+ END_OBJECT                       = DATA_SET_REFERENCE_INFORMATION            
+                                                                              
+ OBJECT                           = DATA_SET_REFERENCE_INFORMATION            
+  REFERENCE_KEY_ID                = "NATURE321"                               
+ END_OBJECT                       = DATA_SET_REFERENCE_INFORMATION            
+ OBJECT                                 = DATA_SET_TARGET                     
+  TARGET_NAME                     = "HALLEY"                                  
+  TARGET_TYPE                     = COMET                                     
+ END_OBJECT                       = DATA_SET_TARGET                           
+                                                                              
+END_OBJECT                        = DATA_SET                                  
+                                                                              
+END                                                                           

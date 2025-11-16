@@ -1,4 +1,7 @@
 # Time-Field General Relativity (TFGR)
+
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.17622096.svg)](https://doi.org/10.5281/zenodo.17622096)
+
 ### A scale-dependent temporal field unifying atomic clocks, planetary systems, galaxies, and cosmology
 
 This repository provides open, fully reproducible code and datasets for  

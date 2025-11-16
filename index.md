@@ -1,10 +1,8 @@
----
-m<!-- MathJax -->
+<!-- MathJax -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>athjax: true
----
 
 # Time-Field General Relativity (TFGR)
 ### A scale-dependent temporal field unifying atomic clocks, planetary systems, galaxies, and cosmology  

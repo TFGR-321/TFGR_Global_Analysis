@@ -1,0 +1,1424 @@
+PDS_VERSION_ID        = PDS3                                                  
+LABEL_REVISION_NOTE   = "2005-11-21, D. Heather, Version 1.0                  
+                         2006-03-10, D. Heather, Version 1.1, change to the   
+                           definition of the mission phase times"             
+RECORD_TYPE           = STREAM                                                
+                                                                              
+OBJECT                = MISSION                                               
+  MISSION_NAME        = "SMALL MISSIONS FOR ADVANCED RESEARCH AND TECHNOLOGY" 
+                                                                              
+  OBJECT              = MISSION_INFORMATION                                   
+   MISSION_START_DATE = 2003-09-27                                            
+   MISSION_STOP_DATE  = 2006-09-03                                            
+   MISSION_ALIAS_NAME = "SMART1"                                              
+   MISSION_DESC       = "                                                     
+                                                                              
+Mission Overview                                                              
+================                                                              
+                                                                              
+SMART-1 is the first of the Small Missions for Advanced Research and          
+Technology (SMART), which are elements of ESA's Horizons 2000 plan for        
+scientific projects.  A brief description of the mission and its objectives   
+can be found in the SMART-1 Archive Plan [S1_ARCH_PLAN_2003], and in papers   
+by [MARINI_ET_AL_2002] and [RACCA_ET_AL_2002].  A detailed description of the 
+mission analysis can be found in the Consolidated Report on Mission Analysis  
+[CREMA_2001].  The SMART missions aim at testing key technologies for         
+future cornerstone missions.  The primary technological objective of          
+SMART-1 is the flight demonstration of Solar-Electric-Primary-Propulsion      
+(SEPP) for a scientific lunar orbiting spacecraft delivered from launch into  
+a geostationary transfer orbit (GTO).  The spacecraft was designed to         
+operate with minimum ground intervention (e.g. one pass every 4 days).        
+However, the use of ground stations throughout the mission was on             
+availability basis with, on average, a pass once a day.                       
+                                                                              
+SMART-1 was launched from Kourou at 23:14 UTC on 27th Sept 2003 as a co-      
+passenger on an Ariane-5 launcher.  The launch mass of the spacecraft was     
+367kg, including 82.5kg of Xenon propellant for the SEPP and 19kg instrument  
+payload.  After release into the geostationary transfer orbit (GTO) the       
+spacecraft acquired initial attitude, autonomously deployed the solar arrays  
+and entered a checkout phase.  The GTO had the following parameters.          
+                                                                              
+A=24702.3km                                                                   
+E=0.71578                                                                     
+Inc=6.999deg                                                                  
+RAAN=250.965deg                                                               
+APER=178.246deg                                                               
+Perigee=7020.8km                                                              
+Apogee=42383.7km                                                              
+                                                                              
+The first firing of the SEPP occurred at 12:20:21 UT on 30th September 2003.  
+The escape from the Earth was performed by gradually expanding the orbit from 
+the initial geostationary transfer orbit parameters.  Continuous thrusting    
+was required for a little over 80 days in order to pass the main radiation    
+belts as quickly as possible, pushing the perigee out to 20,000km.  After     
+this point, the orbit was optimized by a series of thrust and coast arcs, and 
+by exploiting weak gravity assists.  By these means, the orbit plane was      
+changed to capture the lunar orbit.                                           
+                                                                              
+Details of the thrusting power and schedule throughout the Earth Escape Phase 
+are provided in the S1_EP_THRUST_LOG file, which can be found in the          
+DATA/THRUST directory of the SMART-1 auxiliary data set [S1_ESOC_AUX_DATA]    
+(S1-L-ESOC-6-AUXILIARY-DATA-V1.0). As can be seen from this file, there were  
+19 flame-outs of the thruster during the Earth Escape Phase, all of which     
+were caused by relatively minor issues and triggered cautionary safe modes.   
+                                                                              
+The spacecraft was captured by the Moon on 17th November 2004 at 14:18:26,    
+marking the beginning of the nominal LUNAR PHASE.  After this, the electric   
+propulsion was again used to gradually spiral down to the final observation   
+orbit.  On 10th January 2005 it was decided to pause the thrusting so as to   
+evaluate the remaining fuel margin and the performance of the SEPP.  After    
+evaluating the situation, it was found that the thruster had performed beyond 
+its nominal specifications, and ample fuel remained for transfer to the       
+baseline orbit and continued operations into a possible mission extension.    
+Thrusting resumed on 10th February 2005 and continued until the baseline      
+science orbit was reached on 13th March 2005.  In total, SMART-1 took just    
+over 17 months to travel from the initial geostationary transfer orbit around 
+the Earth to the observation orbit around the Moon.  With this mission        
+profile, the flight dynamics and control of a full-scale planetary mission    
+with SEPP was tested by SMART-1 [SCHOENMAEKERS_1999].                         
+                                                                              
+The baseline lunar orbit was polar with the perilune close to the lunar South 
+Pole, at an altitude ranging between 500 and 550km.  The apocentre extended   
+up to 6400km.  The argument of the perilune drifted from approximately 250 to 
+280 degrees, allowing observations at high resolution in the southern lunar   
+hemisphere.  The orbital period was around 5 hours with a communication pass, 
+on average, every 5 orbits (i.e. once each day).  In general, SMART-1's       
+status as a technology demonstration mission does not afford the mission the  
+right to scheduled ground station passes.  It therefore has to rely on the    
+spare-capacity left over from other ESA missions resulting in a random        
+distribution of ground station availability.                                  
+                                                                              
+SMART-1 has been granted a 12 month extension to take official operations     
+through to 1st August 2006.  The orbit for the Extended Phase is similar to   
+that of the nominal Lunar Phase, with a more variable perilune, after further 
+SEPP thrusting pushed the initial altitude down to around 400km.  The         
+altitude will vary from 400 to 700km, with apocentre again out to around      
+6400km.  The south pole remains the focus with the argument of the pericentre 
+drifting from 250 to 290 degrees.  The orbital period remains around 5 hours, 
+with a pass, on average, once each day.                                       
+                                                                              
+The spacecraft is three-axis stabilized and powered by two solar arrays       
+attached to the +/- Y panels, stretching 14m from tip to tip.  Each array     
+comprises 3 panels, with a total active surface area of around 10 square      
+metres.  The spacecraft is roughly cubical with the thruster mounted on a 2-  
+axis orientation mechanism, acting in the -Z direction.  Also on the -Z panel 
+is the Plasma Probe assembly (PPU) that forms part of the Electric Propulsion 
+Diagnostic Package (EPDP).  The +/- X panels hold the low gain S-band         
+antennas and all of the remaining science / technology experiments.  The +X   
+panel contains the X-Ray Solar Monitor (XSM), the X/Ka band antenna and       
+transponder (KaTE), one of two Spacecraft Potential, Electron and Dust        
+Experiment (SPEDE) booms, and a medium gain antenna.  The - X panel contains  
+the second boom of SPEDE, an infra-red spectrometer (SIR), a compact X-Ray    
+spectrometer (D-CIXS), a micro-imaging camera (AMIE), and a solar cell (SC)   
+and Quartz Crystal Micro- balance (QCM) that complete the Electric Propulsion 
+Diagnostic Package (EPDP).                                                    
+                                                                              
+                                                                              
+Instruments and Experiments                                                   
+===========================                                                   
+                                                                              
+The SMART-1 spacecraft contains technology demonstration elements both in the 
+spacecraft bus and in the payload.  In addition to the technological          
+demonstrations, the payload is scientifically relevant, tailored for a        
+variety of studies of the lunar surface and for observations of selected      
+targets during the spacecraft's long journey to the Moon.  SMART-1 carries    
+seven instruments with a total mass of around 19kg.  In addition to the stand 
+alone instrument observations, they will support three further experiments in 
+science and technology.  The two aspects of scientific use and of technology  
+demonstration are deeply interlaced.  The instruments and experiments can be  
+clearly divided into categories depending upon their use for monitoring of    
+plasmas and the SEPP, remote imaging and spectrometry, advanced telemetry and 
+telecommunications, and supporting science/technology investigations, as      
+described below.                                                              
+                                                                              
+Plasma investigations                                                         
+---------------------                                                         
+                                                                              
+With the demonstration and characterization of the SEPP as a key objective of 
+the SMART-1 mission, two plasma diagnostic instruments were selected in the   
+payload: SPEDE (Spacecraft Potential, Electron and Dust Experiment) and EPDP  
+(Electric Propulsion Diagnostics Package).                                    
+                                                                              
+SPEDE                                                                         
+=====                                                                         
+SPEDE is used both to monitor the SEPP and to study space weather and solar   
+wind interaction with the Earth and the Moon [LAAKSO_FOING_2001].  The        
+instrument comprises two 60cm probes on the side panels, and can detect       
+charged particles in the 0-40 eV range.  The sensors can either monitor the   
+potential difference between the sensor and the spacecraft, or can be used to 
+measure the electron flux.  Details of the SPEDE experiment can be found in   
+their flight user manual [FUM_SPEDE_2002].                                          
+                                                                              
+EPDP                                                                          
+====                                                                          
+The primary diagnostics for the SEPP are undertaken by EPDP, a suite of four  
+sensors that detect both ions and neutral Xenon atoms deposited onto the      
+spacecraft surface.  A Plasma Probe Assembly (PPA), consisting of a Langmuir  
+Probe (LP) and a Retarding Potential Analyser (RPA) is mounted on the -Z      
+panel, close to the SEPP thruster, and is used to detect non-neutralised ions 
+in the 0-400eV range.  A Quartz Crystal Micro-balance (QCM) and a Solar Cell  
+(SC) are located close to the science / imaging instruments and are used to   
+monitor contamination and deposition effects on the spacecraft.  EPDP         
+operated at all start-up and switch-off transients of the electric            
+propulsion, and during thrusting to regularly monitor the performance of the  
+engine and the electrical state of the spacecraft.  Details of the EPDP       
+experiment can be found in their flight user manual [FUM_EPDP_2002].          
+                                                                              
+Imaging and Spectrometry                                                      
+------------------------                                                      
+                                                                              
+SMART-1 carries four imaging and spectrometry instruments: the Advanced Moon  
+Micro-Imaging Experiment (AMIE), the Demonstration of a Compact Imaging X-Ray 
+Spectrometer (D-CIXS) and its supporting X-ray Solar Monitor (XSM), and the   
+SMART-1 Infra-Red Spectrometer (SIR).                                         
+                                                                              
+AMIE                                                                          
+====                                                                          
+AMIE is a miniature 1024 x 1024 pixel CCD camera, equipped with a fixed       
+filter that allows broad-band imaging in 4 different spectral bands           
+(panchromatic, 750, 900 and 950nm).  The camera has a 16.5mm aperture and     
+154mm focal length Tele-objective, providing a square field-of-view of 5.3    
+degrees and a resolution of about 40 m on the surface at the lowest perilune  
+height (400km). In addition to the broad-band imaging filters, AMIE is        
+equipped with a fixed narrow band filter at 847nm.  This filter is used       
+explicitly for the Laserlink experiment, one of three investigations that     
+AMIE will be supporting as part of SMART-1's remit to focus on future         
+spacecraft and mission technologies. The other two investigations are On-     
+Board Autonomous Navigation (OBAN) and Radio Science Investigation with       
+SMART-1 (RSIS).  Details of the AMIE experiment can be found in their flight  
+user manual [FUM_AMIE_2003].                                                  
+                                                                              
+D-CIXS                                                                        
+======                                                                        
+D-CIXS is an X-ray imaging spectrometer comprising 24 novel Swept Charge      
+Device (SCD) detectors and a micro-structure collimator/filter assembly. The  
+detectors are arranged in three (2 x 4) arrays of 8 detectors each, providing 
+an overall 32 by 12 degree Field-Of-View in the 0.5-10keV range with a        
+resolution of 140eV.  SCDs are based upon CCD technology, but have a          
+significantly lower reading noise and can also operate at higher temperatures 
+than standard CCDs (The D-CIXS SCDs will operate with good signal-to-noise at 
+- 10 degrees Celsius).  This is achieved by an electrode and clocking         
+arrangement that 'sweeps' the charge to one collector in a corner of the      
+chip.  Details of the D-CIXS experiment can be found in their flight user     
+manual [FUM_DCIXS_XSM_2003].                                                  
+                                                                              
+XSM                                                                           
+===                                                                           
+An X-ray Solar Monitor (XSM) supports the D-CIXS observations, providing      
+calibration solar spectra for the lunar data collected by D-CIXS from which   
+absolute elemental abundances can then be derived.  XSM has a wide 104 degree 
+field-of-view and operates in the 0.8-20keV spectral range.  Stand-alone      
+observations of long-term solar X-ray emission will also be made.  The        
+detector comprises Silicon diodes cooled by Peltier elements.  Details of     
+the XSM experiment can be found in their flight user manual                   
+[FUM_DCIXS_XSM_2003].                                                         
+                                                                              
+SIR                                                                           
+===                                                                           
+SIR (SMART-1 Infrared Spectrometer) is a miniaturised point-spectrometer with 
+a novel InGaAs array detector, designed to provide good signal to noise at    
+temperatures of around -70 degrees Celsius.  The spectrometer operates in the 
+0.9-2.4 micrometer wavelength range and has 256 spectral channels with a      
+resolution per channel of 6nm/pixel.  This is coupled to a lightweight off-   
+axis telescope, which has an aperture of 70mm and a field of view of 1.1mrad. 
+A dedicated radiator provides passive cooling of the optics and the           
+spectrometer during observations.  Details of the SIR experiment can be       
+found in their flight user manual [FUM_SIR_2002].                             
+                                                                              
+Advanced Telemetry and Telecommunications                                     
+-----------------------------------------                                     
+                                                                              
+KaTE                                                                          
+=====                                                                         
+KaTE (Ka-band TT+C Experiment) is an experimental X/Ka-band deep-space        
+transponder.  The instrument is used to test the standard TT+C functions      
+(telecommand, telemetry, and Doppler tracking), and to demonstrate Turbo-     
+encoding in space for the first time [ELFVING_ET_AL_2000].  The estimated     
+gain on the link budget using this encoding is in the order of 2-3dB.  Using  
+a medium gain antenna and the turbo-encoding, KaTE is capable of transmitting 
+500Kbps from lunar orbit.  KaTE data are purely technological and are not     
+delivered as part of this archive.  Any data from the KaTE instrument that is 
+required for the other SMART-1 experiments are delivered as part of that      
+experiment's data set (e.g. RSIS).  Details of the KaTE experiment can be     
+found in their flight user manuals [FUM_KATE_P1_2003] and [FUM_KATE_P2_2002]. 
+                                                                              
+Supporting Science / Technology Investigations                                
+----------------------------------------------                                
+                                                                              
+The instruments on SMART-1 are also used to support three experiments to      
+demonstrate new spacecraft technologies and novel techniques for future       
+missions.  These experiments will test new telecommunication and navigation   
+techniques, investigate the remote monitoring of electric propulsion, and     
+conduct geodetic observations from planetary orbit.                           
+                                                                              
+Laser-Link                                                                    
+==========                                                                    
+The Laser-Link experiment is designed to demonstrate spacecraft acquisition   
+of a deep-space laser-link from the ESA Optical Ground Station (OGS) at       
+Tenerife. To accommodate this experiment, the AMIE camera fixed filter was    
+fitted with an additional narrow-band laser filter at 847nm. With AMIE        
+pointing to the Earth, hundreds of images were taken through the laser filter 
+of the Ti-sapphire laser beam sent by the 1 m telescope at the OGS.  An       
+experimental sub-aperturing system was also used at the OGS to try to         
+mitigate the turbulence acting on the laser as it passed through the          
+atmosphere.  The characteristics of the OGS listed below                      
+[SODNIK_2003].                                                                
+                                                                              
+Transmitter:                                                                  
+Sub-aperture diameter: 4x(40 to 300)mm                                        
+Max. laser power out of telescope aperture: 58 + 72 + 50 + 47mW (average) (it 
+can be twice this value if there is no Electro-Optical Modulator (EOM) in the 
+FPOB).                                                                        
+Wavelength: 847nm                                                             
+Modulation format: On-Off Keying (OOK)                                        
+Modulation frequency: 0 to 100MHz                                             
+Polarisation: Left Hand Circular (LHC)                                        
+                                                                              
+Receiver (for OGS pointing purposes only):                                    
+Aperture area: 0.72m^2                                                        
+Receive path transmission: 0.2                                                
+Wavelength range: 530-750nm                                                   
+                                                                              
+Coude CCD camera field-of-view: 8 arcmin diameter                             
+Number of CCD camera pixels: 1242x1152                                        
+Dark current: To be measured (Peltier cooled CCD)                             
+Effective focal length: 11.1meters                                            
+CCD camera pixel field-of-view: 0.42x0.42arcsec                               
+                                                                              
+During the experiment, the spacecraft was instructed to slew around its x or  
+y axis (depending on the position of the Earth terminator), while the AMIE    
+camera took hundreds of images through the laser-link filter.  In these       
+exposures, the focused laser-beam traced a line on the AMIE CCD that contains 
+temporal information on the scintillations resulting from atmospheric         
+transit. Close to the Earth, at distances of around 20,000km, slews could be  
+faster as the intensity of the light was greater.  Slower slews were required 
+as the Earth-to- SMART-1 distance increased in order to increase the signal-  
+to-noise ratio. Images of the far field were taken at various distances until 
+the Moon orbit was reached, and the experiment was successful in              
+demonstration open loop pointing and beam addressing                          
+[SODNIK_2003].                                                                
+                                                                              
+A summary of the Laser-link operations at various distances from the Earth is 
+provided below.                                                               
+                                                                              
+-------------------------------------------------------------------           
+|   Date   | Start time | End time | Dist (km) | Slew  |   Slew   |           
+|          |            |          |           | deg/s | pixels/s |           
+|----------|------------|----------|-----------|-------|----------|           
+| 14/02/04 |   xxxxxxx  | xxxxxxxx |   14300   | 0.168 |  31.52   |           
+| 15/02/04 |   xxxxxxx  | xxxxxxxx |   14300   | 0.168 |  31.52   |           
+| 22/04/04 |  17:49:31  | 15:36:50 |   16100   | 0.168 |  31.52   |           
+| 26/05/04 |  21:21:49  | 02:50:14 |   18500   | 0.168 |  31.52   |           
+| 03/06/04 |  22:00:00  | 01:18:00 |   19200   | 0.168 |  31.52   |           
+| 03/06/04 |  22:05:00  | 23:34:07 |   19200   | 0.168 |  31.52   |           
+| 02/07/04 |  21:00:00  | 01:00:00 |   21500   | 0.084 |  15.76   |           
+| 02/07/04 |  21:15:00  | 22:44:07 |   21500   | 0.084 |  15.76   |           
+| 19/07/04 |  20:45:00  | 22:14:07 |   23000   | 0.084 |  15.76   |           
+| 23/07/04 |  21:00:00  | 22:04:24 |   23000   | 0.084 |  15.76   |           
+| 18/09/04 |  20:40:00  | 00:20:26 |   53000   | 0.042 |   7.88   |           
+| 20/09/04 |  02:00:00  | 05:21:45 |   53000   | 0.042 |   7.88   |           
+| 28/09/04 |  21:40:00  | 00:51:41 |   59000   | 0.042 |   7.88   |           
+| 28/09/04 |  01:10:00  | 04:20:50 |   59000   | 0.042 |   7.88   |           
+| 06/10/04 |  22:09:40  | 04:00:43 |   73000   | 0.042 |   7.88   |           
+-------------------------------------------------------------------           
+                                                                              
+Slew rates and pointing errors for SMART-1 are provided in the INSTHOST.CAT   
+file, and details of the AMIE camera can be found in their data set.  Laser-  
+link data are archived as part of the AMIE data set.  The relevant AMIE       
+images are given an IMAGE_OBSERVATION_TYPE value of LASERLINK.                
+                                                                              
+OBAN (On-Board Autonomous Navigation experiment)                              
+================================================                              
+OBAN is an experiment designed to test an autonomous navigation code, based   
+on processing of images collected by the AMIE camera and the SMART-1 star-    
+tracker.  The experiment used these images to run through a code off-line and 
+on ground, simulating the technique that could be used in a closed loop on-   
+board navigation software system for future missions.  The images used were a 
+series of long exposures from AMIE of the Earth, the Moon and some stars.     
+The list of exposures are provided below.                                     
+                                                                              
+-------------------------------------------------------------------           
+|   Date   |          Image type         | Start time | Stop Time  |          
+|----------|-----------------------------|------------|------------|          
+| 09/06/04 | AMIE OBAN Earth trialimages |  04:42:23  |  06:52:23  |          
+| 13/06/04 | AMIE OBAN Moon trial images |  09:36:33  |  15:36:33  |          
+| 24/06/04 | AMIE OBAN Stars images      |  03:30:00  |  05:05:00  |          
+| 12/07/04 | AMIE OBAN Moon images       |  08:35:17  |  09:05:17  |          
+| 12/07/04 | AMIE OBAN Stars images      |  09:19:28  |  11:40:17  |          
+| 23/07/04 | AMIE OBAN Moon images       |  00:59:22  |  01:59:22  |          
+| 14/08/04 | AMIE OBAN Moon images       |  08:50:50  |  09:50:50  |          
+| 14/08/04 | AMIE OBAN Star images       |  10:50:50  |  12:50:50  |          
+| 19/08/04 | AMIE OBAN Moon images       |  02:30:00  |  02:45:00  |          
+| 19/08/04 | AMIE OBAN Star images       |  04:45:00  |  06:20:00  |          
+| 26/09/04 | AMIE OBAN Earth images      |  10:37:30  |  11:02:30  |          
+| 26/09/04 | AMIE OBAN Stars images      |  12:17:30  |  14:17:30  |          
+| 26/09/04 | AMIE OBAN Moon images       |  15:32:30  |  16:02:30  |          
+| 28/09/04 | AMIE OBAN Earth images      |  05:50:00  |  06:15:00  |          
+| 28/09/04 | AMIE OBAN Stars images      |  07:30:00  |  09:30:00  |          
+| 28/09/04 | AMIE OBAN Moon images       |  10:45:00  |  11:15:00  |          
+| 07/10/04 | AMIE OBAN Moon images       |  05:09:40  |  05:39:40  |          
+| 07/10/04 | AMIE OBAN Stars images      |  06:39:40  |  08:39:40  |          
+| 07/10/04 | AMIE OBAN Earth images      |  09:39:40  |  10:04:40  |          
+| 10/10/04 | AMIE OBAN Moon images       |  04:00:00  |  04:25:00  |          
+| 10/10/04 | AMIE OBAN Stars images      |  05:30:00  |  07:30:00  |          
+--------------------------------------------------------------------          
+                                                                              
+Using these images, the code was used to decorrelate the relative motion of   
+the target from the spacecraft motion and detect the relative velocity        
+vector, to be fed to the navigation and orbit control software.               
+                                                                              
+The instrument data relevant to OBAN are archived as part of the AMIE data    
+set. The AMIE images used for this experiment are given an                    
+IMAGE_OBSERVATION_TYPE value of OBAN.  Star-tracker images are not provided   
+in the archive.                                                               
+                                                                              
+RSIS (Radio Science for SMART-1)                                              
+================================                                              
+RSIS comprises a set of radio science and technology investigations aiming to 
+characterize the Ka-band communication channel and to verify the measurement  
+method of libration from planetary orbit.  Libration measurement will be      
+verified by simultaneously imaging the lunar surface using AMIE while         
+tracking the spacecraft orbit to a high accuracy.  As such, data from the     
+KaTE and the AMIE instruments are used for this experiment.   As the Moon's   
+libration properties are well known, RSIS provides an ideal test of the       
+measurement technique, which requires delicate calibration in successive      
+orbits.  The RSIS experiment will test and also help to improve the method by 
+taking repeated measurements.                                                 
+                                                                              
+RSIS data are archived in their own RSIS data set containing the relevant     
+AMIE and KaTE data.  Details of the experiment are provided within the RSIS   
+data set.                                                                     
+                                                                              
+                                                                              
+                                                                              
+Mission Phases                                                                
+==============                                                                
+SMART-1 has four main mission phases defined for significant periods of       
+spacecraft activity.  These are Launch and Early Orbit, Earth-Escape, Lunar   
+Phase, and Extended Mission.  At the end of the Lunar Phase, a period of 
+spiraling took place to move the spacecraft in the new Extended Mission 
+orbit.  Any data taken during the spiraling is incorporated into the Lunar 
+Phase.                                            
+                                                                              
+LAUNCH AND EARLY ORBIT                                                        
+----------------------                                                        
+The Launch and Early Orbit Phase extended from the launch of the spacecraft   
+from Kourou at 23:14 UTC on 27th Sept 2003, through until the first firing of 
+the SEPP to begin the Earth Escape at 12:20:21 UT on 30th September 2003.     
+During this phase, instruments and spacecraft underwent an initial checkout   
+after insertion into the geostationary transfer orbit.  No other instrument   
+activities were undertaken.                                                   
+                                                                              
+Mission Phase Start Time: 2003-09-27                                          
+Mission Phase Stop Time: 2003-09-30                                           
+                                                                              
+EARTH ESCAPE                                                                  
+------------                                                                  
+The Earth Escape Phase started with the first firing of the SEPP to begin     
+pushing the spacecraft away from the Earth. This occurred at 12:20:21 UT on   
+30th September 2003.  The following 14 months saw the spacecraft gradually    
+work its way toward lunar orbit via a series of thrust and coast arcs and     
+some subtle gravitational assists.                                            
+                                                                              
+Throughout Earth Escape, some commissioning and limited science operations    
+were undertaken by all payload instruments, between the thrusting arcs when   
+the propulsion system was not in use.  As part of the technology              
+demonstration, monitoring of the plasma and spacecraft environment was        
+undertaken also during the thrusting arcs by the Electric Propulsion          
+Diagnostic Package (EPDP) and the Spacecraft Potential Electron and Dust      
+Environment (SPEDE).                                                          
+                                                                              
+Mission Phase Start Time: 2003-09-30                                          
+Mission Phase Stop Time: 2004-11-17                                           
+                                                                              
+LUNAR                                                                         
+-----                                                                         
+SMART-1 was captured by the Moon on 2004-11-17T14:18:26.  Apolune at this     
+point marked the official beginning of the first lunar orbit (orbits run from 
+apolune to apolune).  From this point, the spacecraft began to use its SEPP   
+to spiral down to the nominal observation orbit.  A pause occurred in this    
+thrusting between 10th January 2005 and 10th February 2005 in order to        
+evaluate thruster performance and fuel margin.  All instruments exploited the 
+pause in thrusting to undertake some lunar observations and begin             
+commissioning.  The orbit at this stage allowed for lunar observations at     
+'medium' altitudes, with a perilune of 980km, an apolune of approximately     
+5000km and an orbital period of about 8 hours.  This was particularly useful  
+for the AMIE camera, which could deliver contiguous medium resolution         
+coverage from adjacent orbits at these altitudes, and would not be able to    
+obtain global imagery from the nominal orbit.  Observations throughout this   
+pause in thrusting were default nadir pointing of the illuminated Moon,       
+focusing on the near side from 12th to 25th January 2005 and more on the      
+lunar farside from 26th January until 9th February 2005.  This allowed for a  
+complete medium resolution survey of the Moon with near-global coverage from  
+AMIE in black and white, and localized color imaging. After this pause, the   
+thrusting was restarted until nominal lunar observation orbit was reached on  
+13th March 2005.                                                              
+                                                                              
+SMART-1 arrived in its nominal observation orbit about the Moon on March 13th 
+2005, with orbit number 48.  At this stage, the orbit had a period of         
+approximately 5 hours.  Around once every month during the Lunar Phase, the   
+spacecraft approximately retraced its ground track; these intervals are known 
+as 'repeat cycles.'  Due to the pause in thrusting and the severe limitations 
+in the operational budget of the spacecraft, the nominal Lunar Phase could    
+only extend through until 1st August 2005 giving just over 4 months of        
+observations from the baseline science orbit.                                 
+                                                                              
+Baseline lunar orbit parameters                                               
+------------------------------------                                          
+13th March 2005 to 1st August 2005                                            
+------------------------------------                                          
+Perilune: 500 to 550km                                                        
+Apolune: 6200 to 6400km                                                       
+Argument of Perilune: 280 to 250deg                                           
+------------------------------------                                          
+                                                                              
+The observations during this phase were primarily nadir for all instruments   
+and very little targeted, off-pointing observations were made.                
+                                                                              
+Towards the end of the Lunar Phase, a further series of SEPP thrusts pushed   
+the spacecraft to the Extended Mission orbit from which more off-pointing     
+science was conducted.                                                        
+                                                                              
+Mission Phase Start Time: 2004-11-17                                          
+Mission Phase Stop Time: 2005-08-01                                           
+                                                                              
+EXTENDED MISSION                                                              
+-----------------                                                             
+SMART-1 was granted a 12 month extended mission, starting from August 1st     
+2005 and ending around 3rd September 2006, when one option would be to fly    
+the spacecraft into the lunar surface, in co-ordination with a large-scale    
+observing campaign to try to observe and ejecta clouds and impact debris from 
+the collision.  A similar experiment was carried out at the end of the Lunar  
+Prospector mission.  The orbit for the Extended Mission still has a period    
+of approximately 5 hours and a repeat cycle of approximately once per month   
+                                                                              
+Extended Mission Orbit parameters                                             
+--------------------------------------                                        
+1st August 2005 to ~3rd September 2006                                        
+--------------------------------------                                        
+Perilune: 400 to 700km                                                        
+Apolune: 6200 to 6400km                                                       
+Argument of Perilune: 250 to 290deg                                           
+--------------------------------------                                        
+                                                                              
+Several mission sub-phases also exist.  These are dictated either by the      
+scientific objectives of the mission (for the Extended Mission Phase) or by   
+flight dynamics requirements (for the episodic thrusting required to 'spiral  
+down' to the final Lunar Phase and Extended Phase orbits) [FREW_ALMEIDA_      
+2005].  Details of these sub-phases and their orbital parameters are          
+discussed below.                                                              
+                                                                              
+Mission Phase Start Time: 2005-08-01                                          
+Mission Phase Stop Time: 2006-09-03 (TBC)                                     
+                                                                              
+Extended Mission Sub-phases                                                   
+===========================                                                   
+The selection of the Extended Mission sub-phases has been driven by the       
+illumination conditions, as these have a major impact on the science that can 
+be achieved by the payload.  The local solar elevation at the equator varies  
+greatly throughout the extended mission, and the sub-phases have accordingly  
+been devised with an emphasis on a selection of science themes.               
+                                                                              
+Summary of Sub-Phases for Extended Mission                                    
+==========================================                                    
+                                                                              
+**********************************                                            
+Name: Push-broom 1 (noon-midnight)                                            
+**********************************                                            
+START_DATE: 2005-10-17                                                        
+STOP_DATE: 2005-12-25                                                         
+Local Solar Elevation: greater than 60deg                                     
+Scientific Focus: Mineralogy                                                  
+Observation Types: Nadir color observations, High-rate D-CIXS, Southern       
+hemisphere targets                                                            
+                                                                              
+DESCRIPTION: The push-broom mode has baseline operation parameters defined    
+according to the thermal constraints of the spacecraft.  When flying in this  
+mode the spacecraft Y-panels are illuminated and the star-trackers are at     
+risk of over-heating.  It was therefore necessary to find periods when the    
+thermal constraints could be relaxed to allow for push-broom operations.  As  
+a consequence, push-broom mode can only operate under the following           
+conditions:                                                                   
+                                                                              
+1. The Sun is within 30deg from the orbit plane                               
+2. The spacecraft is in low thermal mode                                      
+3. Push-broom operations are limited to the dayside from 80 deg south to 45   
+   deg north                                                                  
+4. The spacecraft is nadir pointing for the rest of the orbit                 
+                                                                              
+In addition to these restrictions, the spacecraft must complete a wheel       
+off-loading every orbit.  Cooling of the star trackers is completed by        
+maintaining an inertial attitude as the spacecraft crosses the terminator.    
+This keeps the +Z panel protected from illumination that could otherwise      
+violate the thermal constraints of the payload.                               
+                                                                              
+When these additional issues are taken into account, the final operational    
+constraints for the push-broom mode are:                                      
+                                                                              
+1. Only 1 hemisphere of push broom will be completed per orbit                
+2. One dark-side of cool down will follow this with the spacecraft in an      
+   attitude that meets the platform safety requirements.                      
+                                                                              
+In the Push-broom 1 sub-phase, southern hemisphere operations will be the     
+focus, as the spacecraft will have time to slew to nadir while on the dark    
+side before crossing the terminator.  Northern hemisphere push-broom requires 
+the slew to accommodate the orbital plane crossing, and this will therefore   
+be completed more in the Push-broom 2 sub-phase after the easier southern     
+hemisphere operations are complete.                                           
+                                                                              
+The illumination conditions during push-broom mode are ideal for colour       
+imaging from nadir pointing using the AMIE camera.  The camera filters then   
+pass over the same target area, and the signal-to-noise is excellent.  These  
+conditions are also well suited for global mapping by D-CIXS and observing    
+some nadir targets for SIR.                                                   
+                                                                              
+******************************                                                
+Name: Medium Solar Elevation 1                                                
+******************************                                                
+START_DATE: 2005-12-26                                                        
+STOP_DATE: 2006-01-22                                                         
+Local Solar Elevation: greater than 30, less than 60deg                       
+Scientific Focus: Morphology, Photometry                                      
+Observation Types: Off-Nadir observations, Target Tracking, Stereo, Multi-    
+phase angle studies                                                           
+                                                                              
+DESCRIPTION: Illumination constraints of the Y panel mean that push-broom     
+cannot operate during medium solar elevation phases.  Instead, SMART-1 will   
+operate in nadir pointing modes during this sub-phase with limited off-nadir  
+pointing, typically of less than 5 deg.  During this phase, the spacecraft    
+will slowly roll around the +Z axis throughout the illuminated phase.  As     
+with the push-broom modes, inertial cool down will be completed each orbit.   
+                                                                              
+Colour imaging will no longer be practical in the medium solar elevation sub- 
+phase as a result of the slow roll around the +z axis.  The area that would   
+be covered by all filters in the AMIE camera is extremely limited, and the    
+focus instead is shifted to morphology and photometric observations of        
+selected targets.  Observations in this sub-phase will form part of a multi-  
+phase angle campaign that runs throughout the mission.  With the limited off- 
+nadir pointing, it will also be possible to perform target tracking for SIR   
+crater scans and AMIE stereo imaging.                                         
+                                                                              
+*********************************                                             
+Name: Northern Winter (dawn-dusk)                                             
+*********************************                                             
+START_DATE: 2006-01-23                                                        
+STOP_DATE: 2006-03-19                                                         
+Local Solar Elevation: less than 30deg                                        
+Scientific Focus: Morphology                                                  
+Observation Types: Polar, Multi phase angle studies                           
+                                                                              
+DESCRIPTION: SMART-1 will pass through a 'dawn-dusk' terminator orbit during  
+the Northern Winter sub-phase, during which the local solar elevation of the  
+sub- spacecraft point will remain below 30deg.  The poor sub-spacecraft       
+illumination restricts nadir observations to morphology and ongoing phase-    
+angle studies. This mission phase will contain the bulk of across-track, off- 
+nadir observations.                                                           
+                                                                              
+******************************                                                
+Name: Medium Solar Elevation 2                                                
+******************************                                                
+START_DATE: 2006-03-20                                                        
+STOP_DATE: 2006-04-16                                                         
+Local Solar Elevation: greater than 30, less than 60deg                       
+Scientific Focus: Morphology, Photometry                                      
+Observation Types: Off-Nadir observations, Target Tracking, Stereo, Multi-    
+phase angle studies                                                           
+                                                                              
+DESCRIPTION: As for Medium Solar Elevation 1 mode.  This will also act as     
+contingency for observations that were not successful in the first medium     
+solar elevation phase.                                                        
+                                                                              
+**********************************                                            
+Name: Push-broom 2 (noon-midnight)                                            
+**********************************                                            
+START_DATE: 2006-04-17                                                        
+STOP_DATE: 2006-06-11                                                         
+Local Solar Elevation: greater than 60deg                                     
+Scientific Focus: Mineralogy                                                  
+Observation Types: Nadir color observations, High-rate D-CIXS, Northern       
+hemisphere targets                                                            
+                                                                              
+DESCRIPTION: As for Push-broom 1 mode.  The focus in this period will shift   
+to northern hemisphere targets.  This will also act as contingency for        
+observations that were not successful in the first push-broom phase.          
+                                                                              
+***********************************                                           
+Name: Low Altitude (end of mission)                                           
+***********************************                                           
+START_DATE: 2006-06-12                                                        
+STOP_DATE: 2006-09-03 (TBC)                                                   
+Local Solar Elevation: N/A                                                    
+Scientific Focus: Morphology                                                  
+Observation Types: High resolution                                            
+                                                                              
+DESCRIPTION: This sub-phase represents the end of the mission as SMART-1      
+enters a low altitude orbit.  This sub-phase may end with SMART-1 flying into 
+the lunar surface in co-ordination with a large scale observing campaign to   
+try to observe and ejecta clouds and impact debris from the collision.  The   
+exact timing of the end of this phase, and the end of the mission, depends on 
+flight dynamics restrictions that will not be known until nearer the date.    
+The science focus for this phase will also not be known until a better        
+understanding of the orbit and the timing are gained, although it is of       
+course likely that there will be attempted high resolution observations.      
+                                                                              
+"                                                                             
+                                                                              
+                                                                              
+  MISSION_OBJECTIVES_SUMMARY = "                                              
+                                                                              
+Mission Objectives Overview                                                   
+===========================                                                   
+The primary objective of SMART-1 is to test new technologies for use on       
+future missions.  As such, a series of technological objectives are present   
+in the spacecraft, the operational procedures, and in the payload.  The       
+mission will carry out testing of a ground to spacecraft laser link at a      
+range of distances from the Earth, and will also test some software code      
+designed to autonomously navigate future spacecraft with no ground            
+interaction.  In addition, a new X and Ka band transponder will be tested and 
+techniques to demonstrate in-flight measurements of planetary libration will  
+be carried out on the Moon where the various librations are already very well 
+understood.                                                                   
+                                                                              
+In addition to these technological demonstrations and experiments, the        
+payload has been tailored to complete some high level scientific observations 
+of targets during the Earth Escape phase, and some detailed observations of   
+the Moon during the Lunar and Extended Mission phases.                        
+                                                                              
+The Moon was chosen as a target for SMART-1 as it is currently undergoing a   
+period of renewed interest, with many recent orbital missions investigating   
+the surface in unprecedented detail and raising new questions that require    
+further study.  It was recognized that SMART-1 could contribute some new and  
+exciting data relevant to some of these issues.  In particular, it will       
+perform the first global X-ray spectroscopic study of the Moon using the      
+D-CIXS instrument, which could provide new insights into the evolution of the 
+lunar crust and the development of the Mg-suite of rocks.  SIR will provide   
+high spectral and spatial resolution spectroscopy of selected targets and     
+ground tracks, and will help to evaluate the distribution of olivine in lunar 
+rocks, which is not yet well understood from other remote sensing studies.    
+AMIE will provide photometric, morphological and geological contexts for the  
+other instruments, as well as limited multi-spectral data for mineralogical   
+studies.                                                                      
+                                                                              
+The South polar region of the Moon has been proposed as the focus of European 
+lunar science activities on the following grounds:                            
+                                                                              
+1. The possibility of ice deposits has now been confirmed by the results of   
+the Lunar Prospector neutron spectrometer. These deposits and their locale    
+are of significant interest to future lunar missions and require focused      
+studies. SMART_1 will provide high resolution imaging and deep exposures of   
+these regions in an attempt to shed more light on our understanding of        
+potential water ice traps in areas of permanent shadow.                       
+                                                                              
+2. The South pole is on the rim of the South-Pole-Aitken basin (SPA).  At     
+more than 1500km in diameter, this is the largest such feature on the Moon,   
+and has penetrated deep into the farside crust, potentially excavating mantle 
+material.  There is a strong interest in investigating the mineralogical      
+composition of these ejecta at close range, as they provide a vertical        
+profile of the farside crust down to several tens of km.  All SMART-1         
+instruments will examine the SPA in detail providing morphological,           
+geological and geochemical data.                                              
+                                                                              
+The SMART-1 payload had the following broad science and technology            
+objectives:                                                                   
+                                                                              
+                                                                              
+AMIE                                                                          
+====                                                                          
+Science objectives:                                                           
+- Imaging / mineralogical investigation of South-Pole-Aitken Basin            
+- Deep imaging of regions in permanent shadow (ice deposits)                  
+- Study of regions in eternal light (crater rims)                             
+- Mapping of high latitudes regions (south) mainly at lunar far side          
+- Local Spectro-photometry and physical state of the lunar surface            
+- Ancient Lunar Non-mare volcanism and early thermal history                  
+                                                                              
+Technical objectives / associated experiments:                                
+- Laserlink Experiment                                                        
+- Flight demonstration of high technology                                     
+- Navigation aid.  On-board autonomy investigation                            
+                                                                              
+Summary of AMIE Science Objectives:                                           
++++++++++++++++++++++++++++++++++++                                           
+The AMIE camera uses a fixed filter with 3 spectral filters (750, 915,        
+960nm).  This spectral range provides a powerful tool for discriminating      
+between mafic minerals which dominate in the lunar mare (revealed by the      
+Fe2+ absorption feature at 0.95 um) and the anorthosite rich lunar highland   
+material.  It also makes possible a study of surface alteration processes     
+under the influence of the solar wind and micrometeorites (the maturation     
+process).                                                                     
+                                                                              
+The lunar South-Pole                                                          
+++++++++++++++++++++                                                          
+AMIE directly contributes to the characterisation of surface mineralogy and   
+geology, via multi-spectral imaging.  Mineralogical and geological imagery    
+will have a strong focus in and around the South-Pole-Aitken basin.           
+                                                                              
+The large digital dynamics of AMIE and the low read noise of the CCD (lower   
+than 100 electrons; much less than 1 DN) make the camera highly suited to     
+obtaining direct imaging information on permanently shadowed areas and their  
+immediate surroundings.  Models show that icy deposits can only survive in    
+small craters in permanently shadowed areas which protect the deposit from    
+sunlight diffused by the rims.  A solid angle contribution of as little as    
+0.005 steradians from such sunlit regions should make it possible to observe  
+features within regions of permanent shadow.                                  
+                                                                              
+Photometric Observations                                                      
+++++++++++++++++++++++++                                                      
+At the equator, AMIE images will be very helpful to better understand the     
+photometric characteristics of the lunar surface at different wavelengths.    
+The strategy with AMIE will be to only adjust the acquisition time for these  
+studies, as this has the least impact on the photometric response.            
+                                                                              
+Current investigations of early lunar volcanism and impact melt contributions 
+to crustal layering are hampered by the fact that the optical heterogeneities 
+related to the local physical properties of the surface at the subpixel scale 
+have been overlooked until now.  AMIE will help to address this through a     
+combination of its high resolution stereo imaging with local digital          
+elevation models (DEM) and spectral datasets, under various geometry          
+conditions.                                                                   
+                                                                              
+Lunar non-mare Volcanism                                                      
+++++++++++++++++++++++++                                                      
+Non-mare volcanism has equally major implications for the thermal history and 
+crustal evolution of the Moon.  AMIE will aim to detect and characterise the  
+small 'red spots' that indicate non-mare volcanism, using high spatial        
+resolution combined with spectro-photometry.                                  
+                                                                              
+Summary of AMIE Technical / Experiment Objectives                             
++++++++++++++++++++++++++++++++++++++++++++++++++                             
+Laserlink                                                                     
++++++++++                                                                     
+The main objective of the laserlink part of AMIE is to study the influence of 
+the turbulent atmosphere of the Earth on ground to space laser communication  
+links and to validate the models developed to predict this influence for      
+varying air mass and link distances.  The main technological objective is the 
+investigation of the effectiveness of an incoherent four sub-aperture system  
+(installed in the OGS) for improvement of ground to space communication data  
+rate, without the use of adaptive optics.  The four sub-aperture system is    
+intended to reduce the effect of short-term beam wander (speckle) in a ground 
+to space communication system which is caused by the turbulent atmosphere of  
+the Earth.  Four beams emitted from the OGS pass different turbulent areas of 
+the atmosphere (until they finally overlap) and thus generate individual      
+speckle pattern in the far field.  Because of them being incoherent the       
+individual speckle fields superimpose and do not interfere, producing a more  
+homogenous far-field illumination.  Further technological objectives are: to  
+study the effects of the turbulence of the Earth's atmosphere on the far-     
+field of a laser beam as transmitted from the OGS in Tenerife to space, to    
+demonstrate laser beam transmissions to a spacecraft at deep-space distances  
+(beyond geostationary orbit) and to verify laser-beam pointing strategies     
+based solely on spacecraft ephemeris predictions.  Initial results from the   
+experiment are available in [CESSA_SODNIK_2004].                              
+                                                                              
+On-board Autonomous Navigation (OBAN)                                         
++++++++++++++++++++++++++++++++++++++                                         
+Investigation objectives:                                                     
+- To verify the operation of an autonomous navigation code for deep-space     
+  target identification, tracking and flight operation management.            
+- To test it in a as-likely-as-possible environment, but not as a an on-board 
+  tool.                                                                       
+                                                                              
+                                                                              
+DCIXS / XSM                                                                   
+===========                                                                   
+Science objectives:                                                           
+- First global map of the Moon in X-rays, mapping of key rock-forming         
+  elements (Si, Mg, Al and Fe)                                                
+- Determination of the Mg number across the Moon                              
+- Geochemical / stratigraphic investigations of large craters, basins and     
+  mare deposits (especially the South-Pole-Aitken Basin).                     
+- Evaluation of key lunar resources                                           
+- Study of lunar plasma interaction with solar wind                           
+- Investigation of Earth's X-Ray aurora and magnetotail                       
+- Study of targets of opportunity (e.g. comets) during cruise                 
+- Long term evolution of solar flares (via XSM)                               
+                                                                              
+Technical objectives:                                                         
+- In-flight demonstration of SCD technology                                   
+- Flight demonstration of high technology micro collimator structures and     
+  their design potential                                                      
+                                                                              
+Summary of D-CIXS/XSM Science Objectives:                                     
++++++++++++++++++++++++++++++++++++++++++                                     
+The D-CIXS instrument will provide the first global map of the Moon in X-     
+rays, with better than 50km spatial resolution at perilune.  It will map the  
+absolute abundances of key elements across the Moon, such as Si, Mg, Al and   
+Fe, which will help to constrain theories of lunar origin and evolution.      
+Other elements will be detectable when favourable conditions preside (i.e.    
+under flare conditions).                                                      
+                                                                              
+Magnesium Number                                                              
+++++++++++++++++                                                              
+The determination of the magnesium number [Mg/(Mg + Fe)] across the Moon is   
+of fundamental importance as it provides critical information regarding the   
+evolution and separation of materials during the magma ocean period of lunar  
+history as various suites of rocks developed.  A global determination via     
+remote sensing has yet to be achieved.                                        
+                                                                              
+Geochemical Investigations of Impact Basins, Crater and Maria                 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                 
+D-CIXS will probe the geochemistry of the larger impact basins, focusing on   
+the South Pole-Aitken basin, which may contain exposed mantle material.  D-   
+CIXS will also examine the deeper layers of the crust by studying the central 
+peaks of the largest impact craters, and the central regions of the large     
+impact basins.                                                                
+                                                                              
+The time series of lava flows can reveal petrological evolution, and large    
+scale observations of elemental variation across different lava flows in the  
+maria will be made to contribute to our understanding of this evolution.      
+These results will also have direct relevance to lunar resource evaluation,   
+as a precursor to future exploitation of the Moon as a base for space         
+exploration.                                                                  
+                                                                              
+Lunar plasma interaction                                                      
+++++++++++++++++++++++++                                                      
+Recent Japanese X-ray observations of the Moon suggest that X-ray production  
+on the night side is due to the impact of energetic particles, while          
+measurements by GGS/Wind and Lunar Prospector show that the energetic         
+electrons of the solar wind are not shielded by the shadow, and that 1keV     
+energy electrons are on occasion accelerated towards the surface.  With its   
+large effective area, D-CIXS aims to provide the high-quality spectroscopy    
+necessary to identify the processes involved in this interaction.             
+                                                                              
+The Earth's X-ray aurora                                                      
+++++++++++++++++++++++++                                                      
+This objective is to be completed during Earth Escape Phase.  Recent results  
+from the X-ray emission of the aurora suggest that a significant portion of   
+the flux is due to the Argon line at 2.957 keV.  This contaminates efforts to 
+deconvolute the incident electron spectrum and hence understand the global    
+energetics.  Spectra taken by DCIXS will clearly resolve this line, and hence 
+remove the ambiguity.  At distances up to about 18 Earth radii, DCIXS will be 
+able to make measurements of the conjugacy of the northern and southern       
+hemisphere X-ray aurora.  These will be the first such measurements, and      
+should be of importance in understanding global auroral energy budgets.       
+                                                                              
+The Earth's Magnetotail                                                       
++++++++++++++++++++++++                                                       
+This study will be undertaken during the Earth Escape Phase.  DCIXS is        
+shielded against electrons of energy up to 6keV.  Electrons more energetic    
+than this are extremely rare in the solar wind.  They do however occur in the 
+Earth's magnetotail.  While the increased background may degrade the X-ray    
+performance of the instrument on the occasions when it enters the tail, there 
+is interesting science to be done in mapping the structure of the tail.  As   
+the orbit is slowly increased from geostationary to lunar radius, the         
+instrument will perform a detailed map of the width of the tail.              
+                                                                              
+Astronomical Cruise Science                                                   
++++++++++++++++++++++++++++                                                   
+This objective forms part of the Earth Escape Phase.  D-CIXS is well suited   
+for certain astronomical observations and the long Earth-Escape phase         
+provides the ideal platform from which to make such observations.  D-CIXS can 
+monitor up to 15 or 20 sources for periods of up to 5 months (with daily      
+observations) and can therefore alert the astronomical community to unusual   
+or rare outburst phenomena on superluminal jet sources in AGN or other        
+similar objects.  D-CIXS can also monitor the much brighter galactic sources  
+for spectral and time variability and again look for longer term variability  
+in these sources.                                                             
+                                                                              
+Targets of Opportunity                                                        
+++++++++++++++++++++++                                                        
+One of the objectives of D-CIXS is to exploit any targets of opportunity that 
+may arise during the unusually long Earth Escape Phase of the mission.  These 
+are detailed within the D-CIXS data set catalogs.                             
+                                                                              
+XSM Solar Monitoring                                                          
+++++++++++++++++++++                                                          
+As well as providing important calibration solar X-ray spectra during the     
+Lunar Phase and Extended Mission Phase, XSM will also undertake some          
+important science during the Earth Escape Phase.  XSM is very sensitive to    
+solar flare activity and during a flare the measured total spectrum will be   
+largely dominated by the flux from the event.  In these situations, the       
+contribution from the solar network can be neglected, especially in the       
+higher energies above about 3keV.  Thus XSM will be able to monitor the long  
+term evolution of flares, with the added dimension of good energy resolution. 
+Long term monitoring of the X-ray spectral variability of the Sun excluding   
+the flare events is also significant, especially in comparison with similar   
+studies for other active stars.                                               
+                                                                              
+Technology Objectives                                                         
++++++++++++++++++++++                                                         
+The capability of these X-ray detectors, based on Swept Charged Devices, to   
+withstand the space environment whilst maintaining good sensitivity will be   
+proven by this mission.  An in-flight calibration of the detectors will be    
+provided by the Earth-Escape phase observations of well-known astronomical X- 
+ray sources.  The measurements made of the low flux levels from the lunar     
+surface against the background of the solar wind electrons will demonstrate   
+the design possibilities of the micro-collimation techniques.                 
+                                                                              
+                                                                              
+EPDP                                                                          
+====                                                                          
+Science / Technology Objectives:                                              
+- Monitoring of the Hall thruster plume interaction effects on the SMART-1    
+  spacecraft.                                                                 
+- Measurement of ion energy and current density distribution via a Retarding  
+  Potential Analyser (RPA).                                                   
+- Measurement of the plasma potential, and the electron density and           
+  temperature using a Langmuir Probe (LP).                                    
+- Measurement of the mass deposition rate from the thruster using a Quartz    
+  Crystal Micro-balance (QCM)                                                 
+- Investigate the degradation of the solar output power with the mass         
+  deposition on a Solar Cell (SC)                                             
+- Investigate / model the effect of deposition on the thermo-optical and      
+  electrical parameters of different materials (SC and QCM)                   
+                                                                              
+Summary of EPDP Objectives:                                                   
++++++++++++++++++++++++++++                                                   
+The Electric Propulsion diagnostic Package (EPDP) will monitor the            
+performance of the SEPP and obtain information on the interaction of the Hall 
+thruster plume with the rest of the spacecraft subsystems.  These data will   
+be invaluable for future spacecraft intending to use primary electric         
+propulsion, particularly as testing of these systems on ground is difficult   
+and can produce variable results.                                             
+                                                                              
+Data from EPDP will also be use to develop and validate modeling tools        
+designed to fully characterize and investigate the use of this new technology 
+in deep space.                                                                
+                                                                              
+Retarding Potential Analyser (RPA)                                            
+++++++++++++++++++++++++++++++++++                                            
+The ion energy and the current density distribution will be measured by the   
+RPA, which is located parallel to the thruster with its axis oriented towards 
+the thruster.  The ions that will be measured with this sensor are the low    
+energy charge exchange ions (up to a few tens of eV) mainly responsible for   
+the so-called 'backflow contamination'.  Part of the slow charge-exchange     
+ions flow back to the spacecraft due to the potential distribution in front   
+of the thruster.  The impact of high energy beam ions on the ceramic          
+discharge surface create sputtered materials which go into the plume. A       
+fraction of this becomes charged and therefore can also flow back to the      
+surface.  The measured current distribution and energy of these ions will     
+allow the investigation on the erosion of surfaces, deposition of the eroded  
+material and electrical effects.                                              
+                                                                              
+Langmuir Probe (LP)                                                           
++++++++++++++++++++                                                           
+The LP measures the plasma potential, and the electron density and            
+temperature.  The charge-exchange ion trajectories will be determined by the  
+potential distribution around the spacecraft created by space charge effects. 
+Therefore it is extremely important to have a measurement of the electron     
+density in a monitored area when the thruster is firing and when its          
+operation is finished.  The LP will give information on the plasma potential  
+at one side of the spacecraft while the SPEDE langmuir probe will provide     
+information on the plasma potential at the other side of the spacecraft.  The 
+electron temperature expected at the location of the EPDP will be between 1   
+and 5 eV.                                                                     
+                                                                              
+SMART-1 LP measurements will provide invaluable in-flight data on the real    
+electron behavior without the constraints inherent to on-ground testing.      
+                                                                              
+Quartz Crystal Micro-balance (QCM) and Solar Cell (SC)                        
+++++++++++++++++++++++++++++++++++++++++++++++++++++++                        
+The QCM and SC will together provide information on the contamination /       
+interaction of the plasma thruster with the rest of the SMART-1 spacecraft.   
+The QCM will provide a measure of the mass deposition rate from the thruster  
+while the SC will look into the degradation of the solar output power with    
+the mass deposition on the sensor.  The thruster will cause erosion and       
+deposition of material on all the surfaces impacted by the plasma, plus the   
+re-deposition of these eroded materials on the surrounding surfaces.  These   
+affects will be monitored by a combination of QCM and SC data.  Once the      
+deposition rate of the materials is known, then it will be possible to        
+calculate the effect of deposition on the thermo-optical and electrical       
+parameters of different materials.                                            
+                                                                              
+                                                                              
+SPEDE                                                                         
+=====                                                                         
+Science / Technology Objectives:                                              
+- Monitor the disturbances (electron flux, wave electric fields, and          
+  spacecraft potential variations) induced by the propulsion system.          
+- Monitor the variability of the electron density and wave electric fields    
+  first during the Earth spiraling phase and then during the Moon phase       
+- Monitor space weathering of atmosphereless bodies in the Solar System (the  
+  Moon)                                                                       
+                                                                              
+Summary of SPEDE Objectives:                                                  
+++++++++++++++++++++++++++++                                                  
+SPEDE (Spacecraft Potential, Electron and Dust Experiment) comprises two      
+electric sensors to measure the electron flux and wave electric fields in the 
+vicinity of SMART-1.  The cylindrical sensors are mounted on the tips of two  
+60cm booms.  SPEDE will be used to monitor the disturbances in the electron   
+flux, wave fields and spacecraft potential that arise both from the use of    
+the SEPP, and that occur while in Earth and lunar orbit.                      
+                                                                              
+Monitoring of thruster effects                                                
+++++++++++++++++++++++++++++++                                                
+Charged clouds expanding from the propulsion system may interact with the     
+solar wind and the surface of the spacecraft to give rise to significant      
+variations in the spacecraft potential and electron flux, contamination of    
+the spacecraft surfaces, and generation of wave electric fields.              
+Consequently, operation of the SEPP thruster causes disturbances in the       
+spacecraft environment that could adversely affect instrument observations,   
+and may cause surface contamination in the vicinity of the science            
+instruments. Particularly large effects in the spacecraft potential can be    
+immediately observed if the exhaust ions are not properly neutralized by the  
+cathode electron emitter.                                                     
+                                                                              
+SPEDE is located opposite to the EPDP LP, and data from both of these         
+instruments combined will provide a complete view of the spacecraft           
+potential.                                                                    
+                                                                              
+Monitoring electron densities in the inner magnetosphere                      
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                     
+In the Earth spiraling phase, the SMART-1 spacecraft will stay in the inner   
+magnetosphere, during which the spacecraft will be accelerated by the ion     
+propulsion engine.  In the coast arcs between thrusting, SPEDE will measure   
+the distribution of thermal plasma in the Earth's plasmasphere and detect the 
+position of its outer boundary, the plasmapause, which is usually located at  
+a distance of 3-7 Earth radii at the equator.  As long as the perigee of the  
+orbit is less than 3-4Re (20,000km), the plasmapause is crossed twice per     
+orbit.  When the perigee is between 20,000 and 40,000km, the plasmapause is   
+not always encountered, particularly during magnetic storms.                  
+                                                                              
+Space weathering of the Moon                                                  
+++++++++++++++++++++++++++++                                                  
+The Moon has no magnetic field and atmosphere, and is therefore continuously  
+exposed to the interplanetary space environment.  The fast solar wind stream  
+hits the dayside lunar surface and produces a tenuous wake.  The coupling of  
+the solar wind with the surface produces disturbances at the edge of the wake 
+region, which will be monitored with the SPEDE observations.  When the Moon   
+is immersed in the Earth's magnetosphere, different kinds of interaction      
+processes will occur.  SPEDE observations are used for studying these various 
+solar wind-Moon interaction processes.                                        
+                                                                              
+                                                                              
+SIR                                                                           
+===                                                                           
+Science Objectives:                                                           
+- Obtain high spatial and spectral resolution data to study mineralogy of     
+  selected lunar targets (e.g. olivine distribution on crater central peaks)  
+                                                                              
+SIR data will contribute to investigations of:                                
+- Origin of the Moon and the Earth-Moon system                                
+- Character and evolution of the primitive lunar crust                        
+- Thermal evolution of the Moon and lunar volcanism                           
+- The impact record and redistribution of crustal materials                   
+                                                                              
+Technology Objectives:                                                        
+- To space qualify a miniaturized version of a commercially available low-    
+  mass NIR grating spectrometer.                                              
+                                                                              
+Summary of SIR Science Objectives:                                            
+++++++++++++++++++++++++++++++++++                                            
+SIR is a highly compact grating near infrared spectrometer covering the       
+wavelength range of 0.9 to 2.4 um.  he spectral resolution is delta lambda    
+Rayleigh = 22nm (delta lambda pixel = 6nm), and the angular resolution is     
+approximately 1.11 millirad.  Therefore, SIR is very well suited to study the 
+mineralogy of surfaces of solid planets such as the Moon.  Most lunar rocks   
+are identified by the absorption bands of their mineral constituents (e.g.    
+mafic minerals) which have diagnostic absorption features between 0.6 and     
+2.5um, mainly due to the electronic transitions in Fe+2.  SIR is able to take 
+both single spectra and bursts of spectra, for high- resolution mapping and   
+angular spectroscopy, carried out when the camera AMIE is pointed to a        
+feature on the lunar surface to enhance the SNR by longer exposure.           
+                                                                              
+Mineralogical studies using SIR                                               
+++++++++++++++++++++++++++++++++                                              
+The NASA Apollo missions to the Moon culminated in a sample return.           
+Laboratory studies of these samples provided a wealth of information about    
+composition of the lunar crust.  Since Apollo the advancement of ground based 
+telescopes and sensors in visible and NIR allowed to put these results into a 
+more global context.  These observations, although not complete, indicate     
+clearly that the lunar crust is much more heterogeneous than suggested by the 
+returned samples alone.  This underlines a continued need to obtain further   
+high spatial resolution (i.e. from spacecraft) data in visible and NIR of the 
+lunar crust.                                                                  
+                                                                              
+By improving our global map of key minerals such as olivine (which is         
+notoriously difficult to detect through other means), SIR will provide a      
+better understanding of the distribution of the materials that have shaped    
+the Moon both thermally and physically.  The distribution of minerals such as 
+pyroxenes and olivines are dependent upon the thermal and physical evolution  
+of the Moon, and the redistribution of such materials via impact cratering    
+and basin formation can also be better understood through these measurements. 
+By focussing on central peaks in impact craters, SIR will also be             
+investigating the vertical distribution of these minerals, determining the    
+depths at which the materials would originally have been before excavation    
+via the impact event.                                                         
+                                                                              
+Summary of SIR Technology Objectives:                                         
++++++++++++++++++++++++++++++++++++++                                         
+SIR will space qualify a miniaturized version of an existing, commercially    
+available, low mass near-infrared (NIR) grating spectrometer.  The commercial 
+spectrometer is built around a monolithic quartz body and uses an InGaAs      
+diode array detector sensitive in the 0.9-1.7um wavelength range.  The need   
+for lower operating temperatures and the radiation protection of the          
+sensor,as well as an increase in wavelength range up to 2.4um required        
+significant modifications to the original commercial instrument.              
+                                                                              
+                                                                              
+KaTE                                                                          
+====                                                                          
+Technology Objectives:                                                        
+- Validation of onboard technology                                            
+- Demonstration of link performance                                           
+- Increased scientific yield by high rate Ka-band telemetry and Turbo codes   
+- High navigational accuracy                                                  
+- Radio Science Libration Experiment                                          
+- Validation of Ka band ground station                                        
+                                                                              
+Summary of KaTE Objectives:                                                   
++++++++++++++++++++++++++++                                                   
+The general objective of the KaTE (Deep Space X/Ka-band TT+C) experiment is   
+the demonstration of an X/Ka-band TT+C system as a key spacecraft technology  
+for future deep space missions.  Sensitivity and the phase noise performance  
+are the two key drivers for the design of a deep space transponder to be used 
+for TC/TM and radio science.  KaTE can operate down to input power levels as  
+low as -150dBm (a thousand times more sensitive than the SMART-1 baseline     
+transponder). The digital design allows for flexibility in its use compared   
+to the traditional analogue design.  For example, KaTE can be programmed to   
+acquire the uplink signal autonomously (without ground based sweep). The KaTE 
+experiment will demonstrate the use of Ka-band technology for the first time. 
+The demonstration of Turbo code technology is essential to demonstrate the    
+increased telemetry performance with a potential increase in performance of 1 
+to 2dB foreseen.  The bulk of the KaTE experiment shall take place during the 
+Lunar phase.                                                                  
+                                                                              
+                                                                              
+RSIS                                                                          
+====                                                                          
+Science/Technology Objectives:                                                
+- To validate techniques of measuring the rotational state of a celestial     
+  body from orbit.                                                            
+- To evaluate the magnitude of the physical librations of the Moon            
+                                                                              
+Summary of RSIS Objectives:                                                   
++++++++++++++++++++++++++++                                                   
+The Radio Science Investigation with SMART-1 (RSIS) experiment will show the  
+possibility to combine different already existing SMART-1 payload             
+capabilities to measure the rotational state of a celestial body from orbit.  
+The experiment deals with the comparison between the attitude of the          
+spacecraft and the current orientation of the Moon considered as a triaxial   
+body.  Due to the small amplitude of the Moon's physical librations, the      
+tracking capability granted by Ka link are vital to the success of the        
+experiment.                                                                   
+                                                                              
+RSIS will therefore make use of both KaTE and AMIE.  During the experiment, a 
+collection of pictures captured by AMIE is carefully referenced in time using 
+an onboard clock, and in space (with respect to the position along the orbit  
+from which they were taken) by the use of tracking form Earth using the X/Ka  
+link.  Attitude information from the SMART-1 star-trackers combined with the  
+knowledge of AMIE's position on the spacecraft, will provide information      
+about the direction of AMIE field of view.  Image processing of the pictures  
+captured by AMIE at different times along SMART-1 mission lifetime should     
+allow for an evaluation of the magnitude of the physical librations of the    
+Moon.  As the libration data for the Moon are already well known, RSIS will   
+be able to provide a demonstration of the measurement technique from orbit.   
+This kind of measurement will be of importance to future missions to          
+planetary bodies whose libration properties are not yet well                  
+known/understood, such as Mercury.                                            
+                                                                              
+RSIS will be active during 3 orbits of the very first phase of the Moon       
+observations, and during 3 orbits a the very end of the Lunar Phase.  The six 
+months interval between these measurements is required in order to obtain the 
+same Sun illumination conditions.                                             
+                                                                              
+                                                                              
+Ground Segment Overview                                                       
+=======================                                                       
+The SMART-1 ground segment can be subdivided into three main entities: the    
+Mission Operations Centre (MOC), the Science and Technology Operations Co-    
+ordination (STOC) and the Experiment Operations Facility (EOF).               
+                                                                              
+Mission Operations Centre (MOC)                                               
+-------------------------------                                               
+The MOC is located in ESOC in Darmstadt, and comprises the Main Control Room  
+(MCR), the Flight Dynamics Room (FDR) and Dedicated Control Rooms (DCRs) and  
+Project Support Rooms (PSRs).  The MCR will be used for SMART-1 during the    
+Launch and Early Orbit Phase (LEOP), and throughout the lunar capture when    
+considerable flight operations requirements will be present.  Outside of      
+these critical phases, the SMART-1 routine operations will be conducted from  
+a Dedicated Control Room (DCR).                                               
+                                                                              
+All ESA ground stations interface to the MOC via the OPSNET communications    
+network.  This is a closed Wide Area Network for data (telecommand,           
+telemetry, tracking data, station monitoring and control data) and voice.     
+OPSNET will support the SMART-1 TM data rate of 65 Kb s-1 transfer to the     
+MOC.  It is expected that the Perth ground station in Australia and the       
+Maspalomas or Villafranca ground stations in Spain will be the main stations. 
+                                                                              
+The MOC will undertake the derivation of operational requirements for the     
+spacecraft, prepare operations plans and procedures and will execute the      
+actual spacecraft operations.  They will maintain mission control hardware    
+and software an undertake the flight dynamics studies to analyse attitude and 
+orbit profiles.                                                               
+                                                                              
+Science and Technology Operations Co-ordination (STOC)                        
+------------------------------------------------------                        
+The STOC, located in ESTEC in Noordwijk, provides the working interface       
+between the MOC and the Principal Investigators and Technology Investigators. 
+All science and technology operations are co-ordinated through this           
+interface, as are the data collection and exploitation.  The STOC in turn     
+interface with the MOC, delivering inputs to them for payload commanding at   
+spacecraft level, and delivering the specific telecommand sequences and       
+operational timelines for the payload.                                        
+                                                                              
+The STOC will co-ordinate the following for the SMART-1 payload:              
+ - Allocation of observation slots.                                           
+ - Coordination and approval of the use of ground and on-board resources.     
+ - Adequate allocation of the combined operations of instruments.             
+ - Generation of the Experiments Operations time-line.                        
+ - Supervision of the experiment TC packets generation.                       
+ - Monitoring of the distribution of the TM packets to the PIs/TIs.           
+ - Raw data storage during the mission and support to science archiving and   
+   exploitation.                                                              
+                                                                              
+Experiment Operations Facilities (EOF)                                        
+--------------------------------------                                        
+The EOFs are the sites of the various PI / TI teams.  They operate their      
+instruments / experiments remotely in co-ordination with the STOC, and        
+supported by the advice of the Science and Technology Working Team (STWT).    
+All EOF requests for experiment commands and data delivery are routed through 
+the STOC.                                                                     
+                                                                              
+                                                                              
+ACRONYM LIST                                                                  
+=============                                                                 
+AMIE          Advanced Micro-Imaging Experiment                               
+D-CIXS        Demonstration of a Compact Imaging X-ray Spectrometer           
+DCR           Dedicated Control Room                                          
+DEM           Digital Elevation Model                                         
+DN            Data number                                                     
+EPDP          Electric Propulsion Diagnostic Package                          
+EOF           Experiment Operations Facility                                  
+EOM           Electro-Optical Modulater                                       
+ESA           European Space Agency                                           
+ESTEC         European Space Research and Technology Center                   
+FDR           Flight Dynamics Room                                            
+GTO           Geostationary Transfer Orbit                                    
+H/W           Hardware                                                        
+KaTE          X/Ka Band Telemetry Experiment                                  
+LEOP          Launch and Early Orbit Phase                                    
+LHC           Left Hand Circular                                              
+LP            Langmuir Probe                                                  
+MCR           Mission Control Room                                            
+MOC           Mission Operations Center                                       
+NIR           Near Infra-red                                                  
+OBAN          On-Board Autonomous Navigation                                  
+OGS           Optical Ground Station                                          
+OOK           On Off Keying                                                   
+PI            Primary Investigator                                            
+PPA           Plasma Probe Assembly                                           
+PPU           Plasma Probe Assembly Unit                                      
+PSR           Project Support Room                                            
+QCM           Quartz Crystal Micro-balance                                    
+RPA           Retarding Potential Analyser                                    
+RSIS          Radio Science Investigation on SMART-1                          
+SC            Solar Cell                                                      
+SCD           Swept Charge Device                                             
+SEPP          Solar Electric Primary Propulsion                               
+SIR           SMART-1 Infra-red Spectrometer                                  
+SMART-1       Small Mission for Advanced Research and Technology - 1          
+SPA           South-Pole-Aitken basin                                         
+SPEDE         Spacecraft Potential, Electron and Dust Experiment              
+STOC          Science and Technology Operations Co-ordination                 
+TC            Telecommand                                                     
+TI            Technology Investigator                                         
+TM            Telemetry                                                       
+TT+C          Tracking, Telemetry and Communication                           
+XSM           X-ray Solar Monitor                                             
+                                                                              
+                                                                              
+                                                                              
+"                                                                             
+  END_OBJECT         = MISSION_INFORMATION                                    
+                                                                              
+                                                                              
+  OBJECT             = MISSION_HOST                                           
+    INSTRUMENT_HOST_ID = S1                                                   
+                                                                              
+    OBJECT             = MISSION_TARGET                                       
+      TARGET_NAME      = MOON                                                 
+    END_OBJECT         = MISSION_TARGET                                       
+                                                                              
+    OBJECT             = MISSION_TARGET                                       
+      TARGET_NAME      = SUN                                                  
+    END_OBJECT         = MISSION_TARGET                                       
+                                                                              
+    OBJECT             = MISSION_TARGET                                       
+      TARGET_NAME      = EARTH                                                
+    END_OBJECT         = MISSION_TARGET                                       
+                                                                              
+    OBJECT             = MISSION_TARGET                                       
+      TARGET_NAME      = PLASMA                                               
+    END_OBJECT         = MISSION_TARGET                                       
+                                                                              
+    OBJECT             = MISSION_TARGET                                       
+      TARGET_NAME      = ARCTURUS                                             
+    END_OBJECT         = MISSION_TARGET                                       
+                                                                              
+  END_OBJECT           = MISSION_HOST                                         
+                                                                              
+  OBJECT             = MISSION_REFERENCE_INFORMATION                          
+    REFERENCE_KEY_ID = "CESSA_SODNIK_2004"                                    
+  END_OBJECT         = MISSION_REFERENCE_INFORMATION                          
+                                                                              
+  OBJECT             = MISSION_REFERENCE_INFORMATION                          
+    REFERENCE_KEY_ID = "CREMA_2001"                                           
+  END_OBJECT         = MISSION_REFERENCE_INFORMATION                          
+                                                                              
+  OBJECT             = MISSION_REFERENCE_INFORMATION                          
+    REFERENCE_KEY_ID = "ELFVING_ET_AL_2000"                                   
+  END_OBJECT         = MISSION_REFERENCE_INFORMATION                          
+                                                                              
+  OBJECT             = MISSION_REFERENCE_INFORMATION                          
+    REFERENCE_KEY_ID = "FREW_ALMEIDA_2005"                                    
+  END_OBJECT         = MISSION_REFERENCE_INFORMATION                          
+                                                                              
+  OBJECT             = MISSION_REFERENCE_INFORMATION                          
+    REFERENCE_KEY_ID = "FUM_AMIE_2003"                                        
+  END_OBJECT         = MISSION_REFERENCE_INFORMATION                          
+                                                                              
+  OBJECT             = MISSION_REFERENCE_INFORMATION                          
+    REFERENCE_KEY_ID = "FUM_DCIXS_XSM_2003"                                   
+  END_OBJECT         = MISSION_REFERENCE_INFORMATION                          
+                                                                              
+  OBJECT             = MISSION_REFERENCE_INFORMATION                          
+    REFERENCE_KEY_ID = "FUM_EPDP_2002"                                        
+  END_OBJECT         = MISSION_REFERENCE_INFORMATION                          
+                                                                              
+  OBJECT             = MISSION_REFERENCE_INFORMATION                          
+    REFERENCE_KEY_ID = "FUM_KATE_P1_2003"                                     
+  END_OBJECT         = MISSION_REFERENCE_INFORMATION                          
+                                                                              
+  OBJECT             = MISSION_REFERENCE_INFORMATION                          
+    REFERENCE_KEY_ID = "FUM_KATE_P2_2002"                                     
+  END_OBJECT         = MISSION_REFERENCE_INFORMATION                          
+                                                                              
+  OBJECT             = MISSION_REFERENCE_INFORMATION                          
+    REFERENCE_KEY_ID = "FUM_SIR_2002"                                         
+  END_OBJECT         = MISSION_REFERENCE_INFORMATION                          
+                                                                              
+  OBJECT             = MISSION_REFERENCE_INFORMATION                          
+    REFERENCE_KEY_ID = "FUM_SPEDE_2002"                                       
+  END_OBJECT         = MISSION_REFERENCE_INFORMATION                          
+                                                                              
+  OBJECT             = MISSION_REFERENCE_INFORMATION                          
+    REFERENCE_KEY_ID = "LAAKSO_FOING_2001"                                    
+  END_OBJECT         = MISSION_REFERENCE_INFORMATION                          
+                                                                              
+  OBJECT             = MISSION_REFERENCE_INFORMATION                          
+    REFERENCE_KEY_ID = "MARINI_ET_AL_2002"                                    
+  END_OBJECT         = MISSION_REFERENCE_INFORMATION                          
+                                                                              
+  OBJECT             = MISSION_REFERENCE_INFORMATION                          
+    REFERENCE_KEY_ID = "RACCA_ET_AL_2002"                                     
+  END_OBJECT         = MISSION_REFERENCE_INFORMATION                          
+                                                                              
+  OBJECT             = MISSION_REFERENCE_INFORMATION                          
+    REFERENCE_KEY_ID = "S1_ARCH_PLAN_2003"                                    
+  END_OBJECT         = MISSION_REFERENCE_INFORMATION                          
+                                                                              
+  OBJECT             = MISSION_REFERENCE_INFORMATION                          
+    REFERENCE_KEY_ID = "S1_ESOC_AUX_DATA"                                     
+  END_OBJECT         = MISSION_REFERENCE_INFORMATION                          
+                                                                              
+  OBJECT             = MISSION_REFERENCE_INFORMATION                          
+    REFERENCE_KEY_ID = "SCHOENMAEKERS_1999"                                   
+  END_OBJECT         = MISSION_REFERENCE_INFORMATION                          
+                                                                              
+  OBJECT             = MISSION_REFERENCE_INFORMATION                          
+    REFERENCE_KEY_ID = "SODNIK_2003"                                          
+  END_OBJECT         = MISSION_REFERENCE_INFORMATION                          
+                                                                              
+END_OBJECT           = MISSION                                                
+                                                                              
+END                                                                           

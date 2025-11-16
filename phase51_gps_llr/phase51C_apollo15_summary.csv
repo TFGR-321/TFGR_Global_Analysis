@@ -1,0 +1,2 @@
+N_data,Lc_m,p,q,alpha,beta_gr_offset_s,chi2_gr,dof_gr,AIC_gr,BIC_gr,beta_tfgr_A_s,beta_tfgr_B_s,chi2_tfgr,dof_tfgr,AIC_tfgr,BIC_tfgr,delta_AIC_tfgr_minus_gr,delta_BIC_tfgr_minus_gr
+25,4000000000.0,0.21,1.32,3.0,1.2638044629015e-12,4.816357212289168e-26,24,2.0,3.2188758248682006,2.4803249437960506e-09,-4.764838588123526e-12,3.8893938331152656e-30,23,4.0,6.437751649736401,2.0,3.2188758248682006

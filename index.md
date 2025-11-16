@@ -1,3 +1,7 @@
+---
+mathjax: true
+---
+
 # Time-Field General Relativity (TFGR)
 ### A scale-dependent temporal field unifying atomic clocks, planetary systems, galaxies, and cosmology  
 **DOI:** [10.5281/zenodo.17622096](https://doi.org/10.5281/zenodo.17622096)

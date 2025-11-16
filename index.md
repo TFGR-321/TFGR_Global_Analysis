@@ -40,9 +40,9 @@ which governs the onset of scale-dependent temporal curvature.
 
 TFGR models the scale-dependent proper-time increment as follows:
 
-\[
-\Delta t(L) = \Delta t_0 \left[ 1 + \left(\frac{L}{L_c}\right)^p \right]^q ,
-\]
+$$
+\Delta t(L) = \Delta t_0 \left[ 1 + \left( \frac{L}{L_c} \right)^p \right]^q
+$$
 
 Where:
 
@@ -61,9 +61,9 @@ This single function explains the common structure seen in:
 
 The time-field potential is:
 
-\[
+$$
 \Phi_t(L) = c^2 \frac{\Delta t(L)}{\Delta t_0},
-\]
+$$
 
 and its derivative \( d\Phi_t/dL \) produces the **temporal curvature** felt universally.
 

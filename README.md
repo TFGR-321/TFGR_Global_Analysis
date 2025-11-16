@@ -144,9 +144,10 @@ All emerging from **the same Δt(L) correction**, with no new particles required
 
 ## 📜 Citation
 
-A DOI will be assigned via Zenodo upon the first public release.
+If you use TFGR code, datasets, or theoretical results, please cite:
 
-Please cite this repository when using TFGR code, datasets, or theoretical results.
+**T. Mitsui (2025). TFGR Global Analysis. Zenodo.  
+https://doi.org/10.5281/zenodo.17622096**
 
 ---
 

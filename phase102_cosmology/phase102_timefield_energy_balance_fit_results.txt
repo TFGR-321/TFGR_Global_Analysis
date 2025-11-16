@@ -1,0 +1,17 @@
+# Phase 102: Time-Field Energy Balance Fit Results
+
+Model: dF_t/dz + α S_rel,eff = β κ_t φ_t
+
+Number of data points (n): 34
+Residual sum of squares (RSS): 3.271484e+08
+Estimated noise variance (sigma^2): 1.022339e+07
+R^2: 0.673759
+
+Fitted parameters:
+  alpha (S_rel,eff coefficient): -2.100862e+04 ± 2.584285e+03
+  beta  (kappa_phi coefficient): -6.098756e+02 ± 5.651857e+02
+
+Notes:
+  - energy_balance_LHS = dF_t/dz + alpha * S_rel,eff
+  - energy_balance_RHS = beta * kappa_phi
+  - residual_energy_balance = LHS - RHS

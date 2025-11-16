@@ -1,0 +1,12 @@
+TFGR Fit Results for MIZU_residuals_lowElev_corrected.csv
+============================================================
+Data points: 150
+A (scale coefficient): -2.754e-14
+b (offset): 5.073e-16
+RMS_before: 3.950e-16
+RMS_after:  3.932e-16
+ΔRMS: -1.803e-18
+AIC_before: -10640.27
+AIC_after:  -10637.64
+ΔAIC (improvement): -2.63
+============================================================

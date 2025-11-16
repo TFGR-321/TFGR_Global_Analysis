@@ -1,25 +1,28 @@
 # Time-Field General Relativity (TFGR)
 ### A scale-dependent temporal field unifying atomic clocks, planetary systems, galaxies, and cosmology
 
-This repository provides open, fully reproducible code and datasets for the  
-**Time-Field General Relativity (TFGR)** framework — a scale-dependent temporal  
-field model that quantitatively reproduces observations across more than  
-**20 orders of magnitude**, including:
+This repository provides open, fully reproducible code and datasets for  
+**Time-Field General Relativity (TFGR)** — a scale-dependent temporal-field  
+framework that accurately reproduces observations across more than:
+
+**20 orders of magnitude in scale**, from quantum tunneling to cosmic expansion.
+
+TFGR successfully models:
 
 - Atomic clock deviations  
 - GPS/LLR timing anomalies  
 - Deep-space probe residuals  
 - Galaxy rotation curves (SPARC)  
-- Strong-lensing Einstein radii  
+- Strong gravitational lensing (Einstein radius)  
 - Weak-lensing scale trends (KiDS/eFEDS)  
 - Late-time cosmic acceleration  
-- The jerk parameter j(0) ≈ 1.6  
+- Jerk parameter prediction j(0) ≈ 1.6  
 - Convergence of all scales to a single critical length  
   **Lc ≈ 4 × 10⁹ m**
 
-TFGR suggests that variations in measured time across the universe arise not  
-from unknown mass-energy components (dark matter/dark energy), but from  
-a **scale-dependent correction to the flow of proper time**.
+TFGR suggests that discrepancies traditionally attributed to *dark matter* and  
+*dark energy* may instead arise from a **scale-dependent correction to the flow  
+of proper time**.
 
 ---
 
@@ -31,7 +34,7 @@ TFGR models the proper-time increment as a function of observational scale **L**
 \Delta t(L) = \Delta t_0 \left[ 1 + \left( \frac{L}{L_c} \right)^p \right]^q
 \]
 
-Same expression in plain ASCII (safe for any viewer):
+Same expression in plain ASCII (safe for all viewers):
 
 ```
 Delta_t(L) = Delta_t0 * (1 + (L/Lc)**p)**q
@@ -39,20 +42,20 @@ Delta_t(L) = Delta_t0 * (1 + (L/Lc)**p)**q
 
 Where:
 
-- **Δt₀** : baseline proper-time unit  
-- **L**   : observational scale  
-- **Lc**  : universal critical length (~4 × 10⁹ m)  
-- **p, q** : empirical scale-response exponents  
+- **Δt₀** — baseline proper-time unit  
+- **L** — observational scale  
+- **Lc** — universal critical length (~4 × 10⁹ m)  
+- **p, q** — empirical scale-response exponents  
 
-This single function yields consistent parameter estimates from:
+This *single* scale-dependent correction yields consistent fits across:
 
-- Quantum tunneling (sub-nm scale)  
+- Quantum tunneling (10⁻¹⁰ m)  
 - Optical lattice clocks (1–100 m)  
-- Satellite timing (10⁶–10⁸ m)  
+- GPS + LLR (10⁶–10⁸ m)  
 - Deep-space probes (10⁹–10¹³ m)  
 - Galaxy rotation curves (10¹⁹–10²¹ m)  
-- Strong/weak lensing (10²¹–10²⁴ m)  
-- FRW cosmology and j(z) (10²⁶ m)
+- Strong / weak lensing (10²¹–10²⁴ m)  
+- Cosmic expansion & j(z) (10²⁶ m)
 
 ---
 
@@ -61,19 +64,18 @@ This single function yields consistent parameter estimates from:
 ```
 TFGR_Global_Analysis/
 │
-├── phase23A_sparc_rotation/        # SPARC galaxy rotation curves (TFGR vs data)
-├── phase23D_strong_lensing/        # Strong gravitational lensing (Einstein radius)
-├── phase23E_weak_lensing/          # Weak lensing scale trends (KiDS/eFEDS)
+├── phase23_sparc_rotation/         # Galaxy rotation curves (SPARC, TFGR fits)
+├── phase23D_strong_lensing/        # Strong lensing (Einstein radius analysis)
+├── phase23E_weak_lensing/          # Weak-lensing scale trends (KiDS/eFEDS)
 │
 ├── phase50_atomic_clocks/          # Optical clock TFGR fits (Sr/Yb/Mg)
 ├── phase51_gps_llr/                # GPS + LLR time-field tomography
-├── phase52_spacecraft/             # Deep-space probe residuals (Voyager / NH)
+├── phase52_spacecraft/             # Deep-space probes (Voyager / New Horizons)
 │
-├── phase102_energy_balance/        # Time-field energy-balance equation consistency
-├── phase138_temporal_modes/        # Eigenmodes & stability of the temporal field
+├── phase102_energy_balance/        # Time-field energy-balance consistency
+├── phase138_temporal_modes/        # Eigenmodes & stability analysis
 │
 └── phase180_jerk_prediction/       # Jerk parameter j(0) ≈ 1.6 and future j(z)
-
 ```
 
 ---
@@ -86,65 +88,75 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Run a minimal example (galaxy rotation):
+Run a minimal example (SPARC galaxy rotation):
 
 ```
-python phase23_galaxy_rotation/code/phase23_fit.py \
-    --csv data/sample_sparc.csv
+python phase23_sparc_rotation/phase23_tfgr_sparc_fit.py \
+    --csv sparc_sample_input.csv
 ```
 
-Run a cosmology example (j(z) reconstruction):
+Run cosmology energy-balance analysis:
 
 ```
-python phase102_cosmology/code/tfgr_cosmo_jz.py
+python phase102_energy_balance/phase102_timefield_energy_balance.py
 ```
 
-All results (plots, CSV outputs) will be saved to each `results/` directory.
+Run jerk-parameter reconstruction:
+
+```
+python phase180_jerk_prediction/phase180_jerk_reconstruction.py
+```
+
+All results (plots, CSV outputs) will appear inside each `results/` directory.
 
 ---
 
 ## 🔍 Scientific Motivation
 
-TFGR proposes that discrepancies traditionally attributed to:
+TFGR provides a unified explanation for phenomena traditionally requiring  
+*multiple separate mechanisms*:
 
-- dark matter (galaxy rotation, lensing),  
-- dark energy (cosmic acceleration),  
-- unexplained timing anomalies (atomic clocks, satellites, probes),
+- Galaxy rotation (dark matter)  
+- Cosmic acceleration (dark energy)  
+- Satellite / clock timing anomalies  
+- Lensing mass discrepancies  
 
-may instead arise from a **scale-dependent modification to proper time**.
+The key insight:
 
-Because:
+### **Photons carry time stamps — not velocities.**  
+All astronomical and physical measurements ultimately rely on  
+**comparisons of time across scales**.
 
-- Photons carry **time stamps**, not intrinsic velocities.  
-- Comparing distant systems requires **synchronization across scales**.  
-- A small systematic drift in Δt(L) accumulates as apparent velocity or acceleration.  
+Thus, if proper time slightly drifts depending on scale:
 
-Thus:
+- galaxy rotation curves appear flat  
+- Einstein radii shift  
+- H(z) appears accelerated  
+- j(0) rises to ≈ 1.6  
+- deep-space probes show anomalous residuals  
 
-- Flat galaxy rotation curves  
-- Strong-lensing Einstein radii  
-- Hubble tension / jerk parameter  
-- Timing anomalies  
-
-can all emerge from the same underlying correction.
+All emerging from **the same Δt(L) correction**, with no new particles required.
 
 ---
 
 ## 📜 Citation
 
-A DOI will be assigned via Zenodo upon the first public release.  
-Please cite this repository when using TFGR code, datasets, or equations.
+A DOI will be assigned via Zenodo upon the first public release.
+
+Please cite this repository when using TFGR code, datasets, or theoretical results.
 
 ---
 
 ## 🤝 Contributions & Discussion
 
-Issues, discussions, and pull requests are welcome.  
-Collaboration is especially encouraged from researchers in:
+Contributions, issues, and discussions are welcome.
+
+Researchers in the following fields are especially encouraged to collaborate:
 
 - astrophysics  
 - general relativity  
 - metrology  
 - cosmology  
 - dark-matter/modified-gravity theory  
-- spacecraft navigation and timing
+- spacecraft navigation & timing  
+

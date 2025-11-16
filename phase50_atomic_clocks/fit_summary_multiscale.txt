@@ -1,0 +1,35 @@
+# Phase 36 Multiscale TFGR fit
+
+L_macro_scale = 1.000e+09 [m]
+L_int_scale   = 1.000e-03 [m]
+dt_scale      = 9.009e-16 [s]
+
+Baseline model: Δt = b0
+  b0 (phys) = -2.655e-15 s
+  chi2 = 121748.067, AIC = 458.922, BIC = 461.016
+
+Two-scale TFGR model:
+  Δt = b0 + Δt_M(L_macro) + Δt_Q(L_int)
+  Macro term:
+    b0       (phys) = -2.700e-15 s
+    dt0_M    (phys) = 9.009e-15 s
+    Lc_M     (phys) = 1.000e+08 m
+    p_M              = 0.842
+    q_M              = 3.000
+  Quantum internal term:
+    dt0_Q    (phys) = -2.070e-16 s
+    Lc_Q     (phys) = 3.114e-05 m
+    p_Q              = 1.806
+    q_Q              = 0.414
+
+Goodness-of-fit:
+  chi2 (baseline) = 121748.067
+  chi2 (TFGR2)    = 112645.747
+  AIC  (baseline) = 458.922
+  AIC  (TFGR2)    = 470.260
+  BIC  (baseline) = 461.016
+  BIC  (TFGR2)    = 489.109
+
+Model comparison (smaller is better):
+  ΔAIC (TFGR2 - baseline) = 11.338
+  ΔBIC (TFGR2 - baseline) = 28.092

@@ -1,0 +1,17 @@
+# Phase 35 Global TFGR fit
+
+Baseline (GR-only hierarchical):
+  WAIC = 300.986 ± 0.305
+
+TFGR model (global dt0, Lc, p, q):
+  WAIC = 305.412 ± 0.120
+
+Comparison (smaller is better):
+  ΔWAIC (TFGR - Baseline) = 4.427
+  → ΔWAIC < 0 なら TFGR モデルの方が好ましい
+
+Median TFGR parameters (global):
+  dt0 = -2.337e-15 [s]
+  Lc  = 2.565e+09 [m]
+  p   = 0.305
+  q   = 1.219

@@ -1,0 +1,19 @@
+# Phase 34 TFGR least-squares fit
+L_scale = 1.000e+09 [m]
+dt_scale = 4.146e-15 [s]
+
+Baseline model: Δt = b0
+  b0 (phys) = -7.989e-15 s
+  chi2 = 25285167711.342, AIC = 3661310.947, BIC = 3661321.638
+
+TFGR model: Δt = b0 + dt0 * [1 + (L/Lc)^p]^q
+  b0   (phys) = -8.469e-15 s
+  dt0  (phys) = 4.141e-16 s
+  Lc   (phys) = 4.000e+09 m
+  p           = 0.200
+  q           = 1.300
+  chi2 = 25285167711.342, AIC = 3661318.947, BIC = 3661372.406
+
+Model comparison (smaller is better):
+  ΔAIC (TFGR - Baseline) = 8.000
+  ΔBIC (TFGR - Baseline) = 50.768

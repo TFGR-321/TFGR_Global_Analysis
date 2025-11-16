@@ -1,0 +1,51 @@
+# Phase 47: TFGR Lambda sign-flip and scaling summary
+
+Input npz : output_phase44_tfgr_tensor\tfgr_tensor_field.npz
+m_eff     : 88.0 u
+L0        : 1.028e+08 m
+Lambda_LCDM = 1.100e-52 [1/m^2]
+
+Scaling factors:
+  alpha0   (match at z=0): 1.737e-36
+  alpha_fit(global LS)   : 1.547e-36
+
+z = 0.000, a=1.000
+  L(z)            = 1.028e+08 m
+  Lambda_flip(z)  = 6.334e-17 [1/m^2] (unscaled)
+  Lambda_phys0(z) = 1.100e-52 [1/m^2]
+  ratio0          = 1.000e+00
+  Lambda_phys_fit(z) = 9.795e-53 [1/m^2]
+  ratio_fit          = 8.905e-01
+
+z = 0.503, a=0.666
+  L(z)            = 6.842e+07 m
+  Lambda_flip(z)  = 1.013e-16 [1/m^2] (unscaled)
+  Lambda_phys0(z) = 1.759e-52 [1/m^2]
+  ratio0          = 1.599e+00
+  Lambda_phys_fit(z) = 1.566e-52 [1/m^2]
+  ratio_fit          = 1.424e+00
+
+z = 1.005, a=0.499
+  L(z)            = 5.127e+07 m
+  Lambda_flip(z)  = 8.040e-17 [1/m^2] (unscaled)
+  Lambda_phys0(z) = 1.396e-52 [1/m^2]
+  ratio0          = 1.269e+00
+  Lambda_phys_fit(z) = 1.243e-52 [1/m^2]
+  ratio_fit          = 1.130e+00
+
+z = 2.010, a=0.332
+  L(z)            = 3.415e+07 m
+  Lambda_flip(z)  = 5.846e-17 [1/m^2] (unscaled)
+  Lambda_phys0(z) = 1.015e-52 [1/m^2]
+  ratio0          = 9.230e-01
+  Lambda_phys_fit(z) = 9.041e-53 [1/m^2]
+  ratio_fit          = 8.219e-01
+
+z = 4.000, a=0.200
+  L(z)            = 2.056e+07 m
+  Lambda_flip(z)  = 3.968e-17 [1/m^2] (unscaled)
+  Lambda_phys0(z) = 6.892e-53 [1/m^2]
+  ratio0          = 6.265e-01
+  Lambda_phys_fit(z) = 6.137e-53 [1/m^2]
+  ratio_fit          = 5.579e-01
+

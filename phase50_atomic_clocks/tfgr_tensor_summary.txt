@@ -1,0 +1,20 @@
+# Phase 43: TFGR effective time-curvature and energy density
+
+L0 (reference length) = 1.028e+08 m
+
+[quantum]: L=1.000e-03 m, m_eff=87.8 u
+  R_t  ≈ -4.729e-24 [1/m^2]
+  rho_t≈ -2.277e+19 [J/m^3]
+
+[gps]: L=1.964e+07 m, m_eff=87.8 u
+  R_t  ≈ -3.835e-17 [1/m^2]
+  rho_t≈ -1.847e+26 [J/m^3]
+
+[lunar]: L=1.000e+08 m, m_eff=87.8 u
+  R_t  ≈ -6.334e-17 [1/m^2]
+  rho_t≈ -3.050e+26 [J/m^3]
+
+[lunar_Yb]: L=1.000e+08 m, m_eff=170.6 u
+  R_t  ≈ -6.334e-17 [1/m^2]
+  rho_t≈ -3.050e+26 [J/m^3]
+

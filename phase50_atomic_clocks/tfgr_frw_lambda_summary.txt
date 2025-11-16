@@ -1,0 +1,32 @@
+# Phase 45B: TFGR effective Lambda in FRW background
+
+Input npz: output_phase44_tfgr_tensor\tfgr_tensor_field.npz
+m_eff used: 88.0 u
+L0 (from Phase 44) = 1.028e+08 m
+Lambda_LCDM (reference) = 1.100e-52 [1/m^2]
+
+z = 0.000, a = 1.000
+  L(z) ≈ 1.028e+08 m
+  Lambda_eff(z) ≈ -6.334e-17 [1/m^2]
+  ratio = Lambda_eff / Lambda_LCDM ≈ -5.758e+35
+
+z = 0.503, a = 0.666
+  L(z) ≈ 6.842e+07 m
+  Lambda_eff(z) ≈ -9.907e-17 [1/m^2]
+  ratio = Lambda_eff / Lambda_LCDM ≈ -9.007e+35
+
+z = 1.005, a = 0.499
+  L(z) ≈ 5.127e+07 m
+  Lambda_eff(z) ≈ -7.766e-17 [1/m^2]
+  ratio = Lambda_eff / Lambda_LCDM ≈ -7.060e+35
+
+z = 2.010, a = 0.332
+  L(z) ≈ 3.415e+07 m
+  Lambda_eff(z) ≈ -5.649e-17 [1/m^2]
+  ratio = Lambda_eff / Lambda_LCDM ≈ -5.135e+35
+
+z = 4.000, a = 0.200
+  L(z) ≈ 2.056e+07 m
+  Lambda_eff(z) ≈ -3.835e-17 [1/m^2]
+  ratio = Lambda_eff / Lambda_LCDM ≈ -3.486e+35
+

@@ -1,0 +1,7 @@
+# Phase 39: TFGR LcQ–mass relation (log–log fit)
+
+Fit equation: log10(L_cQ) = 4.0000 + -1.0000 * log10(m_eff)
+Correlation r = -1.000,  p = 1.064e-62
+Slope stderr = 0.0000
+
+Derived power law:  L_cQ ∝ m_eff^-1.00

@@ -1,0 +1,9 @@
+TFGR fit
+CSV: gps_example_template.csv
+Params: Lc=4.000e+09, p=0.2100, q=1.3200, Lmode=elev
+Fitted A = 4.619524e-12
+RMS before: 2.059126e-13 s
+RMS after : 1.984615e-13 s
+AIC before: -290.113
+AIC after : -288.482
+ΔAIC: 1.631

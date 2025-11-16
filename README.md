@@ -61,26 +61,19 @@ This single function yields consistent parameter estimates from:
 ```
 TFGR_Global_Analysis/
 │
-├── phase23_galaxy_rotation/       # SPARC galaxy fits (dark-matter-free)
-├── phase50_atomic_clocks/         # Sr/Yb/Mg optical clock fits
-├── phase51_gps_llr/               # GPS + LLR time-field tomography
-├── phase52_spacecraft/            # Voyager / New Horizons residual analysis
-├── phase102_cosmology/            # FRW background + H(z), j(z)
-├── phase138_temporal_modes/       # Stability and eigenmodes of the time-field
+├── phase23A_sparc_rotation/        # SPARC galaxy rotation curves (TFGR vs data)
+├── phase23D_strong_lensing/        # Strong gravitational lensing (Einstein radius)
+├── phase23E_weak_lensing/          # Weak lensing scale trends (KiDS/eFEDS)
 │
-├── data/
-│   ├── raw/
-│   │   ├── clocks/
-│   │   ├── gps_llr/
-│   │   ├── spacecraft/
-│   │   ├── galaxies/
-│   │   ├── lensing/
-│   │   └── quantum/
-│   └── processed/
+├── phase50_atomic_clocks/          # Optical clock TFGR fits (Sr/Yb/Mg)
+├── phase51_gps_llr/                # GPS + LLR time-field tomography
+├── phase52_spacecraft/             # Deep-space probe residuals (Voyager / NH)
 │
-└── docs/
-    ├── figures/
-    └── notes/
+├── phase102_energy_balance/        # Time-field energy-balance equation consistency
+├── phase138_temporal_modes/        # Eigenmodes & stability of the temporal field
+│
+└── phase180_jerk_prediction/       # Jerk parameter j(0) ≈ 1.6 and future j(z)
+
 ```
 
 ---

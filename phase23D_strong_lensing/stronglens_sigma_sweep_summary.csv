@@ -1,0 +1,4 @@
+sigma_sys,best_log10_Lc,best_p,best_q,best_chi2,best_AIC,map_png,hist_png,qq_png
+0.02,21.619999999999997,0.6,0.4,953.0768758277699,959.0768758277699,/mnt/data/dAICmap_sys0.02.png,/mnt/data/resid_hist_sys0.02.png,/mnt/data/resid_QQ_sys0.02.png
+0.03,21.619999999999997,0.6,0.4,811.0327654428804,817.0327654428804,/mnt/data/dAICmap_sys0.03.png,/mnt/data/resid_hist_sys0.03.png,/mnt/data/resid_QQ_sys0.03.png
+0.04,21.619999999999997,0.6,0.4,671.7803515022806,677.7803515022806,/mnt/data/dAICmap_sys0.04.png,/mnt/data/resid_hist_sys0.04.png,/mnt/data/resid_QQ_sys0.04.png

@@ -90,14 +90,7 @@ RMS decreases by 1.0–3.5 m
 
 R² typically 0.97–0.99
 
-2. Time-field amplitude 
-𝐴
-𝑖
-A
-i
-	​
-
- is consistent across stations
+2. Time-field amplitude 𝐴𝑖 is consistent across stations
 
 For AJAC, ALIC, ANK2:
 
@@ -153,4 +146,5 @@ Time-Field General Relativity: GPS Satellite Analysis (Phase 31–32).
 License
 
 MIT License.
+
 All analysis scripts are free to use and modify.

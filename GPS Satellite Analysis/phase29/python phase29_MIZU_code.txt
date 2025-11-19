@@ -1,0 +1,1 @@
+python phase29_gps_tfgr_fit.py --csv MIZU_residuals_lowElev_corrected.csv --out output/MIZU

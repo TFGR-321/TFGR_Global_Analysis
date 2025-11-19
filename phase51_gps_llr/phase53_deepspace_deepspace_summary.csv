@@ -1,5 +1,0 @@
-dataset,file,L_col_used,dt_col_used,L_min,L_max,N_points,L_zero_curvature_estimate,L_at_min_abs_curvature,min_abs_d2Phi_dL2
-deep:nh_arrokoth_tfgr_fit,nh_arrokoth_tfgr_fit.csv,L_km,dt_tfgr,3551.653532352914,127042.4895012678,241,,,
-deep:vg1_jupiter_tfgr_fit_tfgr,vg1_jupiter_tfgr_fit_tfgr.csv,L_km,dt_res,348874.9521324933,930298.307825996,1082,,,
-deep:vg2_uranus_tfgr_fit_tfgr,vg2_uranus_tfgr_fit_tfgr.csv,L_km,dt_res,2676741057.2449,2678398086.198567,1082,,,
-GLOBAL,(all),(mixed),(mixed),3551.653532352914,2678398086.198567,2405,,2678398086.198567,-9.357408275045431e-20

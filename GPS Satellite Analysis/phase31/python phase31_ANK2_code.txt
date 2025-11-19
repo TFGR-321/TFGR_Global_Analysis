@@ -1,0 +1,1 @@
+python phase31_satellite_correlation_v2.py --csv ANK2_phase30.csv --out_prefix phase31_ANK2 --out_dir phase31_out --plot

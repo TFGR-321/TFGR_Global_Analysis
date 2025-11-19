@@ -1,0 +1,1 @@
+python phase31_satellite_correlation_v2.py --csv MIZU_phase30.csv --out_prefix phase31_MIZU --out_dir phase31_out --plot

@@ -1,0 +1,12 @@
+TFGR Fit Results for ALIC_residuals_lowElev_corrected.csv
+============================================================
+Data points: 741
+A (scale coefficient): 1.321e+03
+b (offset): -2.220e+01
+RMS_before: 2.194e+00
+RMS_after:  3.984e-01
+ΔRMS: -1.796e+00
+AIC_before: 1164.45
+AIC_after:  -1359.84
+ΔAIC (improvement): 2524.29
+============================================================

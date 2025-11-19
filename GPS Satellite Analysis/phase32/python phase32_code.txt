@@ -1,0 +1,1 @@
+python phase32_timefield_tomography.py --summaries phase31_AJAC_summary.csv phase31_ALIC_summary.csv phase31_ANK2_summary.csv phase31_MIZU_summary.csv --station_info station_info.csv --out_prefix phase32_GPS --out_dir phase32_out

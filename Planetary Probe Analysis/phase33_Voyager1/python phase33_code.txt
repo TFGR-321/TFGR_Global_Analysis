@@ -1,0 +1,1 @@
+python phase33_tfgr_voyager_fit.py --csv vg1_jupiter_19790305_distance.csv --Lc 4.0e9 --p 0.21 --q 1.32 --out vg1_jupiter_tfgr_fit

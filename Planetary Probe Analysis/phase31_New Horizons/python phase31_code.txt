@@ -1,0 +1,1 @@
+python phase31_tfgr_newhorizons_geometry.py --kernel_dir spice_nh --start 2019-01-01T04:00:00 --stop 2019-01-01T08:00:00 --step 60 --target "2014 MU69" --out nh_arrokoth_test

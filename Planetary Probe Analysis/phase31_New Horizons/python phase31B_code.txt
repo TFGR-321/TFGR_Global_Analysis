@@ -1,0 +1,1 @@
+python phase31B_tfgr_newhorizons_analyze.py --csv nh_arrokoth_test_distance.csv --Lc 4.0e9 --p 0.21 --q 1.32 --out nh_arrokoth_tfgr_fit

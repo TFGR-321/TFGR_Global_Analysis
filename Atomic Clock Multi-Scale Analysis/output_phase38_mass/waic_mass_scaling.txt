@@ -1,0 +1,21 @@
+# Phase 38: TFGR mass-scaling model (Lc_Q ∝ 1/m_eff)
+
+WAIC (mass-scaled TFGR2) = -95.580 ± 4.927
+
+Posterior medians:
+  LcQ0 (m0=100u) = 3.309e-05 [m]
+  dt0_Q          = -8.888e-16 [s]
+  p_Q            = 0.981
+  q_Q            = 0.043
+
+Effective masses per pair:
+  2022-03-01_INRIM_ITYb1-PTB_Sr3_CombKnoten: m_eff = 124.7 u
+  2022-03-01_INRIM_ITYb1-SYRTE_Sr2: m_eff = 124.7 u
+  2022-03-01_PTB_In_CombKnoten-INRIM_ITYb1: m_eff = 143.0 u
+  2022-03-01_PTB_Sr3_CombKnoten-SYRTE_Sr2: m_eff = 88.0 u
+  2022-03-01_PTB_Yb_CombKnoten-INRIM_ITYb1: m_eff = 171.0 u
+  2022-03-01_PTB_Yb_CombKnoten-SYRTE_Sr2: m_eff = 129.5 u
+  2022-03-02_PTB_In_CombKnoten-PTB_Yb_CombKnoten: m_eff = 143.0 u
+  2022-03-10_NPL-Yb+(E3)-NPL-Sr1: m_eff = 129.5 u
+  2022-03-14_PTB_In_CombKnoten-SYRTE_Sr2: m_eff = 101.5 u
+  2022-04-01_PTB_Sr3_CombKnoten-SYRTE_Sr2: m_eff = 88.0 u

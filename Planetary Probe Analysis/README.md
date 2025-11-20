@@ -28,188 +28,164 @@ Planetary Probe Analysis
 
 ## Each phase includes:
 
-Python source code
+- Python source code
+- CSV datasets (pre-processed probe telemetry)
+- Output plots and fitted TFGR curves
+- Phase-specific notes or test scripts
 
-CSV datasets (pre-processed probe telemetry)
+## 📦 Phase Descriptions
+### Phase 30 – Rosetta / RPC-ICA
 
-Output plots and fitted TFGR curves
+### Folder: phase30_Rosetta/
 
-Phase-specific notes or test scripts
+- Main scripts
+  - phase_30_tfgr_fit.py
+  - run_fit_free.py
 
-📦 Phase Descriptions
-Phase 30 – Rosetta / RPC-ICA
+- Dataset: rpcica_tfgr_ready_v2.csv
+- Outputs:
 
-Folder: phase30_Rosetta/
+  - phase30_out/rosetta_rpcica_v2_free_tfgr_fit.png
 
-Main scripts
-
-phase_30_tfgr_fit.py
-
-run_fit_free.py
-
-Dataset: rpcica_tfgr_ready_v2.csv
-
-Outputs:
-
-phase30_out/rosetta_rpcica_v2_free_tfgr_fit.png
-
-Goal:
+### Goal:
 Fit TFGR’s Δt(L) model to the distance-dependent residuals obtained from Rosetta’s RPC-ICA instrument.
-This phase tests whether time-delay scaling appears in near-comet spacecraft motion.
+This phase tests whether **time-delay scaling** appears in near-comet spacecraft motion.
 
-Phase 30B – Rosetta (Supplementary Tests)
+## Phase 30B – Rosetta (Supplementary Tests)
 
-Folder: phase30B/
+### Folder: phase30B/
 
 Additional helper scripts and validation runs used during the Rosetta analysis.
 
-Phase 31 – New Horizons / Arrokoth
+## Phase 31 – New Horizons / Arrokoth
 
-Folder: phase31_New Horizons/
+### Folder: phase31_New Horizons/
 
-Script: phase31_NewHorizons_tfgr_fit.py
+- Script: phase31_NewHorizons_tfgr_fit.py
+- Dataset: nh_arrokoth_tfgr_ready.csv
+- Outputs: phase31_out/…
 
-Dataset: nh_arrokoth_tfgr_ready.csv
-
-Outputs: phase31_out/…
-
-Goal:
+### Goal:
 Test TFGR scaling around the Pluto and Arrokoth flyby, checking whether TFGR reproduces the residual drift without invoking ad-hoc corrections.
 
-Phase 32 – Voyager 1 (Global Distance Sweep)
+## Phase 32 – Voyager 1 (Global Distance Sweep)
 
-Folder: phase32_Voyager1/
+### Folder: phase32_Voyager1/
 
-Script: phase32_tfgr_fit.py
+- Script: phase32_tfgr_fit.py
+- Dataset: vg1_1977_2024_distance.csv
+- Outputs: Voyager-1 TFGR fit plots
 
-Dataset: vg1_1977_2024_distance.csv
+### Goal:
+Use 40+ years of distance logs to evaluate whether TFGR time-delay behaves consistently in the **outer solar system** and near the heliopause.
 
-Outputs: Voyager-1 TFGR fit plots
+## Phase 33 – Voyager 1 (Refined TFGR Fit)
 
-Goal:
-Use 40+ years of distance logs to evaluate whether TFGR time-delay behaves consistently in the outer solar system and near the heliopause.
-
-Phase 33 – Voyager 1 (Refined TFGR Fit)
-
-Folder: phase33_Voyager1/
+### Folder: phase33_Voyager1/
 
 A refined TFGR fit to Voyager-1 residuals with improved resolution and scanning.
 
-Phase 33B – Voyager 2 (Uranus Flyby)
+## Phase 33B – Voyager 2 (Uranus Flyby)
 
-Folder: phase33B_Voyager2/
+### Folder: phase33B_Voyager2/
 
-Script: phase33B_tfgr_fit_uranus.py
+- Script: phase33B_tfgr_fit_uranus.py
+- Dataset: vg2_uranus_19860124_distance.csv
+- Outputs:
 
-Dataset: vg2_uranus_19860124_distance.csv
+  - vg2_uranus_tfgr_fit_tfgr.csv
+  - vg2_uranus_tfgr_fit_tfgr_vs_L.png
+  - vg2_uranus_tfgr_fit_tfgr_vs_time.png
+  - vg2_uranus_tfgr_fit_velocity.png
 
-Outputs:
-
-vg2_uranus_tfgr_fit_tfgr.csv
-
-vg2_uranus_tfgr_fit_tfgr_vs_L.png
-
-vg2_uranus_tfgr_fit_tfgr_vs_time.png
-
-vg2_uranus_tfgr_fit_velocity.png
-
-Goal:
+### Goal:
 Analyze the 1986 Uranus flyby to test whether TFGR captures distance-dependent timing drift at planetary-flyby scales.
 
-Phase 34 – Unified Scaling Across All Spacecraft
+## Phase 34 – Unified Scaling Across All Spacecraft
 
-Folder: phase34/
+### Folder: phase34/
 
-Script: phase34_tfgr_unified_scaling.py
+- Script: phase34_tfgr_unified_scaling.py
+- Outputs:
 
-Outputs:
+  - tfgr_unified_scaling.png
+  - tfgr_unified_scaling_curve.csv
 
-tfgr_unified_scaling.png
-
-tfgr_unified_scaling_curve.csv
-
-Goal:
+### Goal:
 Combine Rosetta + New Horizons + Voyager1 + Voyager2 into a single Δt(L) curve.
 This provides the key test that TFGR predicts a consistent critical scale:
 
-➤ Lc ≈ 4 × 10⁹ m (universal across all spacecraft)
+**➤ Lc ≈ 4 × 10⁹ m (universal across all spacecraft)**
 
 This phase is one of the strongest empirical demonstrations of TFGR scaling.
 
-Phase 35 – Time-Field Gradient Analysis
+## Phase 35 – Time-Field Gradient Analysis
 
-Folder: phase35/
+### Folder: phase35/
 
-Script: phase35_tfgr_field_gradient.py
+- Script: phase35_tfgr_field_gradient.py
+- Outputs:
 
-Outputs:
+  - tfgr_field_gradient.csv
+  - tfgr_field_gradient_phi.png
+  - tfgr_field_gradient_gradient.png
 
-tfgr_field_gradient.csv
-
-tfgr_field_gradient_phi.png
-
-tfgr_field_gradient_gradient.png
-
-Goal:
+### Goal:
 Compute:
 
-The TFGR potential Φₜ(L)
-
-Its gradient dΦₜ/dL, representing temporal curvature
-
-The curvature transition scale
+- The TFGR potential Φₜ(L)
+- Its gradient dΦₜ/dL, representing temporal curvature
+- The curvature transition scale
 
 This provides a direct theoretical–observational link between TFGR parameters and spacecraft residuals.
 
-🔧 How to Run the Code
-1. Install Dependencies
+## 🔧 How to Run the Code
+### 1. Install Dependencies
 
 Recommended Python version: 3.9–3.12
 
 pip install numpy pandas matplotlib scipy
 
-2. Example: Rosetta fit
+### 2. Example: Rosetta fit
 cd phase30_Rosetta
 python phase_30_tfgr_fit.py --csv rpcica_tfgr_ready_v2.csv
 
-3. Unified scaling (Phase 34)
+### 3. Unified scaling (Phase 34)
 cd phase34
 python phase34_tfgr_unified_scaling.py
 
-4. Field-gradient computation (Phase 35)
+### 4. Field-gradient computation (Phase 35)
 cd phase35
 python phase35_tfgr_field_gradient.py
 
-📊 Key Scientific Findings
-✔ All spacecraft datasets converge to the same TFGR scaling
+## 📊 Key Scientific Findings
+### ✔ All spacecraft datasets converge to the same TFGR scaling
 
 The Δt(L) curves derived from Rosetta, New Horizons, Voyager 1, and Voyager 2 are
 consistent with a single power-law scaling function.
 
-✔ The TFGR critical scale is strongly supported
+### ✔ The TFGR critical scale is strongly supported
 
 Across all independent missions:
 
-Lc ≈ 4 × 10⁹ m
+**Lc ≈ 4 × 10⁹ m**
 
 appears as the universal curvature/transition scale.
 
-✔ TFGR fits outperform conventional models
+### ✔ TFGR fits outperform conventional models
 
 AIC/BIC scores show significant improvements compared to:
 
-Constant residual models
+- Constant residual models
+- Linear distance models
+- Exponential decay fits
 
-Linear distance models
-
-Exponential decay fits
-
-✔ Outer-solar-system anomalies align with TFGR
+### ✔ Outer-solar-system anomalies align with TFGR
 
 Distance-dependent drifts in Voyager’s long-term data match TFGR predictions
 without the need for extra parameters or unexplained forces.
 
-📜 License
-
+## 📜 License
 
 MIT License. All analysis scripts are free to use and modify.
+

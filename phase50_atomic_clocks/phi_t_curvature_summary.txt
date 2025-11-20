@@ -1,6 +1,0 @@
-# Phase 42: curvature tensor of Φ_t(L, m)
-
-max(∇²Φ_t) = -4.943e-08
-min(∇²Φ_t) = -1.268e+00
-max at: L=1.000e-03 m, m=82.4 u
-min at: L=8.442e+07 m, m=200.0 u

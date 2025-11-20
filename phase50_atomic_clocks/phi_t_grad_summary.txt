@@ -1,5 +1,0 @@
-# Phase 41: Gradient analysis of Φ_t(L, m)
-
-Max |∇Φ_t| = 7.850e-01
-Min |∇Φ_t| = 6.691e-08
-At max gradient: L = 1.000e+08 m, m_eff = 80.0 u

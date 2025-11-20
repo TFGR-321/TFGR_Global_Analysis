@@ -1,0 +1,1 @@
+python phase34_tfgr_unified_scaling.py --Lc 4.0e9 --p 0.21 --q 1.32 --dt0 5.184e-19 --out tfgr_unified_scaling

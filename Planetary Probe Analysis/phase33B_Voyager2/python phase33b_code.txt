@@ -1,0 +1,1 @@
+python phase33b_tfgr_voyager2_uranus_fit.py --csv vg2_uranus_19860124_distance.csv --Lc 4.0e9 --p 0.21 --q 1.32 --out vg2_uranus_tfgr_fit

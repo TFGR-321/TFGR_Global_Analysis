@@ -1,25 +1,32 @@
-Time-Field General Relativity — Planetary Probe Analysis
+# Time-Field General Relativity — Planetary Probe Analysis
 
-(Phase 30–35: Rosetta, New Horizons, Voyager 1/2, Arrokoth)
+**(Phase 30–35: Rosetta, New Horizons, Voyager 1/2, Arrokoth)**
 
-This repository contains the full analysis pipeline, datasets, and generated results for testing Time-Field General Relativity (TFGR) at solar-system scales using multiple deep-space probes.
+This repository contains the full analysis pipeline, datasets, and generated results for testing **Time-Field General Relativity (TFGR)** at solar-system scales using multiple deep-space probes.
 The included phases (30–35) evaluate whether the TFGR-predicted scale-dependent time-delay Δt(L) is visible in spacecraft residuals such as timing drift, velocity offsets, and distance-dependent anomalies.
 
-The dataset spans Rosetta, New Horizons, Voyager 1, Voyager 2, and the unified scaling analysis that combines all spacecraft into a single Δt(L) curve.
+The dataset spans **Rosetta, New Horizons, Voyager 1, Voyager 2**, and the unified scaling analysis that combines all spacecraft into a single Δt(L) curve.
 
-📁 Directory Structure
-Planetary Probe Analysis/
+## 📁 Directory Structure
+Planetary Probe Analysis
+
 ├── phase30_Rosetta/
+
 ├── phase30B/
+
 ├── phase31_New Horizons/
+
 ├── phase32_Voyager1/
+
 ├── phase33_Voyager1/
+
 ├── phase33B_Voyager2/
+
 ├── phase34/
+
 └── phase35/
 
-
-Each phase includes:
+## Each phase includes:
 
 Python source code
 
@@ -203,5 +210,6 @@ Distance-dependent drifts in Voyager’s long-term data match TFGR predictions
 without the need for extra parameters or unexplained forces.
 
 📜 License
+
 
 MIT License. All analysis scripts are free to use and modify.

@@ -16,35 +16,25 @@ $$
 \Delta t(L) = \Delta t_0\,\left[1 + (L/L_c)^p\right]^q
 $$
 
-
-
 is consistent with state-of-the-art clock comparisons, and how its parameters relate to atomic mass and gravitational redshift tests.
-
-
 
 ## Folder Structure
 
 ## Input data
 
-
-
-- phase36_multiscale_dataset.csv
-
-
+- phase36_multiscale_dataset.csv
 
 Multi-scale clock comparison dataset with the following columns:
 
+ - L_macro_m – macro-scale separation between sites [m]
 
+ - L_int\_m – representative internal scale of the apparatus [m]
 
-- L_macro_m – macro-scale separation between sites [m]
+ - dt_res_s – residual time/frequency offset [s] after standard GR corrections
 
-- L_int\_m – representative internal scale of the apparatus [m]
+ - dt_err_s – 1σ uncertainty of the residual [s]
 
-- dt_res_s – residual time/frequency offset [s] after standard GR corrections
-
-- dt_err_s – 1σ uncertainty of the residual [s]
-
-- pair – identifier of the clock pair (e.g. INRIM_ITYb1-PTB_Sr3_CombKnoten, etc.)
+ - pair – identifier of the clock pair (e.g. INRIM_ITYb1-PTB_Sr3_CombKnoten, etc.)
 
 
 
@@ -56,11 +46,11 @@ Phase 37 – Hierarchical Bayesian TFGR fit
 
 
 
-- Script: phase37\_tfgr\_hierarchical\_bayes.py
+- Script: phase37_tfgr_hierarchical_bayes.py
 
-- Input: phase36\_multiscale\_dataset.csv
+- Input: phase36_multiscale_dataset.csv
 
-- Output directory: output\_phase37/
+- Output directory: output_phase37/
 
 
 
@@ -68,33 +58,23 @@ This script performs a **two-level hierarchical Bayesian fit** using PyMC:
 
 
 
-- Models:
+- Models:
 
+  - **Baseline**: GR-only residual model (no TFGR correction)
 
+  - **TFGR2**: two-scale TFGR model (macro & internal scales)
 
-&nbsp;- **Baseline**: GR-only residual model (no TFGR correction)
+- For each clock pair:
 
-&nbsp;- **TFGR2**: two-scale TFGR model (macro & internal scales)
+  - Individual bias term b\_pair
 
+  - Additional noise term sigma\_pair
 
+- Global TFGR parameters shared across pairs:
 
-- For each clock pair:
+  - Macro-scale: dt0\_M, Lc\_M, p\_M, q\_M
 
-
-
-&nbsp;- Individual bias term b\_pair
-
-&nbsp;- Additional noise term sigma\_pair
-
-
-
-- Global TFGR parameters shared across pairs:
-
-
-
-&nbsp;- Macro-scale: dt0\_M, Lc\_M, p\_M, q\_M
-
-&nbsp;- Quantum/internal scale: dt0\_Q, Lc\_Q, p\_Q, q\_Q
+  - Quantum/internal scale: dt0\_Q, Lc\_Q, p\_Q, q\_Q
 
 
 
@@ -102,13 +82,13 @@ This script performs a **two-level hierarchical Bayesian fit** using PyMC:
 
 
 
-- phase37_trace_summary.txt
+- phase37_trace_summary.txt
 
 &nbsp; – MCMC diagnostics (mean, sd, HDI, R-hat, ESS) for the hierarchical model.
 
 
 
-- waic_summary_phase37.txt
+- waic_summary_phase37.txt
 
 &nbsp; – WAIC comparison:
 
@@ -134,9 +114,9 @@ Posterior medians in physical units:
 
 
 
-- Macro: dt0\_M ≈ -1.36×10⁻¹⁵ s, Lc\_M ≈ 1.0×10⁸ m, p\_M ≈ 0.64, q\_M ≈ 1.42
+- Macro: dt0\_M ≈ -1.36×10⁻¹⁵ s, Lc\_M ≈ 1.0×10⁸ m, p\_M ≈ 0.64, q\_M ≈ 1.42
 
-- Quantum: dt0\_Q ≈ -6.46×10⁻¹⁶ s, Lc\_Q ≈ 3.26×10⁻⁵ m, p\_Q ≈ 1.25, q\_Q ≈ 0.03
+- Quantum: dt0\_Q ≈ -6.46×10⁻¹⁶ s, Lc\_Q ≈ 3.26×10⁻⁵ m, p\_Q ≈ 1.25, q\_Q ≈ 0.03
 
 
 
@@ -144,7 +124,7 @@ Posterior medians in physical units:
 
 
 
-- fit\_Lmacro\_vs\_dt\_phase37.png, fit\_Lint\_vs\_dt\_phase37.png
+- fit\_Lmacro\_vs\_dt\_phase37.png, fit\_Lint\_vs\_dt\_phase37.png
 
 &nbsp; – Visual fits of residuals vs. L\_macro\_m and L\_int\_m with posterior predictive bands.
 
@@ -161,11 +141,11 @@ python phase37_tfgr_hierarchical_bayes.py \\
 
 ## Phase 38 – Mass-scaling of the quantum TFGR scale
 
-- Script: phase38\_tfgr\_mass\_scaling.py
+- Script: phase38\_tfgr\_mass\_scaling.py
 
-- Input: phase36\_multiscale\_dataset.csv
+- Input: phase36\_multiscale\_dataset.csv
 
-- Output directory: output\_phase38\_mass/
+- Output directory: output\_phase38\_mass/
 
 
 
@@ -173,9 +153,9 @@ Phase 38 tests a mass-scaled TFGR model:
 
 
 
-- The effective atomic mass m\_eff is inferred from the pair label (Sr, Yb, In, etc.).
+- The effective atomic mass m\_eff is inferred from the pair label (Sr, Yb, In, etc.).
 
-- The quantum critical scale is assumed to follow:
+- The quantum critical scale is assumed to follow:
 
 
 
@@ -195,38 +175,38 @@ with reference mass
 
 
 
-- waic\_mass\_scaling.txt
+- waic\_mass\_scaling.txt
 
 &nbsp; – WAIC and posterior medians for the mass-scaled TFGR2 model. Example:
 
 
 
-- WAIC (mass-scaled TFGR2) = -95.580 ± 4.927
+- WAIC (mass-scaled TFGR2) = -95.580 ± 4.927
 
-- LcQ0 (m0=100u) ≈ 3.31×10⁻⁵ m
+- LcQ0 (m0=100u) ≈ 3.31×10⁻⁵ m
 
-- dt0\_Q ≈ -8.89×10⁻¹⁶ s, p\_Q ≈ 0.98, q\_Q ≈ 0.04
+- dt0\_Q ≈ -8.89×10⁻¹⁶ s, p\_Q ≈ 0.98, q\_Q ≈ 0.04
 
-- Lists m\_eff for each clock pair.
+- Lists m\_eff for each clock pair.
 
 
 ## Phase 39 – 𝐿𝑐𝑄 –mass relation (log–log fit)
 
-- Script: phase39_lcq_mass_relation.py
+- Script: phase39_lcq_mass_relation.py
 
-- Input: output_phase38_mass/waic_mass_scaling.txt
+- Input: output_phase38_mass/waic_mass_scaling.txt
 
-### Output directory: output_phase39/
+- Output directory: output_phase39/
 
 This script reads the Phase 38 results and performs a log–log linear regression between L\_cQ and m\_eff.
 
 ### Key outputs:
 
-lcq_mass_relation.png
+- lcq_mass_relation.png
 
-– log₁₀(L_cQ) vs. log₁₀(m_eff) with best-fit line.
+–log₁₀(L_cQ) vs. log₁₀(m_eff) with best-fit line.
 
-lcq_mass_fit_summary.txt:
+- lcq_mass_fit_summary.txt:
 
 Fit equation: log10(L_cQ) = 4.0000 + -1.0000 * log10(m_eff)
 
@@ -238,9 +218,9 @@ Derived power law:  L_cQ ∝ m_eff^-1.00
 
 ## Phase 40 – Time-field potential Φ𝑡(𝐿,𝑚)
 
-- Script: phase40_phi_t_mass_map.py
+- Script: phase40_phi_t_mass_map.py
 
-- Input: Phase 37 & 38 best-fit parameters
+- Input: Phase 37 & 38 best-fit parameters
 
 ### Output directory: output_phase40_phi_t/
 
@@ -258,11 +238,11 @@ A representative internal scale L\_int\_ref = 5×10⁻³ m
 
 ### Outputs:
 
-- phi_t_mass_map.png – 2D map of Φ𝑡(𝐿,𝑚)
+- phi_t_mass_map.png – 2D map of Φ𝑡(𝐿,𝑚)
 
-- phi_t_mass_slices.png – characteristic slices vs. 𝐿 or 𝑚
+- phi_t_mass_slices.png – characteristic slices vs. 𝐿 or 𝑚
 
-- phi_t_mass_summary.txt – lists the parameter values used to build the map.
+- phi_t_mass_summary.txt – lists the parameter values used to build the map.
 
 ## Phase 41 – Gradient of Φ𝑡
 
@@ -276,17 +256,17 @@ Run this script to regenerate gradient maps if needed.
 
 ## Phase 42 – Curvature of Φ𝑡​
 
-- Script: phase42_phi_t_curvature_map.py
+- Script: phase42_phi_t_curvature_map.py
 
-- Output directory: output_phase42_phi_t_curvature/
+- Output directory: output_phase42_phi_t_curvature/
 
 Builds the curvature tensor of the time-field via the Laplacian $\\nabla^{2}\\Phi\_{t}(L, m)$
 
 ### Key output:
 
-- phi_t_curvature_map.png, phi_t_curvature_contour.png – curvature maps
+- phi_t_curvature_map.png, phi_t_curvature_contour.png – curvature maps
 
-- phi_t_curvature_summary.txt:
+- phi_t_curvature_summary.txt:
 
 max(∇²Φ\_t) = -4.943e-08
 
@@ -300,50 +280,50 @@ This identifies where the time-field is most strongly curved in the (𝐿,𝑚) 
 
 ## Phase 43 – TFGR effective curvature & energy density
 
-- Script: phase43_tfgr_tensor_formulation.py
+- Script: phase43_tfgr_tensor_formulation.py
 
-- Output directory: output_phase43_tfgr_tensor/
+- Output directory: output_phase43_tfgr_tensor/
 
 Constructs effective time-curvature 𝑅𝑡 and energy density 𝜌𝑡 derived from Φ𝑡.
 
 ### Key output:
 
-- rho_t_map.png, Rt_map.png – 2D maps of 𝜌𝑡 and 𝑅𝑡	​
+- rho_t_map.png, Rt_map.png – 2D maps of 𝜌𝑡 and 𝑅𝑡	​
 
-- tfgr_tensor_summary.txt – values at representative scales:
+- tfgr_tensor_summary.txt – values at representative scales:
 
-- quantum scale: 𝐿=10^−3
+- quantum scale: 𝐿=10^−3
 
-- GPS scale: 𝐿∼2×10^7m
+- GPS scale: 𝐿∼2×10^7m
 
-- lunar scale: 𝐿=10^8
+- lunar scale: 𝐿=10^8
 
 These diagnostics show how the time-field energy density and curvature vary across experimental regimes (quantum → GPS → lunar).
 
 ## Phase 44 – TFGR tensor field (T00, 𝑝𝑡, etc.)
 
-- Script: phase44_tfgr_tensor_field.py
+- Script: phase44_tfgr_tensor_field.py
 
-- Output directories:
+- Output directories:
 
-- output_phase44_tfgr_tensor/
+- output_phase44_tfgr_tensor/
 
-- output_phase44_tfgr_tensor_2/ (alternative parameter set / configuration)
+- output_phase44_tfgr_tensor_2/ (alternative parameter set / configuration)
 
 
 ### Exports the full TFGR tensor field on the (𝐿,𝑚) grid:
 
-- tfgr_tensor_field.npz – NumPy archive containing arrays for T00, 𝑝𝑡, etc.
+- tfgr_tensor_field.npz – NumPy archive containing arrays for T00, 𝑝𝑡, etc.
 
-- T00_map.png, p_t_map.png – visualizations
+- T00_map.png, p_t_map.png – visualizations
 
-- tfgr_tensor_field_summary.txt – representative values for:
+- tfgr_tensor_field_summary.txt – representative values for:
 
-- quantum clocks
+- quantum clocks
 
-- GPS regime
+- GPS regime
 
-- lunar-scale clocks (Sr, Yb etc.)
+- lunar-scale clocks (Sr, Yb etc.)
 
 These files are intended as intermediate products for coupling TFGR into GR-like field equations.
 
@@ -355,9 +335,9 @@ Output directory: output_phase45A_tfgr_schwarzschild/
 
 Applies the TFGR corrections to frequency shifts in the Earth’s Schwarzschild field and compares:
 
-- Pure GR gravitational redshift: 𝑦GR
+- Pure GR gravitational redshift: 𝑦GR
 
-- Combined GR + TFGR: 𝑦total=𝑦GR+𝑦TFGR	​
+- Combined GR + TFGR: 𝑦total=𝑦GR+𝑦TFGR	​
 
 ### Key output: tfgr_vs_gr_summary.txt
 
@@ -365,21 +345,21 @@ Applies the TFGR corrections to frequency shifts in the Earth’s Schwarzschild 
 
 Example values for m_eff = 88 u, T_ref = 86400 s:
 
-- At GPS altitude:
+- At GPS altitude:
 
-- y_GR ≈ 5.26×10⁻¹⁰
+- y_GR ≈ 5.26×10⁻¹⁰
 
-- y_TFGR ≈ -3.62×10⁻²⁰
+- y_TFGR ≈ -3.62×10⁻²⁰
 
-- y_TFGR / y_GR ≈ -6.9×10⁻¹¹
+- y_TFGR / y_GR ≈ -6.9×10⁻¹¹
 
-- At GEO:
+- At GEO:
 
-- y_TFGR / y_GR ≈ -6.8×10⁻¹¹
+- y_TFGR / y_GR ≈ -6.8×10⁻¹¹
 
-- At lunar distance:
+- At lunar distance:
 
-- y_TFGR / y_GR ≈ -1.4×10⁻¹⁰
+- y_TFGR / y_GR ≈ -1.4×10⁻¹⁰
 
 → TFGR corrections are 10⁻¹¹–10⁻¹⁰ times smaller than the GR signal, and therefore negligible for current gravitational redshift tests, showing that the atomic-clock-motivated TFGR parameters are compatible with existing GR bounds.
 
@@ -397,19 +377,19 @@ python phase45A_tfgr_schwarzschild.py \\
 
 All scripts are standard Python and rely on the usual scientific stack:
 
-- Python 3.10 or later
+- Python 3.10 or later
 
-- numpy
+- numpy
 
-- pandas
+- pandas
 
-- matplotlib
+- matplotlib
 
-- pymc (v4, for MCMC; used in Phases 37–38)
+- pymc (v4, for MCMC; used in Phases 37–38)
 
-- arviz
+- arviz
 
-- scipy (for linear regression in Phase 39)
+- scipy (for linear regression in Phase 39)
 
 ### Install via:
 
@@ -441,18 +421,16 @@ To fully reproduce the analysis in this folder:
 6. Check GR compatibility
 
   python phase45A_tfgr_schwarzschild.py \\
-
     --m_eff 88.0 \\
-
     --Tref 86400
 
 ## Scientific summary
 
 This folder shows that:
 
-- A two-scale TFGR model (macro + quantum) can fit the current multi-scale atomic clock residuals at least as well as a GR-only hierarchical model (slightly better WAIC).
+- A two-scale TFGR model (macro + quantum) can fit the current multi-scale atomic clock residuals at least as well as a GR-only hierarchical model (slightly better WAIC).
 
-- The quantum critical scale satisfies a very clean law
+- The quantum critical scale satisfies a very clean law
 
 $$
 L_{cQ} \propto m_{\mathrm{eff}}^{-1}
@@ -460,7 +438,7 @@ $$
 
 linking time-field structure directly to atomic mass.
 
-- The derived time-field potential 
+- The derived time-field potential 
 
 Φ𝑡(𝐿,𝑚), its curvature, and the associated tensor field 
 
@@ -468,7 +446,7 @@ linking time-field structure directly to atomic mass.
 
 
 
-- When propagated into a Schwarzschild geometry, the TFGR corrections to gravitational redshift are at the level of 10^−11−10^−10
+- When propagated into a Schwarzschild geometry, the TFGR corrections to gravitational redshift are at the level of 10^−11−10^−10
 
 &nbsp;of the GR signal, i.e. far below current experimental sensitivities, so the clock-based TFGR parameters are compatible with all existing GR tests.
 
@@ -476,14 +454,15 @@ linking time-field structure directly to atomic mass.
 
 ### The files:
 
-- python phase37\_code.txt
+- python phase37\_code.txt
 
-- python phase38\_code.txt
+- python phase38\_code.txt
 
-- python phase39\_code.txt
+- python phase39\_code.txt
 
-- python phase40\_code.txt
+- python phase40\_code.txt
 
 contain frozen copies of the corresponding Python scripts, intended for inclusion in papers or supplementary material. They are not required for running the analysis.
+
 
 

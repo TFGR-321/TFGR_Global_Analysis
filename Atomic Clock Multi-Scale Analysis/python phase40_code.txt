@@ -1,0 +1,1 @@
+python phase40_phi_t_mass_map.py --csv phase36_multiscale_dataset.csv --phase37 output_phase37/waic_summary_phase37.txt --phase38 output_phase38_mass/waic_mass_scaling.txt --out output_phase40_phi_t

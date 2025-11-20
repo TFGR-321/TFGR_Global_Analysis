@@ -1,0 +1,1 @@
+python phase37_tfgr_hierarchical_bayes.py --csv phase36_multiscale_dataset.csv --out output_phase37

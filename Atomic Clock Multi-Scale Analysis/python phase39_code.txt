@@ -1,0 +1,1 @@
+python phase39_lcq_mass_relation.py --txt output_phase38_mass/waic_mass_scaling.txt --out output_phase39

@@ -1,0 +1,1 @@
+python phase38_tfgr_mass_scaling.py --csv phase36_multiscale_dataset.csv --out output_phase38_mass

@@ -1,0 +1,1 @@
+python phase32_tfgr_voyager_geometry.py --kernel_dir voyager_kernels --start 1986-01-24T00:00:00 --stop 1986-01-24T18:00:00 --step 60 --sc vg2 --out vg2_uranus_19860124

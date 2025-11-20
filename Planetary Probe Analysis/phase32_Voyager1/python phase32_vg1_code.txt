@@ -1,0 +1,1 @@
+python phase32_tfgr_voyager_geometry.py --kernel_dir voyager_kernels --start 1979-03-05T00:00:00 --stop 1979-03-05T18:00:00 --step 60 --sc vg1 --out vg1_jupiter_19790305

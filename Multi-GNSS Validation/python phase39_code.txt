@@ -1,0 +1,5 @@
+python phase39_convert_clk_as_to_csv.py --clk COD0MGXFIN_20253050000_01D_30S_CLK.CLK --out phase39_clk_as.csv
+
+python phase39_convert_clk_as_to_csv.py --clk COD0MGXFIN_20252990000_01D_30S_CLK.CLK --out phase39_clk_as.csv
+
+python phase39_convert_clk_as_to_csv.py --clk COD0OPSRAP_20253030000_01D_30S_CLK.CLK --out phase39_clk_as.csv

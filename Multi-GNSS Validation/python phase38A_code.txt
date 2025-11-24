@@ -1,0 +1,5 @@
+python phase38A_convert_sp3_to_csv.py --sp3 COD0MGXFIN_20253050000_01D_05M_ORB.SP3 --out phase38_sp3.csv
+
+python phase38A_convert_sp3_to_csv.py --sp3 COD0MGXFIN_20252990000_01D_05M_ORB.SP3 --out phase38_sp3.csv
+
+python phase38A_convert_sp3_to_csv.py --sp3 COD0OPSRAP_20253030000_01D_05M_ORB.SP3 --out phase38_sp3.csv

@@ -1,0 +1,1 @@
+python phase42C_tfgr_fit_gps_only.py --csv phase42_gps_only.csv --out phase42_tfgr_gps

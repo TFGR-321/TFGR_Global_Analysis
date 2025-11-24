@@ -1,0 +1,1 @@
+python phase42_tfgr_fit.py --csv phase41_merged_orbit_clock.csv --out_dir phase42_out --do_fit --plot

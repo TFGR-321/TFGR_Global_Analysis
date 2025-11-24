@@ -1,0 +1,1 @@
+python phase42B_filter_gps_only.py --in_csv phase41_merged_orbit_clock.csv --out_csv phase42_gps_only.csv --also_save_non_gps

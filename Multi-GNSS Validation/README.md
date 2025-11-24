@@ -149,4 +149,9 @@ but curvature of time itself.
 Phase 44 is a major step toward establishing TFGR as a viable alternative to GR in the timing domain,
 with potential implications for cosmology, spacecraft navigation, and unification physics.
 
+## License
+
+MIT License.
+
+All analysis scripts are free to use and modify.
 

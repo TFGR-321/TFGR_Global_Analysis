@@ -1,0 +1,5 @@
+python Phase44_1_joint_sat_offset_fit.py --in_csv phase42_gps_only.csv --sat_col sat --L_col L_m --dt_col clk_bias_s --unit_m --out_prefix phase44_1b --plot
+
+python Phase44_1_joint_sat_offset_fit.py --in_csv phase44_sys_E.csv --sat_col sat --L_col L_m --dt_col clk_bias_s --unit_m --out_prefix phase44_E --plot
+
+python Phase44_1_joint_sat_offset_fit.py --in_csv phase44_sys_R.csv --sat_col sat --L_col L_m --dt_col clk_bias_s --unit_m --out_prefix phase44_R --plot

@@ -6,16 +6,16 @@ Phase 44 focuses on the most ambitious and decisive validation so far:
 > **Testing whether TFGR can replace General Relativity (GR) as the timing model for *all* global navigation satellite systems (GNSS).**
 
 Using real satellite orbit and clock products (SP3/CLK), we show that TFGR’s time-correction function  
-\
-\[
-\Delta t(L) = \Delta t_0 \, [1 + (L/L_c)^p ]^q
-\]
-\
+
+$$
+\Delta t(L) = \Delta t_0\,\left[1 + (L/L_c)^p\right]^q
+$$
+
 not only fits GPS data (Phase 42–43) but also **perfectly fits BeiDou (C), Galileo (E), GLONASS (R), and QZSS (J)**, *with identical universal parameters*.
 
 ---
 
-# 🚀 Phase 44 Highlights (Core Scientific Results)
+## 🚀 Phase 44 Highlights (Core Scientific Results)
 
 ### ✅ **1. One universal TFGR parameter set fits all GNSS systems**
 Across four independent satellite constellations:
@@ -48,12 +48,12 @@ TFGR improves accuracy by **1,000–10,000×** relative to standard general rela
 
 Phase 44 introduces the **joint TFGR + satellite-offset model**:
 
-\[
-\text{clk\_bias} = \Delta t_{\text{TFGR}}(L) + b_{\text{sat}}
-\]
+$$
+\mathrm{clk\_bias} = \Delta t_{\mathrm{TFGR}}(L) + b_{\mathrm{sat}}
+$$
 
 All satellite-specific constant biases, temperature offsets, and onboard drifts are absorbed into  
-**\( b_{\text{sat}} \)**, leaving  
+**$\( b_{\mathrm{sat}} \)$**, leaving  
 **the pure, universal TFGR signal** to be fitted.
 
 The results show that **every GNSS constellation exhibits the same Δt(L) structure**.
@@ -72,8 +72,8 @@ This is the **first multi-GNSS empirical confirmation** that
 
 ---
 
-# 📁 Repository Structure
-
+## 📁 Repository Structure
+```
 phase44_1/
 │
 ├── Phase44_1_joint_sat_offset_fit.py # Core joint-fit TFGR analysis
@@ -99,22 +99,17 @@ phase44_1/
 │ └── ...
 │
 └── (earlier phase scripts and raw SP3/CLK files)
-
-yaml
-コードをコピーする
+```
 
 ---
 
-# 🔧 How to Run the Phase 44 Analysis
+## 🔧 How to Run the Phase 44 Analysis
 
 ### 1. Split full GNSS dataset into subsystems (already done)
 phase44_sys_C.csv
 phase44_sys_E.csv
 phase44_sys_R.csv
 phase44_sys_J.csv
-
-sql
-コードをコピーする
 
 ### 2. Run joint TFGR + offset fit for each system
 Example:
@@ -127,14 +122,15 @@ python Phase44_1_joint_sat_offset_fit.py \
   --unit_m \
   --out_prefix phase44_C \
   --plot
-3. Output:
+```
+### 3. Output:
 TFGR parameters (dt0, Lc, p, q)
 
 Satellite offsets
 
 Clean debiased timing vs TFGR fit plot
 
-🧭 Scientific Significance
+### 🧭 Scientific Significance
 Phase 44 provides the strongest empirical confirmation to date that:
 
 TFGR predicts a universal, scale-dependent flow of time Δt(L)
@@ -152,4 +148,5 @@ but curvature of time itself.
 
 Phase 44 is a major step toward establishing TFGR as a viable alternative to GR in the timing domain,
 with potential implications for cosmology, spacecraft navigation, and unification physics.
+
 

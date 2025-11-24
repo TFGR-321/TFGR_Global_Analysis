@@ -8,24 +8,17 @@ The included phases (30–35) evaluate whether the TFGR-predicted scale-dependen
 The dataset spans **Rosetta, New Horizons, Voyager 1, Voyager 2**, and the unified scaling analysis that combines all spacecraft into a single Δt(L) curve.
 
 ## 📁 Directory Structure
+```
 Planetary Probe Analysis
-
 ├── phase30_Rosetta/
-
 ├── phase30B/
-
 ├── phase31_New Horizons/
-
 ├── phase32_Voyager1/
-
 ├── phase33_Voyager1/
-
 ├── phase33B_Voyager2/
-
 ├── phase34/
-
 └── phase35/
-
+```
 ## Each phase includes:
 
 - Python source code
@@ -188,4 +181,5 @@ without the need for extra parameters or unexplained forces.
 ## 📜 License
 
 MIT License. All analysis scripts are free to use and modify.
+
 

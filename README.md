@@ -33,15 +33,15 @@ of proper time**.
 
 TFGR models the proper-time increment as a function of observational scale **L**:
 
-\[
-\Delta t(L) = \Delta t_0 \left[ 1 + \left( \frac{L}{L_c} \right)^p \right]^q
-\]
+$$
+\Delta t(L) = \Delta t_0\,\left[1 + (L/L_c)^p\right]^q
+$$
 
 Same expression in plain ASCII (safe for all viewers):
 
-```
-Delta_t(L) = Delta_t0 * (1 + (L/Lc)**p)**q
-```
+$$
+\Delta t(L) = \Delta t_0\,\left[1 + (L/L_c)^p\right]^q
+$$
 
 Where:
 

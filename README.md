@@ -37,12 +37,6 @@ $$
 \Delta t(L) = \Delta t_0\,\left[1 + (L/L_c)^p\right]^q
 $$
 
-Same expression in plain ASCII (safe for all viewers):
-
-$$
-\Delta t(L) = \Delta t_0\,\left[1 + (L/L_c)^p\right]^q
-$$
-
 Where:
 
 - **Δt₀** — baseline proper-time unit  

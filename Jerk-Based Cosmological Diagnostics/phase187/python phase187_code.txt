@@ -1,0 +1,1 @@
+python phase187_tfgr_future_Hqj_analysis.py --H0 70.0 --Omega_m0 0.34 --Omega_r0 1.0e-4 --Omega_TF0 0.66 --n_TF -0.6 --z_min -0.99 --z_max 2.0 --n_z 800 --out_prefix phase187_nTF-0p6_future

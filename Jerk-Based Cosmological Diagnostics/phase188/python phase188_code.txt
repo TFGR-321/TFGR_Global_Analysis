@@ -1,0 +1,1 @@
+python phase188_tfgr_j0_grid_compare.py --sn_csv pantheon_SN.csv --bao_csv bao_Hz_data.csv --H0 70.0 --Omega_r0 1.0e-4 --Om_m_min 0.2 --Om_m_max 0.4 --Om_m_steps 41 --nTF_min -0.8 --nTF_max -0.2 --nTF_steps 31 --z_min_SN 0.01 --z_max_SN 1.5 --out_prefix phase188_tfgr_j0_grid

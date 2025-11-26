@@ -1,0 +1,12 @@
+------ Best-fit (TFGR n_TF power-law, SN+BAO) ------
+Omega_m0_best  = 0.34000
+Omega_TF0_best = 0.65990
+n_TF_best      = -0.60000
+H0             = 70.000
+C_best         = -19.36818 mag
+chi2_SN        = 1030.433
+chi2_BAO       = 12.719
+chi2_tot       = 1043.152
+dof_tot        = 1059
+chi2_red       = 0.985
+---------------------------------------------------

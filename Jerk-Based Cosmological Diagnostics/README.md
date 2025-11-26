@@ -156,3 +156,9 @@ Phase 186–188 establish jerk-based cosmological diagnostics as one of the most
 - Future surveys can confirm or refute TFGR’s prediction
 
 This makes j(z) the most promising direction for near-term experimental falsification or validation of the Time-Field General Relativity framework.
+
+## License
+
+MIT License.
+
+All analysis scripts are free to use and modify.

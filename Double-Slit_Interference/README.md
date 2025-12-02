@@ -64,8 +64,8 @@ Matching TFGR fringe spacing to experiment yields a universal value for $\kappa\
 | `tfgr_vs_young_electron_fit.py` | TFGR vs de Broglie (electron) |
 | `tfgr_vs_young_neutron_fit.py` | TFGR vs neutron interference |
 | `tfgr_interference_3scale_comparison.py` | Three-scale unified plot |
-| `tfgr_kappa_lambda_plot.py` | $\kappa$–$\lambda$ scaling (3 species) |
-| `tfgr_kappa_lambda_with_C60.py` | Includes C$_{60}$ |
+| `tfgr_kappa_lambda_plot.py` | $\kappa$ – $\lambda$ scaling (3 species) |
+| `tfgr_kappa_lambda_with_C60.py` | Includes C $_{60}$ |
 | `tfgr_master_summary.py` | Prints official $\kappa$ summary |
 
 ---
@@ -121,7 +121,7 @@ The universality of $\kappa\lambda$ indicates that:
 
 - The **time-field gradient generates phase**.
 - Phase generation strength is **inversely proportional to wavelength**.
-- A single time-field structure operates from **photons → electrons → neutrons → C$_{60}$**.
+- A single time-field structure operates from **photons → electrons → neutrons → C $_{60}$**.
 
 The same constant also connects naturally to the known TFGR critical scale:
 

@@ -167,3 +167,8 @@ This is strong evidence that **time-field dynamics** may underlie “quantum” 
 
 ---
 
+## **7. License**
+
+MIT License.
+
+All analysis scripts are free to use and modify.

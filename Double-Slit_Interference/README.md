@@ -43,17 +43,13 @@ $$
 The local derivative gives a TFGR phase:
 
 $$
-\phi_{\mathrm{TFGR}}(x)
-= 
-\kappa \left( \frac{d\Delta t}{dL} \right)_{L=L_0} x ,
+\phi_{\mathrm{TFGR}}(x)= \kappa \left( \frac{d\Delta t}{dL} \right)_{L=L_0} x
 $$
 
 producing the interference intensity:
 
 $$
-I_{\mathrm{TFGR}}(x)
-=
-\cos^2\!\left( \phi_{\mathrm{TFGR}}(x) \right).
+I_{\mathrm{TFGR}}(x)=\cos^2\left( \phi_{\mathrm{TFGR}}(x) \right).
 $$
 
 Matching TFGR fringe spacing to experiment yields a universal value for $\kappa\lambda$.

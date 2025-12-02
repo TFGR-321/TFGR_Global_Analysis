@@ -14,7 +14,7 @@ TFGR reproduces experimental fringe spacing for:
 - **Photon (633 nm)**
 - **Electron (50 keV, $\lambda \approx 5.48\ \text{pm}$)**
 - **Neutron (thermal, $\lambda \approx 0.18\ \text{nm}$)**
-- **C$_{60}$ fullerene ($\lambda \approx 2.5\ \text{pm}$)**
+- **$C_{60}$ fullerene ($\lambda \approx 2.5\ \text{pm}$)**
 
 A universal scaling law emerges:
 
@@ -65,7 +65,7 @@ Matching TFGR fringe spacing to experiment yields a universal value for $\kappa\
 | `tfgr_vs_young_neutron_fit.py` | TFGR vs neutron interference |
 | `tfgr_interference_3scale_comparison.py` | Three-scale unified plot |
 | `tfgr_kappa_lambda_plot.py` | $\kappa$ – $\lambda$ scaling (3 species) |
-| `tfgr_kappa_lambda_with_C60.py` | Includes C $_{60}$ |
+| `tfgr_kappa_lambda_with_C60.py` | Includes $C_{60}$ |
 | `tfgr_master_summary.py` | Prints official $\kappa$ summary |
 
 ---
@@ -92,11 +92,11 @@ $$
 \Delta x_{\mathrm{TFGR}} = 0.045\ \text{mm}
 $$
 
-C$_{60}$ also matches the same scaling law.
+ $C_{60}$ also matches the same scaling law.
 
 ---
 
-### **3.2 Universal $\kappa$–$\lambda$ Scaling**
+### **3.2 Universal $\kappa$ – $\lambda$ Scaling**
 
 All species satisfy:
 
@@ -121,7 +121,7 @@ The universality of $\kappa\lambda$ indicates that:
 
 - The **time-field gradient generates phase**.
 - Phase generation strength is **inversely proportional to wavelength**.
-- A single time-field structure operates from **photons → electrons → neutrons → C $_{60}$**.
+- A single time-field structure operates from **photons → electrons → neutrons → $C_{60}$**.
 
 The same constant also connects naturally to the known TFGR critical scale:
 
